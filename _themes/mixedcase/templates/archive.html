@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}Articles{% endblock %}
+
+{% block main %}
+    {% for item in pagination.items %}
+        <section>
+            <h1><a href="{{item|permalink}}">{{ item.title }}</a></h1>
+            <time datetime="{{item.date|xmldatetime}}" pubdate><span class="month">{{ item.date.strftime('%b') }}</span><span class="month_long">{{ item.date.strftime('%B') }}</span> <span class="day">{{ item.date.strftime('%d') }}</span><span class="comma">,</span> <span class="year">{{ item.date.strftime('%Y') }}</span></time><span class="word_count">{{ item.content|wordcount }} words</span>
+            <p>{{ item.content|striptags|truncate }}</p>
+            <p><a href="{{ item|permalink }}" class="more">read more</a></p>
+        </section>
+    {% endfor %}
+{% endblock %}
+
+{% block aside %}
+    <ul>
+        {% for year, posts in resource.year.iteritems()|reverse %}
+            <li>
+                <a href="/articles/{{ year }}/" >
+                    {{ year }}
+                    <span>{{ posts|length }}</span>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

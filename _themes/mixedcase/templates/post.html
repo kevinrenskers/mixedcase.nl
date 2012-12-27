@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}{{ post.title }}{% endblock %}
+
+{% block main %}
+    <article>
+        <h1>{{ post.title }}</h1>
+        <time datetime="{{post.date|xmldatetime}}" pubdate>
+            <span class="month">{{ post.date.strftime('%b') }}</span>
+            <span class="month_long">{{ post.date.strftime('%B') }}</span>
+            <span class="day">{{ post.date.strftime('%d') }}</span><span class="comma">,</span>
+            <span class="year">{{ post.date.strftime('%Y') }}</span>
+        </time>
+        {{ post.content }}
+    </article>
+
+    <div id="article_footer">
+        <p>Have feedback? Let me know on <a href="http://twitter.com/mixedcase">Twitter</a>.</p>
+    </div>
+{% endblock %}
+
+{% block aside %}
+    <ul>
+        {% for year, posts in resource.year.iteritems()|reverse %}
+        <li>
+            <a href="/articles/{{ year }}/" >
+                {{ year }}
+                <span>{{ posts|length }}</span>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

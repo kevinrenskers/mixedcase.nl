@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>mixedCase: {% block title %}A blog about Python and iPhone development, design and usability{% endblock %}</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; width=device-width; user-scalable=no;" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Orbitron' />
+        <link rel="stylesheet" href="/static/style.css" />
+        <link rel="shortcut icon" href="/static/images/favicon.ico" />
+        <link rel="apple-touch-icon" href="/static/images/apple-touch-icon.png" />
+        <meta name="author" content="Kevin Renskers" />
+        <meta name="keywords" content="django, python, iphone, development, blog, usability, design, css, html5, ">
+        <meta name="description" content="mixedCase is a blog about Python and iPhone development, design and usability.">
+        <link rel="alternate" type="application/rss+xml" title="RSS Feed of latest articles" href="/articles/feed.xml" />
+
+        <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', '{{ theme.analytics }}']);
+            _gaq.push(['_setDomainName', 'none']);
+            _gaq.push(['_setAllowLinker', true]);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </head>
+
+    <body>
+        <a href="#maincontent" class="skiplink">Skip navigation</a>
+
+        <header>
+            <h1>
+                <a href="/">mixed<strong>Case</strong></a>
+            </h1>
+
+            <div>
+                <form method="get" action="http://www.google.com/search"><input type="hidden" name="sitesearch" value="mixedcase.nl" /><fieldset><legend><strong>Search</strong> articles</legend><input class="search-field" type="search" results="5" autosave="mixedcase_searches" name="q" /><input type="submit" value="Go" class="submit" /></fieldset></form>
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                {% set active_page = active_page|default('Articles') -%}
+                {% for item in theme.navigation %}
+                    <li>
+                        <a href="{{ item.link }}"{% if active_page == item.title %} class="active"{% endif %}>{{ item.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </nav>
+
+        {% block cover %}{% endblock %}
+
+        <a name="maincontent" id="maincontent"></a>
+        <div id="content">
+            {% block main %}{% endblock %}
+        </div>
+
+        <aside>
+            {% block aside %}{% endblock %}
+        </aside>
+
+        <footer>
+            <hr/>
+            <ul>
+                <li><a href="/">articles</a></li>
+                <li><a href="/about/">contact</a></li>
+                <li><a href="https://twitter.com/mixedcase">twitter</a></li>
+                <li><a href="/articles/feed.xml">RSS</a></li>
+                <li>&copy; 2010-{{ site.date.year }} Kevin Renskers</li>
+            </ul>
+        </footer>
+    </body>
+</html>
