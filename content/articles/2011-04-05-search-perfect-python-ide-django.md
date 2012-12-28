@@ -25,11 +25,12 @@ As I said, I've been using [Netbeans](http://netbeans.org/) until now. And even 
 
 So, why find a replacement at all? Well, code completion is very limited, barely usable even.
 
-    #!python
-    from django.db import models
+```python
+from django.db import models
 
-    class Person(models.Model):
-        name = models. # it won't autocomplete this!
+class Person(models.Model):
+    name = models. # it won't autocomplete this!
+```
 
 It can't deal with Django templates. To be honest, I don't really care that much, but the fact that it can't even recognize HTML5 syntax is getting very annoying. It's always telling me I have syntax errors even though it's all perfectly fine.
 
@@ -59,13 +60,15 @@ All these features make the life of a Django developer a lot easier. It also wor
 
 Is it all perfect? Sadly, no. It's a bit buggy - not in the sense that it crashes or locks up, but certain features don't work as advertised. For example, I mentioned that it can recognize missing templates and auto-complete context variables inside templates. However, this does not work for all render shortcuts inside your views, and does not work well with keyword arguments. So while this code works perfectly with PyCharm:
 
-    #!python
-    return render_to_response('file.html', {'foo':bar})
+```python
+return render_to_response('file.html', {'foo':bar})
+```
 
 This does not:
 
-    #!python
-    return direct_to_template(request, 'file.html', {'foo':bar})
+```python
+return direct_to_template(request, 'file.html', {'foo':bar})
+```
 
 Luckily they quickly responded to the bug-report, and I am confident that it will be fixed soon. 
 

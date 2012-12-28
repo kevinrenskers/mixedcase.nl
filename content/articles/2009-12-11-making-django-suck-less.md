@@ -13,11 +13,12 @@ Based on this I chose Jinja2 as the winner, and started a small project to see h
 
 First, install Jinja2, and then install Coffin with the following commands:
 
-    #!bash
-    $ cd /tmp
-    $ git clone git://github.com/dcramer/coffin.git
-    $ cd coffin/
-    $ sudo python setup.py install
+```bash
+$ cd /tmp
+$ git clone git://github.com/dcramer/coffin.git
+$ cd coffin/
+$ sudo python setup.py install
+```
 
 In your views, you can now simply change `from django.views.generic.simple import direct_to_template` to `from coffin.views.generic.simple import direct_to_template`. Really, that's it, you are now using Jinja2.
 

@@ -17,73 +17,76 @@ I then found a very interesting project on Github: [StaticGenerator for Django](
 
 To use the StaticGenerator, add these settings to `settings.py`:
 
-    #!python
-    WEB_ROOT = os.path.join(os.path.dirname(__file__), 'generated')
+```python
+WEB_ROOT = os.path.join(os.path.dirname(__file__), 'generated')
 
-    STATIC_GENERATOR_ANONYMOUS_ONLY = True
+STATIC_GENERATOR_ANONYMOUS_ONLY = True
 
-    STATIC_GENERATOR_URLS = (
-        r'^/$',
-        r'^/(articles|projects|about)',
-    )
+STATIC_GENERATOR_URLS = (
+    r'^/$',
+    r'^/(articles|projects|about)',
+)
 
-    STATIC_GENERATOR_EXCLUDE_URLS = (
-        r'\.xml$',
-        r'^/articles/search',
-        r'^/articles/feed',
-        r'^/articles/comments/posted',
-    )
+STATIC_GENERATOR_EXCLUDE_URLS = (
+    r'\.xml$',
+    r'^/articles/search',
+    r'^/articles/feed',
+    r'^/articles/comments/posted',
+)
+```
 
 You also need to add `'staticgenerator.middleware.StaticGeneratorMiddleware'` to the end of your `MIDDLEWARE_CLASSES` list.
 
 Of course, you want to remove the generated pages as soon as something has changed. You can simply add something like this to one of your `models.py` files:
 
-    #!python
-    from django.db.models.signals import post_save
-    from staticgenerator import recursive_delete
+```python
+from django.db.models.signals import post_save
+from staticgenerator import recursive_delete
 
-    def delete_cache(sender, **kwargs):
-        recursive_delete('/')
+def delete_cache(sender, **kwargs):
+    recursive_delete('/')
 
-    post_save.connect(delete_cache)
+post_save.connect(delete_cache)
+```
 
 Please note that this is a very simple implementation: every time any of your models is saved, all generated pages are removed. This includes someone simply logging in on the admin site as well, which is of course not something you would want. I'll update this post with a better way of doing this.
 
 Finally, my (shortened) Ngix config:
 
-    #!nginx
-    server {
-        server_name .mixedcase.nl;
-        root /path/to/project/generated/;
+```nginx
+server {
+    server_name .mixedcase.nl;
+    root /path/to/project/generated/;
 
-        access_log /var/log/nginx/mixedcase.nl.access.log;
+    access_log /var/log/nginx/mixedcase.nl.access.log;
 
-        location /media/  {
-            alias /path/to/project/media/;
-            access_log off;
-            expires max;
+    location /media/  {
+        alias /path/to/project/media/;
+        access_log off;
+        expires max;
+    }
+
+    location /adminmedia/  {
+        alias /path/to/project/lib/python2.6/site-packages/django/contrib/admin/media/;
+        access_log off;
+        expires max;
+    }
+
+    location / {
+        if (-f $request_filename/index.html) {
+            rewrite (.*) $1/index.html break;
         }
 
-        location /adminmedia/  {
-            alias /path/to/project/lib/python2.6/site-packages/django/contrib/admin/media/;
-            access_log off;
-            expires max;
-        }
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header Host $http_host;
+        proxy_redirect off;
 
-        location / {
-            if (-f $request_filename/index.html) {
-                rewrite (.*) $1/index.html break;
-            }
-
-            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-            proxy_set_header Host $http_host;
-            proxy_redirect off;
-
-            if (!-f $request_filename) {
-                proxy_pass http://unix:/tmp/gunicorn_mixedcase.sock;
-                break;
-            }
+        if (!-f $request_filename) {
+            proxy_pass http://unix:/tmp/gunicorn_mixedcase.sock;
+            break;
         }
     }
+}
+```
 
 As I said in the first sentence: mixedCase.nl can now do 5000 pages per second. I'm impressed!

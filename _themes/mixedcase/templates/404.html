@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block main %}
+    {{ post.content }}
+
+    <ul>
+        {% for item in resource.posts[:10] %}
+            <li><a href="{{item|permalink}}">{{ item.title }}</a></li>
+        {% endfor %}
+    </ul>
+
+    <div>
+        <p><a href="/articles/" class="more">archive</a></p>
+    </div>
+{% endblock %}
+
+{% block aside %}
+{% endblock %}

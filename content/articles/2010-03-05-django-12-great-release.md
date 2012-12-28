@@ -27,9 +27,10 @@ Django 1.2 can show dates and numbers in the right way. For example, in The Neth
 
 The only problems I had with getting this to work was finding out which setting to change, because this wasn't documented yet, or at the very least hard to find. If you are interested in the new L10N improvements, add this to your settings.py:
 
-    #!python
-    USE_I18N = True
-    USE_L10N = True
-    USE_THOUSAND_SEPARATOR = True
+```python
+USE_I18N = True
+USE_L10N = True
+USE_THOUSAND_SEPARATOR = True
+```
 
 Of course there are many more improvements like better tab completion in bash, object permissions, object validation, better CSRF protection and a better test framework. But those are features not yet used by me, although I am very interested in object validation.
