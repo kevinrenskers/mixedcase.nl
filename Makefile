@@ -3,4 +3,4 @@ html:
 	liquidluck build
 
 publish: html
-	ghp-import deploy -p =m "Update site"
+	ghp-import deploy -p -m "Update site"
