@@ -28,7 +28,7 @@ The power of AVPlayer with the simplicity of MPMusicPlayerController.
 
 ## raven-objc
 Objective-c client for Sentry.  
-[[kevinrenskers/raven-objc](https://github.com/kevinrenskers/raven-objc)]
+[[getsentry/raven-objc](https://github.com/getsentry/raven-objc)]
 
 # Python
 
