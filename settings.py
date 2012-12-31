@@ -51,6 +51,7 @@ writer = {
     ],
     "vars": {
         "archive_output": "articles/index.html",
+        "year_template": "year.html",
     }
 }
 
