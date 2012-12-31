@@ -1,5 +1,7 @@
 {% extends "archive.html" %}
 
+{% block title %}Articles {{ pagination.title }}{% endblock %}
+
 {% block aside %}
     <ul>
         {% for year, posts in resource.year.iteritems()|reverse %}
