@@ -9,4 +9,4 @@ In the end I found Felix Felicis (aka [liquidluck](https://github.com/lepture/li
 
 This site itself looks almost like it always used to, it only lost the Twitter sidebar (don't need it), article categories (won't miss it) and comments (good riddance). I'm really pleased with the result: no more Python and Django and complicated code for something that’s quite a simple website. Articles can be kept in git and the site can be hosted anywhere without costing me a cent.
 
-For anyone interested in static site generators, I'd say have a look at [liquidluck](https://github.com/lepture/liquidluck)) and the [sourcecode](https://github.com/kevinrenskers/mixedcase.nl) of mixedCase.nl.
+For anyone interested in static site generators, I'd say have a look at [liquidluck](https://github.com/lepture/liquidluck) and the [sourcecode](https://github.com/kevinrenskers/mixedcase.nl) of mixedCase.nl.
