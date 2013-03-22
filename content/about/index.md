@@ -12,4 +12,4 @@ When I'm not working on webapplications I create iPhone- and iPad apps in Object
 
 Usability and design are always on my mind. I code to create beautiful things on screen - any screen. Code should be usable, readable and beautiful too.
 
-I'm online since 1994, creating websites since 2000, iPhone and iPad apps since 2010 and Mac OS X desktop applications since 2011. My CV can be downloaded [here](http://dl.dropbox.com/u/2310965/KevinRenskers.pdf) and you can find my open source projects on [GitHub](https://github.com/kevinrenskers).
+I'm online since 1994, creating websites since 2000 and iOS apps since 2010. My CV can be downloaded [here](http://dl.dropbox.com/u/2310965/KevinRenskers.pdf) and you can find my open source projects on [GitHub](https://github.com/kevinrenskers).
