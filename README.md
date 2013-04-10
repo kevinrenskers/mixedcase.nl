@@ -8,7 +8,6 @@ The source of (the new) mixedCase.nl, static files generated with [Felix Felicis
 3. `virtualenv env`
 4. `. env/bin/activate`
 5. `pip install -r requirements.txt`
-6. `make html`
 
 ## Viewing locally
 With tornado installed (included in requirements.txt) the preview server auto-reloads on content changes, saving you from running `make html` and restarting the server.
