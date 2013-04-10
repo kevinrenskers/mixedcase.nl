@@ -3,6 +3,7 @@
 
 from datetime import date
 
+
 site = {
     "name": "mixedCase.nl",
     "url": "http://mixedcase.nl",
@@ -65,6 +66,16 @@ theme = {
             {'title': 'Projects', 'link': '/projects/'},
             {'title': 'Apps', 'link': '/apps/'},
             {'title': 'About', 'link': '/about/'},
+        ],
+        'dmmjobcontrol_pages': [
+            {'title': 'Introduction', 'link': 'index'},
+            {'title': 'Users manual', 'link': 'users'},
+            {'title': 'Administration', 'link': 'admins'},
+            {'title': 'Configuration', 'link': 'config'},
+            {'title': 'Extending JobControl', 'link': 'extending'},
+            {'title': 'Contribute', 'link': 'contribute'},
+            {'title': 'FAQ', 'link': 'faq'},
+            {'title': 'Support / contact', 'link': 'support'},
         ]
     }
 }
