@@ -29,6 +29,8 @@ Now that you've installed JobControl on your TYPO3 server, you can start to use 
 #### Step 1
 Make two normal pages and one sysfolder page. A simple page-tree would look something like this:
 
+![Screenshot](list-module.jpg)
+
 #### Step 2
 Add a new plugin element on both normal pages, and set it to JobControl. On the list-page ("Jobs" in our example) click on the LIST item. On the details-page ("Details") choose DETAIL instead.
 
