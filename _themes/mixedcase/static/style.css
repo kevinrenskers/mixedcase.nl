@@ -208,6 +208,11 @@ pre, code {
         border-bottom: 1px dotted orange;
     }
 
+    a[href^="https://github.com"] {
+        background: transparent url('images/github.png') no-repeat;
+        padding-left: 20px;
+    }
+
     a:hover {
         border-bottom: 1px solid orange;
     }

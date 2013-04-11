@@ -60,4 +60,4 @@ My dotfiles and detailed instructions on how to setup Mac OS X for development (
 
 ## dmmjobcontrol
 TYPO3 job database extension. My oldest open source project, written in 2007 in PHP.  
-[kevinrenskers/dmmjobcontrol](https://github.com/kevinrenskers/dmmjobcontrol)
+[kevinrenskers/dmmjobcontrol](https://github.com/kevinrenskers/dmmjobcontrol) / [documentation](/projects/dmmjobcontrol/)
