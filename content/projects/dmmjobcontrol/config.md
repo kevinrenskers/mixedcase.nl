@@ -129,6 +129,7 @@ These are all the stdWrap fields and labels for you to use:
         <td>
             <strong>Database fields</strong><br/>
             crdate_stdWrap<br/>
+            tstamp_stdWrap<br/>
             reference_stdWrap<br/>
             job_title_stdWrap<br/>
             employet_stdWrap<br/>
@@ -152,6 +153,7 @@ These are all the stdWrap fields and labels for you to use:
         <td style="width:50%;">
             <strong>Fields</strong><br/>
             crdate_label_stdWrap<br/>
+            tstamp_label_stdWrap<br/>
             reference_label_stdWrap<br/>
             job_title_label_stdWrap<br/>
             employer_label_stdWrap<br/>
