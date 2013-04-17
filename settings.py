@@ -73,7 +73,6 @@ theme = {
             {'title': 'Administration', 'link': 'admins'},
             {'title': 'Configuration', 'link': 'config'},
             {'title': 'Extending JobControl', 'link': 'extending'},
-            {'title': 'Contribute', 'link': 'contribute'},
             {'title': 'FAQ', 'link': 'faq'},
             {'title': 'Support / contact', 'link': 'support'},
         ]

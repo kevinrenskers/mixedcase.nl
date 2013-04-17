@@ -16,3 +16,10 @@ First of all, the content subpart must be loaded before the TypoScript part that
 # clear main content in page object
 page.10.subparts.CONTENT >
 ```
+
+### How can I filter the job list to only show jobs from a certain region / category / etc?
+You can set a custom whereadd in TypoScript. You'll need access to your database to find out the exact query to make, but it shouldn't be harder then something like this:
+
+```text
+plugin.tx_dmmjobcontrol_pi1.whereadd = uid IN (SELECT uid_local FROM tx_dmmjobcontrol_job_region_mm WHERE uid_foreign = 123
+```
