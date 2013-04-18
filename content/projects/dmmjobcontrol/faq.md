@@ -21,5 +21,5 @@ page.10.subparts.CONTENT >
 You can set a custom whereadd in TypoScript. You'll need access to your database to find out the exact query to make, but it shouldn't be harder then something like this:
 
 ```text
-plugin.tx_dmmjobcontrol_pi1.whereadd = uid IN (SELECT uid_local FROM tx_dmmjobcontrol_job_region_mm WHERE uid_foreign = 123
+plugin.tx_dmmjobcontrol_pi1.whereadd = uid IN (SELECT uid_local FROM tx_dmmjobcontrol_job_region_mm WHERE uid_foreign = 123)
 ```
