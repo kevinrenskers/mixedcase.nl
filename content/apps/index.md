@@ -51,4 +51,5 @@ A lyrics app for one of the largest lyrics websites on the planet. View the lyri
 [App Store (free)](https://itunes.apple.com/app/scrobbler-for-ios/id585235199?Is=1&mt=8)
 
 ## Radio.com v3
-A new version of the Radio.com app is coming soon.
+A complete rebuild of the Radio.com streaming radio app, using a new reusable audio library for radio playback (which will be used in other CBS Local apps as well), a new interface and available as an universal app for both iPhone and iPad.  
+[App Store (free)](https://itunes.apple.com/app/radio-com-for-iphone/id323701765)
