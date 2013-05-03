@@ -213,6 +213,11 @@ pre, code {
         padding-left: 20px;
     }
 
+    a[href^="https://itunes.apple.com"] {
+        background: transparent url('images/appstore.png') no-repeat;
+        padding-left: 20px;
+    }
+
     a:hover {
         border-bottom: 1px solid orange;
     }
