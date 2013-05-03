@@ -23,3 +23,9 @@ You can set a custom whereadd in TypoScript. You'll need access to your database
 ```text
 plugin.tx_dmmjobcontrol_pi1.whereadd = uid IN (SELECT uid_local FROM tx_dmmjobcontrol_job_region_mm WHERE uid_foreign = 123)
 ```
+
+### When I switch between languages, I get an error message saying the job wasn't found
+Only translated jobs can be shown in another language. Untranslated jobs do not fall back to their default language.
+
+### I have an idea for a new feature
+Please read about feature requests on the [support page](support).
