@@ -58,6 +58,49 @@ If you've added a new field to JobControl using the method above, you might want
 # Include the php script containing the function to extend the markerArray for the search form
 includeLibs.searchArrayFunction = fileadmin/searchArrayFunction.php
 
- # Call the function in the file we've just included
- plugin.tx_dmmjobcontrol_pi1.searchArrayFunction = user_searchArrayFunction
+# Call the function in the file we've just included
+plugin.tx_dmmjobcontrol_pi1.searchArrayFunction = user_searchArrayFunction
  ```
+
+
+## Extending the apply form
+It's possible to extend the apply form, so you're not stuck with the predefined fields.
+
+Create your own html template using the default apply.tmpl as an example. Add your new field, for example something like this.
+
+```html
+<tr class="dmmjobcontrol_apply_tr">
+  <td class="dmmjobcontrol_apply_td1">
+    ###ADDRESS_LABEL###
+  </td>
+  <td class="dmmjobcontrol_apply_td2">
+    <input type="text" name="###ADDRESS_NAME###" value="###ADDRESS_VALUE###" class="dmmjobcontrol_input" />
+  </td>
+</tr>
+```
+
+To use your custom template, use this typoscript code:
+
+```text
+plugin.tx_dmmjobcontrol_pi1.template.apply = fileadmin/apply.tmpl
+```
+
+1. Extend the labels using labelArrayFunction (see documentation above) so the system knows how to parse `###ADDRESS_LABEL###`.
+2. Create a new file `fileadmin/applyArrayFunction.php` (or any other name you like). This file should contain one php function called `user_applyArrayFunction`. See the file [res/applyArrayFunction.php](https://github.com/kevinrenskers/dmmjobcontrol/blob/master/res/applyArrayFunction.php) for an example on how to set this up!
+3. Use this TypoScript code to load the function:
+
+```text
+# Include the php script containing the function to extend the markerArray for the labels
+includeLibs.applyArrayFunction = fileadmin/applyArrayFunction.php
+
+# Call the function in the file we've just included
+plugin.tx_dmmjobcontrol_pi1.applyArrayFunction = user_applyArrayFunction
+```
+
+It's important to use labelArrayFunction to add the new label, and applyArrayFunction for the other markers.
+
+You can make this new field required by adding it to typoscript constants:
+
+```text
+plugin.dmmjobcontrol.apply.required = fullname,email,motivation,file_cv,address
+```
