@@ -28,7 +28,7 @@ First things first: HTML and CSS are no programming languages. HTML is a markup 
 
 If you were to save this to a file called `hello.html` and open it in your browser, you would see a very simple webpage. As you can see, there is no programming involved, by which I mean there is no logic: no if-this-then-that, no databases, no dynamic pages.
 
-CSS is used for the layout of your website, it can transform the black text on white background into something completely different. Everything that has to do with color, style, positioning (everything that you would call "design") is done with CSS.
+CSS is used for the layout of your website, it can transform the basic black text on white background into something completely different. Everything that has to do with color, style, positioning (everything that you would call "design") is done with CSS.
 
 Here is a simple example:
 
@@ -60,17 +60,17 @@ Again, there is no logic, no hard code to write. Just a bunch of pre-defined pro
 
 
 ## PHP
-Like I said, HTML are CSS are not actual programming languages, you won't be able to create "dynamic" websites, where some kind of logic can create different pages for different users. Think about a website where you can logic with your account, where you can leave comments, where there's a ton of articles or pictures coming from a database, etc.
+Like I said, HTML are CSS are not actual programming languages, you won't be able to create "dynamic" websites, where some kind of logic can create different pages for different users. Think about a website where you can login with your account, where you can leave comments, where there's a ton of articles or pictures coming from a database, etc.
 
-That's where the programming starts, and for me it started with learning PHP in 2001. Back then it was the most popular language for creating websites, but I wouldn't recommend anyone starting out now to learn this. Better to start with a modern language like Python.
+That's where the programming starts, and for me it started with learning PHP in 2001. Back then it was the most popular language for creating websites, but I wouldn't recommend anyone starting out now to learn this. Better to start with a modern language like Python. So, no links to resources.
 
 
 ## Python and Django
-After I worked as a PHP developer for nine year I decided enough was enough; I needed something new. And this something new was to be Python, a popular language for creating dynamic websites. It's also used to create apps, desktop software, games and much more. A perfect choice then with lots of room to grow and many available jobs.
+After I worked as a PHP developer for nine year I decided enough was enough; I needed something new. And this something new was to be Python, a popular language for creating dynamic websites. It's also used to create apps, desktop software, games and much more. A perfect choice then with lots of room to grow and many available jobs (and usually better paying then PHP jobs too!).
 
 When you want to build a website you normally choose a "framework": a set of tools and functions that will make your life a lot easier. A bunch of smart people have done most of the heavy lifting: all the standard repetitive stuff like talking to a database, letting users log in, saving comments to a news article and much more is all taken care off.
 
-Arguably one of the best frameworks for Python is Django. Definitely my recommendation to pick up.
+Arguably one of the best frameworks for Python is Django. Definitely my recommendation to pick up, also because of the many jobs that are available for Django programmers.
 
 ### Resources
 - [Learn Python The Hard Way](http://learnpythonthehardway.org/book/)
@@ -84,16 +84,17 @@ Arguably one of the best frameworks for Python is Django. Definitely my recommen
 ## Javascript
 Python (and PHP) are so-called server-side languages, which means that all the logic is executed on a web server. Every time the user clicks on a button (for example to login), a request is made to the server which does all the computing and then returns a new web page to your web browser. It's a bit like ping-pong, where the client (the browser) and the server talk back and forth.
 
-If you want to have some sort of logic within the client you'll need Javascript. With this you will be able to do stuff like animations, video players, interactive games and much more.
+If you want to have some sort of logic or interactivity within the client you'll need Javascript. With this you will be able to do stuff like animations, video players, interactive games and much more.
 
 ### Resources
 - [w3schools.com Javascript tutorials](http://www.w3schools.com/js/default.asp)
+- (jQuery Learning Center](http://learn.jquery.com)
 - [webplatform.org Javascript tutorials](http://docs.webplatform.org/wiki/javascript/tutorials)
 - [Mozilla Developer Network: Javascript](https://developer.mozilla.org/en-US/docs/JavaScript)
 
 
 ## Objective-C
-In 2010 I started to create iPhone and iPad apps, and for this I needed to learn another programming language: Objective-C. More then that though, creating apps is completely different from creating websites, there are so many new concepts to learn. Thankfully there are a lot of very good resources so getting started with iOS development isn't too hard once you have some programming experience.
+In 2010 I started to create iPhone and iPad apps, and for this I needed to learn another programming language: Objective-C. More then that though, creating apps is completely different from creating websites, there are so many new concepts to learn (memory management and background threads being the big two). Thankfully there are a lot of very good resources so getting started with iOS development isn't too hard once you have some programming experience.
 
 ### Resources
 - [Apple's Getting Started guide](http://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOS/index.html)
