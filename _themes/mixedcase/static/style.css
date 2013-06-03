@@ -266,12 +266,22 @@ pre, code {
     }
 
     #content h1, aside h2 {
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 
     #content h2, #content legend {
         font-size: 1.1em;
         font-weight: bold;
+    }
+
+    #content h2 {
+        border-bottom: 1px solid orange;
+        margin-bottom: 0.5em;
+    }
+
+    #content h3 {
+        font-size: 1em;
+        font-weight: bold;   
     }
 
     header h1 a {
@@ -524,11 +534,6 @@ pre, code {
         color: #CCC;
         font-style: italic;
         font-size: 0.875em;
-    }
-
-    h1 + h2, h3 + h4 {
-        padding-top: 1em;
-        border-top: 1px solid orange;
     }
 }
 
