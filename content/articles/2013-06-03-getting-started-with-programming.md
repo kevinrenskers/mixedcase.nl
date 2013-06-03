@@ -88,7 +88,7 @@ If you want to have some sort of logic or interactivity within the client you'll
 
 ### Resources
 - [w3schools.com Javascript tutorials](http://www.w3schools.com/js/default.asp)
-- (jQuery Learning Center](http://learn.jquery.com)
+- [jQuery Learning Center](http://learn.jquery.com)
 - [webplatform.org Javascript tutorials](http://docs.webplatform.org/wiki/javascript/tutorials)
 - [Mozilla Developer Network: Javascript](https://developer.mozilla.org/en-US/docs/JavaScript)
 
