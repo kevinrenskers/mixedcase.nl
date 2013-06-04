@@ -5,7 +5,7 @@ All of a sudden it seems there's a big effort to create debugging tools for iOS 
 ## PonyDebugger
 "Remote network and data debugging for your native iOS app using Chrome Developer Tools." Free on the [PonyDebugger repository](https://github.com/square/PonyDebugger).
 
-![Network traffic in Chrome Developer Tools](/static/images/content/ponydebugger.png)
+![Network traffic in Chrome Developer Tools](/articles/images/ponydebugger.png)
 
 ### Features
 - Debug network traffic
@@ -42,7 +42,7 @@ Since PonyDebugger is free, I would recommend it, especially for the network tra
 ## Spark Inspector
 "Monitor your app and experiment in a way you never thought possible." About $30 on [sparkinspector.com](http://sparkinspector.com).
 
-![Spark 3d visualization](/static/images/content/spark.jpg)
+![Spark 3d visualization](/articles/images/spark.jpg)
 
 ### Features
 - View hierarchy debugging via a 3d view of your interface
@@ -65,7 +65,7 @@ All in all a very good, easy to integrate solution when you need to do a lot of 
 ## Reveal App
 "Reveal brings the power of tools like Firebug and Web Inspector to iOS developers. See your application's view hierarchy at runtime with advanced 2D and 3D visualizations. Debug view layout and rendering problems in seconds." Free beta, available from [revealapp.com](http://revealapp.com).
 
-![Reveal 3d visualization](/static/images/content/reveal.jpg)
+![Reveal 3d visualization](/articles/images/reveal.jpg)
 
 ### Features
 - View hierarchy debugging via a 3d view of your interface
