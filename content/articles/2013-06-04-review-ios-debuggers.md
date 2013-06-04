@@ -75,8 +75,10 @@ All in all a very good, easy to integrate solution when you need to do a lot of 
 You download their client application, which also includes the framework you need to add to your iOS app. Simply drag the framework into your project, run your app and you're connected to Reveal - no code changes necessary. You can also install the framework via Cocoapods: `pod 'Reveal-iOS-SDK'`.
 
 ### Verdict
-Reveal basically took Spark's 3d view inspector and added a bunch more properties that can be edited, like accessibility related properties and CALayer properties. I don't like their UI as much as Spark (it doesn't feel "OS X" to me), but the added properties are incredibly useful. Testing the VoiceOver feature is a lot easier now.
+Reveal basically took Spark's 3d view inspector and added a bunch more properties that can be edited (like accessibility related properties) and other that can be viewed but not edited (like CALayer properties). I don't like their UI as much as Spark, but the added properties are incredibly useful: testing the VoiceOver feature is a lot easier now.
 
-If you don't need Spark's notification monitor and can live with the uncertainty of using a "free beta" product (no idea what's it going to cost later on), then I would recommend Reveal over Spark. 
+One minor problem I had with Reveal was that it doesn't automatically update the inspector like Spark does: when I switch views in my app, the inspector should be able to automatically update as well. It's not a deal breaker though.
+
+If you don't need Spark's notification monitor and can live with the uncertainty of using a "free beta" product (no idea what's it going to cost later on), then I would recommend Reveal over Spark.
 
 Once again though, I just wished they added a network traffic monitor.
