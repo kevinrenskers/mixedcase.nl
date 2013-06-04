@@ -1,7 +1,7 @@
 # Getting started with programming
 At least twice per year someone will ask me how he or she can get started with programming. With the economy down jobs are hard to find, but there's always a need for developers, at least here in Iceland - so it's no wonder that more people are wondering how to get started.
 
-*Not in the mood to read all these words? Here's my recommendation in a nutshell: begin with HTML and CSS, move on to Python and Django, and add Javascript.*
+*Not in the mood to read all these words? Here's my recommendation in a nutshell: begin with HTML and CSS, move on to Python and Django, and add Javascript. All available for free on [codecademy.com](http://www.codecademy.com/learn).*
 
 Here then is in story form a bunch of links to useful resources. Please keep in mind that this is my personal recommendation, other people will tell you to learn Ruby or Java, and these are also fine choices - just not mine :)
 
@@ -51,6 +51,7 @@ p {
 Again, there is no logic, no hard code to write. Just a bunch of pre-defined properties which are easy to learn. Together, HTML and CSS are the building blocks with which every website is created. Therefore, this should be the first step, your first thing to learn.
 
 ### Resources
+- [Web Fundamentals at codecademy.com](http://www.codecademy.com/tracks/web)
 - [htmldog.com tutorials](http://htmldog.com/guides/html/beginner/)
 - [webplatform.org HTML tutorials](http://docs.webplatform.org/wiki/html/tutorials)
 - [webplatform.org CSS tutorials](http://docs.webplatform.org/wiki/css/tutorials)
@@ -73,8 +74,10 @@ When you want to build a website you normally choose a "framework": a set of too
 Arguably one of the best frameworks for Python is Django. Definitely my recommendation to pick up, also because of the many jobs that are available for Django programmers.
 
 ### Resources
-- [Learn Python The Hard Way](http://learnpythonthehardway.org/book/)
+- [codecademy.com: Python](http://www.codecademy.com/tracks/python)
 - [Django documentation, including tutorials](https://docs.djangoproject.com)
+- [Learn Python The Hard Way](http://learnpythonthehardway.org/book/)
+- [LearnStreet interactive Python course](http://www.learnstreet.com/lessons/study/python)
 - [Two Scoops of Django](https://django.2scoops.org)
 - [The Hitchhiker’s Guide to Python](hhttp://docs.python-guide.org/en/latest/)
 - [Official Python documentation](http://www.python.org/doc/)
@@ -87,6 +90,8 @@ Python (and PHP) are so-called server-side languages, which means that all the l
 If you want to have some sort of logic or interactivity within the client you'll need Javascript. With this you will be able to do stuff like animations, video players, interactive games and much more.
 
 ### Resources
+- [codecademy.com: Javascript](http://www.codecademy.com/tracks/javascript)
+- [LearnStreet interactive Javascript course](http://www.learnstreet.com/lessons/study/javascript)
 - [w3schools.com Javascript tutorials](http://www.w3schools.com/js/default.asp)
 - [jQuery Learning Center](http://learn.jquery.com)
 - [webplatform.org Javascript tutorials](http://docs.webplatform.org/wiki/javascript/tutorials)
