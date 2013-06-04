@@ -12,4 +12,4 @@ My ideal company is small, fun, flexible, has an open source mindset, and great 
 I have a [LinkedIn profile](http://nl.linkedin.com/in/kevinrenskers) and my [CV is posted online](http://dl.dropbox.com/u/2310965/KevinRenskers.pdf).
 
 ### Update (December 3, 2011)
-I've found a job as iPhone developer in Reykjavik! I'm starting January 2, 2012. There's a new blog about my Iceland adventure at [MoveToArctic.com](http://movetoarctic.com).
+I've found a job as iPhone developer in Reykjavik! I'm starting January 2, 2012.
