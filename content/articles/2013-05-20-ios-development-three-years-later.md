@@ -22,14 +22,14 @@ I have always hated this:
 [NSArray arrayWithObjects:object1, object2];
 ```
 
-Instead, now have these shortcuts:
+Instead, now we have these shortcuts:
 
 ```objective-c
 @{ @"key1": object1, @"key2": object2 };
 @[ object1, object2 ]
 ```
 
-Add some other handy ways to access objects within dictionaries and arrays, and quicker ways to create NSNumbers objects as well, and this is a really nice update to the Objective-C language. But wait! There's more! Blocks. Kind of amazing really that we didn't have blocks before, they take away so many delegation mess. For me, all framework classes should support block based operations.
+Add some other handy ways to access objects within dictionaries and arrays, and quicker ways to create NSNumbers objects as well, and this is a really nice update to the Objective-C language. But wait! There's more! Blocks. Kind of amazing really that we didn't have blocks before, they take away so much delegation mess. For me, all framework classes should support block based operations.
 
 ## Storyboards
 The idea of having all your screens in one storyboard file with all their relationships clearly defined is very neat, but sadly completely impossible when you work in a team. The storyboard file can't be merged, so when one developer is working on one of the screens and you're working on another screen in the same storyboard, you have a big problem. All the work from one of the developers will most likely be lost. Apple, when's this going to be solved?
