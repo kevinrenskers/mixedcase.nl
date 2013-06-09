@@ -6,25 +6,33 @@ These are some of the more interesting open source projects I've created. Check 
 
 ## Objective-C
 
-### RemoteConfig
-Objective-c library for loading a remote JSON / XML config file with locally defined default values.  
-[gangverk/RemoteConfig](https://github.com/gangverk/RemoteConfig)
+### SDWebImage-ProgressView
+Category on UIImageView, adding a progress view while images are downloaded using SDWebImage.  
+[kevinrenskers/SDWebImage-ProgressView](https://github.com/kevinrenskers/SDWebImage-ProgressView)
+
+### GVPhotoBrowser
+A reusable photo browser for iOS using the datasource and delegate patterns.  
+[gangverk/GVPhotoBrowser](https://github.com/gangverk/GVPhotoBrowser)
 
 ### GVUserDefaults
 NSUserDefaults access via properties.  
 [gangverk/GVUserDefaults](https://github.com/gangverk/GVUserDefaults)
 
+### GVMusicPlayerController
+The power of AVPlayer with the simplicity of MPMusicPlayerController.  
+[gangverk/GVMusicPlayerController](https://github.com/gangverk/GVMusicPlayerController)
+
 ### LastFm
 Block based Last.fm SDK for iOS and Mac OS X.  
 [gangverk/LastFm](https://github.com/gangverk/LastFm)
 
+### RemoteConfig
+Objective-c library for loading a remote JSON / XML config file with locally defined default values.  
+[gangverk/RemoteConfig](https://github.com/gangverk/RemoteConfig)
+
 ### AdMarvelContainer
 More developer friendly way of working with AdMarvel banners and interstitials.  
 [gangverk/AdMarvelContainer](https://github.com/gangverk/AdMarvelContainer)
-
-### GVMusicPlayerController
-The power of AVPlayer with the simplicity of MPMusicPlayerController.  
-[gangverk/GVMusicPlayerController](https://github.com/gangverk/GVMusicPlayerController)
 
 ### raven-objc
 Objective-c client for Sentry.  
@@ -59,5 +67,5 @@ My dotfiles and detailed instructions on how to setup Mac OS X for development (
 [kevinrenskers/dotfiles](https://github.com/kevinrenskers/dotfiles)
 
 ### dmmjobcontrol
-TYPO3 job database extension. My oldest open source project, written in 2007 in PHP.  
+TYPO3 job database extension. My oldest open source project, started in 2007 and written in PHP.  
 [kevinrenskers/dmmjobcontrol](https://github.com/kevinrenskers/dmmjobcontrol) / [documentation](/projects/dmmjobcontrol/)
