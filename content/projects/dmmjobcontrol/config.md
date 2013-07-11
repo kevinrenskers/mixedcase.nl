@@ -214,6 +214,7 @@ This makes sure all of the (RTE) textarea's are parsed through the default parse
 This will make nice url's like www.example.com/jobs/details/senior-webdeveloper and www.example.com/jobs/page/3 if you use the page-browser. Just copy the parts that you need...
 
 ```php
+<?php
 $TYPO3_CONF_VARS['EXTCONF']['realurl'] = array(
     'example.com' => array(
         'init' => array(
@@ -274,6 +275,7 @@ $TYPO3_CONF_VARS['EXTCONF']['realurl'] = array(
         ),
     ),
 );
+?>
 ```
 
 If you want to use the language selector in the url as used in the RealURL example given here (to get url's like www.example.com/en/jobs/), put this at the very end in your TypoScript setup code:
