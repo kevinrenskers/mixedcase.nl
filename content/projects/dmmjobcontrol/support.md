@@ -4,7 +4,7 @@
 ---------------------
 
 # Support
-Please use the [TYPO3 mailing lists](http://typo3.org/support/mailing-lists/) for free support, or contact me directly for paid support.
+Please use the [TYPO3 mailing lists](http://typo3.org/support/mailing-lists/) for free support, or [contact me directly](mailto:info@mixedcase.nl) for paid support.
 
 As I still don't use PHP or TYPO3 myself, maintaining JobControl is purely a hobby. I'll keep it bug free, but simply can't give free support. 
 

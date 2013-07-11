@@ -213,64 +213,67 @@ This makes sure all of the (RTE) textarea's are parsed through the default parse
 
 This will make nice url's like www.example.com/jobs/details/senior-webdeveloper and www.example.com/jobs/page/3 if you use the page-browser. Just copy the parts that you need...
 
-```text
-'example.com' => array(
-    'pagePath' => array(
-        'type' => 'user',
-        'userFunc' => 'EXT:realurl/class.tx_realurl_advanced.php:&tx_realurl_advanced->main',
-        'rootpage_id' => 1,
-        'spaceCharacter' => '-',
-        'languageGetVar' => 'L',
-        'expireDays' => 3,
-        'disablePathCache' => true,
-    ),
-    // Start pages with language selector like www.example.com/en/jobs/
-    'preVars' => array(
-        array(
-            'GETvar' => 'L',
+```php
+$TYPO3_CONF_VARS['EXTCONF']['realurl'] = array(
+    'example.com' => array(
+        'init' => array(
+            'appendMissingSlash' => 'ifNotFile',
+            'enableUrlDecodeCache' => 1,
+            'enableUrlEncodeCache' => 1,
+            'enableCHashCache' => 1,
+        ),
+        'pagePath' => array(
+            'type' => 'user',
+            'userFunc' => 'EXT:realurl/class.tx_realurl_advanced.php:&tx_realurl_advanced->main',
+            'rootpage_id' => 1,
+            'spaceCharacter' => '-',
+            'languageGetVar' => 'L',
+            'expireDays' => 3,
+            'disablePathCache' => false,
+        ),
+        // Start pages with language selector like www.example.com/en/jobs/
+        'preVars' => array(
+            array(
+                'GETvar' => 'L',
                 'valueMap' => array(
                     'en' => '3',
                 ),
-            'noMatch' => 'bypass',
+                'noMatch' => 'bypass',
+            ),
         ),
-    ),
-    // Give url's like /jobs/detail/programmer, and respect localization!
-    'postVarSets' => array(
-        '_DEFAULT' => array(
-            'detail' => array(
-                array(
-                    'GETvar' => 'tx_dmmjobcontrol_pi1[job_uid]',
-                    'lookUpTable' => array(
-                        'table' => 'tx_dmmjobcontrol_job',
-                        'id_field' => 'uid',
-                        'alias_field' => 'job_title',
-                        'addWhereClause' => ' AND NOT deleted',
-                        'useUniqueCache' => 1,
-                        'useUniqueCache_conf' => array(
-                            'strtolower' => 1,
-                            'spaceCharacter' => '-',
+        // Give url's like /jobs/detail/programmer, and respect localization!
+        'postVarSets' => array(
+            '_DEFAULT' => array(
+                'detail' => array(
+                    array(
+                        'GETvar' => 'tx_dmmjobcontrol_pi1[job_uid]',
+                        'lookUpTable' => array(
+                            'table' => 'tx_dmmjobcontrol_job',
+                            'id_field' => 'uid',
+                            'alias_field' => 'job_title',
+                            'addWhereClause' => ' AND NOT deleted',
+                            'useUniqueCache' => 1,
+                            'useUniqueCache_conf' => array(
+                                'strtolower' => 1,
+                                'spaceCharacter' => '-',
+                            ),
+                            'languageGetVar' => 'L',
+                            'languageExceptionUids' => '',
+                            'languageField' => 'sys_language_uid',
+                            'transOrigPointerField' => 'l18n_parent'
                         ),
-                        'languageGetVar' => 'L',
-                        'languageExceptionUids' => '',
-                        'languageField' => 'sys_language_uid',
-                        'transOrigPointerField' => 'l18n_parent'
+                    ),
+                ),
+                // Give url's like jobs/page/3 for use with the page-browser
+                'page' => array(
+                    array(
+                        'GETvar' => 'tx_dmmjobcontrol_pi1[page]',
                     ),
                 ),
             ),
-            // Give url's like jobs/page/3 for use with the page-browser
-            'page' => array(
-                array(
-                    'GETvar' => 'tx_dmmjobcontrol_pi1[page]',
-                ),
-            ),
         ),
     ),
-    'init' => array(
-        'appendMissingSlash' => 'ifNotFile',
-        'enableUrlDecodeCache' => 1,
-        'enableUrlEncodeCache' => 1,
-    ),
-),
+);
 ```
 
 If you want to use the language selector in the url as used in the RealURL example given here (to get url's like www.example.com/en/jobs/), put this at the very end in your TypoScript setup code:
