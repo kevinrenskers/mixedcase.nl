@@ -5,9 +5,12 @@
 
 # Extending JobControl
 
-It's fairly easy to extend JobControl with extra fields. So if you, for example, need to add a logo to a job, you can add a new "logo" field. This can be done in a few pretty easy steps:
+It's fairly easy to extend JobControl with extra fields. So if you, for example, need to add a logo to a job, you can add a new "logo" field. This can be done in a few pretty easy steps.
 
-1. Use the kickstarter to make a new extension, that modifies the JobControl database. Go to the extension manager and choose the option "Make new extension". If that option if unavailable, you need to install the kickstarter extension first.
+**TYPO3 6.x users please note: the kickstarter extension is not compatible with TYPO3 6.x, and the Extension Builder extension is not officially supported for extending JobControl. The best solution at this moment is to use the kickstarter in TYPO3 4.x and to copy the t3x file to your TYPO3 6.x environment.**
+
+
+1. Use the kickstarter to make a new extension, that modifies the JobControl database. Go to the extension manager and choose the option "Create new Extension". If that option if unavailable, you need to install the kickstarter extension first.
 2. In the kickstarter, first enter an extension key. This can be anything you like, for example `jobcontrolextension`.  Click on the update button to save the extension key.
 3. Then click on the plus icon next to "Extend existing tables". Choose the `tx_dmmjobcontrol_job` database to work on. Enter the name and title for the new field and choose the type (in our example: "files"). Then click the update button to see all available options for the type you've chosen. Repeat if you want to add more then one field.
 4. Once you're done, you can click on the "View result" button. Then you can save the extension by clicking on the "WRITE" button.
