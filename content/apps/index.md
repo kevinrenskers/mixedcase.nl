@@ -59,5 +59,5 @@ A complete rebuild of the Radio.com streaming radio app, using a new reusable au
 ## Radíus
 ![screenshots](radius.jpg)
 
-Icelandic news reader. Choose from over a hundred Icelandic news sources and entertainment websites to create your own personalised news stream. Beautiful detail pages with support for videos and photo galleries.  
+Icelandic news reader. Choose from over a hundred Icelandic news sources and entertainment websites to create your own personalised news stream. Beautiful detail pages with support for videos and photo galleries. Built for Gangverk, iPhone only.    
 [App Store (free)](https://itunes.apple.com/app/radius/id677152055)
