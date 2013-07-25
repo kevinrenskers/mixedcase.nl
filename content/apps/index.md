@@ -55,3 +55,9 @@ A lyrics app for one of the largest lyrics websites on the planet. View the lyri
 
 A complete rebuild of the Radio.com streaming radio app, using a new reusable audio library for radio playback (which will be used in other CBS Local apps as well), a new interface and available as an universal app for both iPhone and iPad.  
 [App Store (free)](https://itunes.apple.com/app/radio-com-for-iphone/id323701765)
+
+## Radíus
+![screenshots](radius.jpg)
+
+Icelandic news reader. Choose from over a hundred Icelandic news sources and entertainment websites to create your own personalised news stream. Beautiful detail pages with support for videos and photo galleries.  
+[App Store (free)](https://itunes.apple.com/app/radius/id677152055)
