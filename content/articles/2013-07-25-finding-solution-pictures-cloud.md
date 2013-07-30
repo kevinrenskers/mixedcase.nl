@@ -1,28 +1,76 @@
 # Finding a solution for backing up all my pictures to the cloud
-I have well over 25 GB of pictures, and after almost losing my hard drive (it started to behave very strangely but I was able to salvage all the pictures) I realized that I need to back them up in the cloud. I do usually share my best ones on Facebook, but I need a solution that backs up every picture (full-resolution with all its metadata intact) without ever thinking about it.
+I have well over 25 GB of pictures, and after almost losing my hard drive (it started to behave very strangely but I was able to salvage all the pictures) I realised that I need to back them up in the cloud. I do usually share my best ones on Facebook, but I need a solution that backs up every picture (full-resolution with all its metadata intact) without ever thinking about it.
 
-I'll need a place to host all those pictures and I'll need some kind of automated workflow. The first storage options that come to mind are Dropbox, Facebook, Google+ and Flickr.
+![Screenshot from Finder](/articles/images/pictures-folder.png "Currently all my photos are simply stored in subfolders like this")  
 
-I'd like to be able to simply store my pictures in some folder on my hard drive, and without thinking about it they would be uploaded automatically. It seems that's only possible with Dropbox, which I love anyway, but.. I'd have to get a Pro account and it doesn't handle my second wish: I'd also like to be able to show my pictures to the world. So I want ALL my pictures to be uploaded, and then I would select a few of those and make them public. 
+I'm looking for a solution with the following must-have features:
 
-So if I combine the 2 wishes (ease of upload and ease of showing), then I come to the conclusion that this isn't possible:
+- Backs up full resolution pictures including metadata
+- Backs up RAW files
+- Backs up videos
+- Some kind of automated workflow where imported pictures are automatically backed up, preferably by simply moving a pictures inside a folder
+- It should be possible to download the full backup
 
-- Dropbox has the ease of auto uploading, but it can't show picture galleries like an actual photo site. I would also need to pay for a Pro account ($99 for 100 GB).
-- Facebook seems to have unlimited photo upload, but there's no way to auto upload my photos. Also, as a photo gallery it's not as good as Flickr for example.
-- Google+: on iOS they have auto uploading of all your pictures which you can then make public. Also unlimited space, awesome. But, no auto uploading/syncing from desktop and all photos will be resized. I want a true, full-resolution backup, so this isn't an option.
-- Flickr: they now offer 1 TB of free storage and you can upload everything as private and then selectively make some public. No easy way to get your photos into Flickr though, certainly not automatic.
+Furthermore it would be nice if I could (privately) access the pictures from a website and/or iOS devices. If it's possible to publicly share a selection of pictures that would be even better.
 
-If I simply want all my pictures in the cloud without ever thinking about it, then Dropbox definitely seems like the best option. Simply plugin the camera, import the pictures to my Dropbox folder and away they go. 
+Lastly, true sync would be preferable: if I remove a picture (or a folder with pictures) then I want it to be deleted on the server as well.
 
-If I also want to be able to (selectively) show them to the world then Flickr seems like the best option, **if** I would find a way to automatically upload everything. I could maybe adopt a new workflow where I would use iPhoto or Aperture, keep all my photos in the app and sync to Flickr from there. It would be a major change for me, from simply importing photos into a folder on my hard drive. I also don't really like the whole "pictures in a black box database" philosophy that iPhoto and Aperture have. Plus, it's still not an automated process where I'd never have to think about this.
+## Dropbox
+Dropbox definitely has the ease of auto uploading. I can stick with my current folder structure, put new pictures in them and they're synced to the cloud without ever thinking about it.
 
-Other options I'm thinking about but haven't tried out yet:
+So it ticks all the "must-have" boxes, but it's not so good for sharing picture galleries (either public or private) and I'd have to pay for a Pro account: $99 per year for 100 GB, not super cheap.
 
-- Apple's photostream only holds 1000 photos, but by using shared photostreams you can get around this limit. All pictures taken with my iPhone would be automatically uploaded, other pictures can be uploaded via iPhoto or Aperture. Shared photostreams can't contain videos though.
-- [Picturelife](https://picturelife.com) has the automated syncing on the desktop and iOS apps to view the photos. At $70 per year for 100 GB it's cheaper then Dropbox.
-- [Everpix](https://www.everpix.com) is only $49 per year and offers unlimited hosting. Their image analysis seems cool as well, but they don't accept RAW photos.
-- [Loom](http://www.loom.com) looks very similar to Everpix but at the moment has a waiting list. At $40 for 50 GB it seems like a good option to explore once the waiting is over.
+## Facebook
+Facebook seems to have unlimited photo upload, but there's no way to automatically upload my photos. I could adopt a new workflow, for example use iPhone or Aperture to store my photos and upload to Facebook from there, but that's a bit too much trouble and wouldn't be a true sync either.
 
-Not sure how long companies like Picturelife, Everpix and Loom will be around for. Using Dropbox or Flickr seems more future-proof. I still think that Flickr would be the best option once I figure out how to automatically sync from the desktop.
+There would also be no (easy) way to re-download all the pictures in case of a broken hard drive. As a photo gallery it's not as good as Flickr and to trust all my pictures to Facebook..?
+
+The only good thing about using Facebook would be to upload all pictures privately and then selectively make some of them public. It fails in all the must-haves though.
+
+## Google+
+Their iOS app automatically uploads all your photos which you can then make public. They also offer unlimited space, so far so good. 
+
+But, no auto uploading from the desktop and all photos will be resized. I need a true, full-resolution backup, so this simply isn't an option.
+
+## Flickr
+Flickr now offers a massive 1 TB of free storage and you can upload everything as private and then selectively make some public. As a photo gallery they're pretty good but this solution suffers from the same problem as Facebook: no easy way to get your photos into Flickr, certainly not automatic.
+
+If I could have some kind of Dropbox / Flickr hybrid that would be awesome. Simply add your pictures to a folder and it gets synced to Flickr. Which brings me to the next solution.
+
+## Socialfolders.me
+This is a third party desktop app which promises the best of Dropbox and Flickr: automatically upload all your pictures by simply adding them in a folder.
+
+I gave it a spin and while it did upload all my pictures to Flickr, it doesn't do a true sync: moving pictures from one folder to another doesn't delete that picture from the old set on Flickr. It's also quite slow to see changes in my folders, sometimes got confused about changes and in general needed too much prodding to keep going. It's very strict and weird about folder names, different preferences are managed in the app and on their website.. it's kind of a mess.
+
+A very good idea but not good enough just yet.
+
+## Photostream
+Apple's photostream only holds 1000 photos, but by using shared photostreams you supposedly can get around this limit. All pictures taken with my iPhone would be automatically uploaded, other pictures can be uploaded via iPhoto or Aperture. 
+
+I've tried to use photostreams multiple times with iPhoto, but it never really works for me. When I try to import my photos from my iPhone they're always seen as duplicates for example, it just doesn't fit my mental workflow. Of course, with some practice and time I'm sure I could get used to it.
+
+But shared photostreams can't contains videos, so that kills this solution.
+
+## Picturelife
+[Picturelife][] is a desktop app that automatically syncs your photos plus an iOS app to view them. At $70 per year for 100 GB it's cheaper then Dropbox. They support RAW and video files, so it all sounds pretty good.
+
+I signed up for a free 5 GB account to try them out and was very quickly very disappointed. All my pictures are organised in subsolders (one for each event) and while they were all picked up and uploaded to Picturelife, it didn't translate those folders into albums on their server. So I ended up with one huge stream of pictures, not what I'm looking for at all.
+
+It also seems impossible to download your complete backup and the sync app is one way only. All in all, I need a more Dropbox-like approach that maintains my folder structure and allows me to download all my pictures if necessary.
+
+[Picturelife]: https://picturelife.com
+
+## Everpix
+[Everpix][] is only $49 per year and offers unlimited hosting. Their image analysis seems cool as well, but they don't accept RAW photos. Too bad, because that is a must-have for me. They also seem to run all pictures through their "proprietary image optimisation process". It sounds like they're messing with your originals, not cool.
+
+[Everpix]: https://www.everpix.com
+
+## Loom
+[Loom][] looks very similar to Everpix but at the moment has a waiting list. At $40 for 50 GB it seems like a good option to explore once the waiting is over. I'll update this post once I know more.
+
+[Loom]: http://www.loom.com
+
+## Closing thoughts
+I'm not too sure how long companies like Picturelife, Everpix and Loom will be around for, and for that reason using Dropbox or Flickr seems like a safer choice. Out of those two options I still think that Flickr would be the best one once I figure out how to automatically sync from the desktop.
 
 Any suggestions for a pain free photo workflow with online backup are more then welcome!

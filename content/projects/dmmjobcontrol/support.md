@@ -9,7 +9,7 @@ Please use the [TYPO3 mailing lists](http://typo3.org/support/mailing-lists/) fo
 As I still don't use PHP or TYPO3 myself, maintaining JobControl is purely a hobby. I'll keep it bug free, but simply can't give free support. 
 
 ## Bug reports
-Please file an issue at https://github.com/kevinrenskers/dmmjobcontrol/issues.
+Please file an issue at <https://github.com/kevinrenskers/dmmjobcontrol/issues>.
 
 ## Feature requests
 If you have a feature request, forking the code and coding it yourself is probably the best solution. Just send a pull request to get your code into the extension. 
@@ -23,9 +23,9 @@ Please feel free to fork the code at https://github.com/kevinrenskers/dmmjobcont
 Please feel free to support the development of [open feature requests waiting for a sponsor](https://github.com/kevinrenskers/dmmjobcontrol/issues?labels=Waiting+for+sponsor&page=1&state=open).
 
 ## Contact me
-Email me at info@mixedcase.nl.
+Email me at <info@mixedcase.nl>.
 
 You can also find me at the following sites:
 
-- https://github.com/kevinrenskers
-- http://twitter.com/mixedcase
+- <https://github.com/kevinrenskers>
+- <http://twitter.com/mixedcase>
