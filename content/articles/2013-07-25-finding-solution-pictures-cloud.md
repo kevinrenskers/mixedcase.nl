@@ -1,5 +1,5 @@
 # Finding a solution for backing up all my pictures to the cloud
-I have well over 25 GB of pictures, and after almost losing my hard drive (it started to behave very strangely but I was able to salvage all the pictures) I realised that I need to back them up in the cloud. I do usually share my best ones on Facebook, but I need a solution that backs up every picture (full-resolution with all its metadata intact) without ever thinking about it.
+I have well over 35 GB of pictures, and after almost losing my hard drive (it started to behave very strangely but I was able to salvage all the pictures) I realised that I need to back them up in the cloud. I do usually share my best ones on Facebook, but I need a solution that backs up every picture (full-resolution with all its metadata intact) without ever thinking about it.
 
 ![Screenshot from Finder](/articles/images/pictures-folder.png "Currently all my photos are simply stored in subfolders like this")  
 
@@ -66,7 +66,15 @@ It also seems impossible to download your complete backup and the sync app is on
 [Everpix]: https://www.everpix.com
 
 ## Loom
-[Loom][] looks very similar to Everpix but at the moment has a waiting list. At $40 for 50 GB it seems like a good option to explore once the waiting is over. I'll update this post once I know more.
+[Loom][] looks very similar to Everpix but at the moment has a waiting list. At $40 for 50 GB it seems like a good option to explore once the wait is over. I'll update this post once I know more.
+
+**Update**: after about a week I got an email telling me my account was ready. I downloaded their OS X app and was pleasantly surprised how much it behaves like Dropbox. The app creates a new folder on your hard drive, and anything you put in it is automatically uploaded to the cloud. From there your pictures can be viewed on the iOS app or synced to other Macs.
+
+Two minor problems so far: copying nested folders to the Loom folder doesn't seem to work without problems and the iOS apps sucks at quickly viewing full screen photos. Once you open a picture in the app, you can't scroll left or right to view the previous or next picture. It seems to me that this is high on their to-do list.
+
+RAW files do get synced but look bad and pixelated in their iOS app. Not really a problem for me, as I work with them on the desktop exclusively anyway. Video files also get synced but don't play at all in the app - something they're working on.
+
+I would like Loom to add a map view in the app and maybe public album sharing. Other then that, a very solid service for backing up your photos and videos.
 
 [Loom]: http://www.loom.com
 
