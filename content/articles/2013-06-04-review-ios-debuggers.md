@@ -1,4 +1,4 @@
-# Review: iOS debug tools and inspectors
+# Review roundup: iOS debug tools and inspectors
 All of a sudden it seems there's a big effort to create debugging tools for iOS developers. Some are free, they all have different features… Time for a comparison.
 
 
