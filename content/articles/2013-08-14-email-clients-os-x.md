@@ -19,7 +19,7 @@ The first alternative I tried was [Airmail][1]. It's available on the App Store 
 
 It has other nice features as well, like a send delay so if you change your mind about sending that drunken email to your ex-girlfriend you can un-send it. And Airmail works perfectly well with Google Mail too, using all the right folders straight out of the box.
 
-Of course it's not all perfect. Airmail can be extremely slow to load your inbox on a cold start, it doesn't reload the active conversion when new emails arrive, the quick reply box isn't visible by default and conversations don't hide the quoted text in emails, which results in a lot of scrolling. Composing in pure plain-text only is also a lot harder then you would think possible, with copy/paste actions doing unpredictable stuff.
+Of course it's not all perfect. Airmail can be extremely slow to load your inbox on a cold start, it doesn't automatically reload the active conversion when new emails arrive, the quick reply box isn't visible by default and conversations don't hide the quoted text in emails, which results in a lot of scrolling. Composing in pure plain-text only is also a lot harder then you would think possible, with copy/paste actions doing unpredictable stuff.
 
 Lastly, they seem to focus on adding more and more features rather then perfecting the stuff that's already there. I wish they would focus on some of the problem areas first but still, a very good email client. In fact, I am using it right now, at least until Apple will finally fix their email client.
 
