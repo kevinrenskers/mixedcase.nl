@@ -8,6 +8,8 @@
 {% endblock %}
 
 {% block main %}
+    {% set wordcount = post.content|striptags|wordcount %}
+
     <article itemscope itemtype="{% if post.review %}http://schema.org/Review{% else %}http://schema.org/BlogPosting{% endif %}">
         <meta itemprop="author" content="{{ post.author.name }}" />
 
@@ -15,7 +17,7 @@
             <meta itemprop="itemReviewed" content="{{ post.review }}" />
             <meta itemprop="reviewRating" content="{{ post.rating }}" />
         {% else %}
-            <meta itemprop="wordCount" content="{{ post.content|wordcount }}" />        
+            <meta itemprop="wordCount" content="{{ wordcount }}" />        
         {% endif %}
 
         <h1 itemprop="headline">{{ post.title }}</h1>
@@ -27,7 +29,7 @@
             <span class="year">{{ post.date.strftime('%Y') }}</span>
         </time>
         
-        <span class="article_info">By {{ post.author.name }}</span>
+        <span class="article_info">{{ wordcount }} words, by {{ post.author.name }}</span>
 
         <div class="article_content" itemprop="{% if post.review %}reviewBody{% else %}articleBody{% endif %}">
             {{ post.content }}

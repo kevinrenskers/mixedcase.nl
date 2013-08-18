@@ -21,15 +21,25 @@ class MarkdownReader(MarkdownReader):
             else:
                 body += line
 
+        # Support my own style of writing articles like this:
+        # (note the missing --- to end the header section)
+        #
+        # # Title Here
+        # - tags: tag 1, tags 2
+        #
+        # Body text here
         if not len(body):
             header = ''
             body = ''
             f.seek(0)
-            recording = True
+            linenumber = 0
+
             for line in f:
-                if recording and line.startswith('# '):
+                linenumber += 1
+                if linenumber == 1 and line.startswith('# '):
                     header += line
-                    recording = False
+                elif linenumber == 2 and line.startswith('- tags:'):
+                    header += line
                 else:
                     body += line
 

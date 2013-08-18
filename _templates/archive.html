@@ -12,7 +12,7 @@
                 <span class="day">{{ post.date.strftime('%d') }}</span><span class="comma">,</span> 
                 <span class="year">{{ post.date.strftime('%Y') }}</span>
             </time>
-            <span class="article_info">{{ post.content|wordcount }} words{%- if post.tags -%}
+            <span class="article_info">{{ post.content|striptags|wordcount }} words{%- if post.tags -%}
                      , posted in {% for tag in post.tags -%}
                         {%- if loop.index > 1 %}, {% endif -%}
                         <a href="{{ tag|tag_url }}">{{ tag }}</a>
