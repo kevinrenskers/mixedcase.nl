@@ -458,10 +458,6 @@ pre, code {
         font-weight: bold;
     }
 
-    time span.month_long {
-        display: none;
-    }
-
     aside {
         text-align: justify;
         color: #666;
@@ -533,11 +529,6 @@ pre, code {
         color: #CCC;
         font-style: italic;
         font-size: 0.875em;
-    }
-
-    .article_description {
-        font-weight: bold;
-        color: #666;
     }
 }
 

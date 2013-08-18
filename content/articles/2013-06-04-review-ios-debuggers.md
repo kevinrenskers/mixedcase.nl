@@ -1,9 +1,9 @@
 # Review roundup: iOS debug tools and inspectors
 - tags: review roundup, iOS
 
-All of a sudden it seems there's a big effort to create debugging tools for iOS developers. Some are free, they all have different features... Time for a comparison.
-
 ---
+
+All of a sudden it seems there's a big effort to create debugging tools for iOS developers. Some are free, they all have different features... Time for a comparison.
 
 ## PonyDebugger
 "Remote network and data debugging for your native iOS app using Chrome Developer Tools." Free on the [PonyDebugger repository](https://github.com/square/PonyDebugger).
