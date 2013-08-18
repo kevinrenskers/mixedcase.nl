@@ -458,6 +458,10 @@ pre, code {
         font-weight: bold;
     }
 
+    time span.month_long {
+        display: none;
+    }
+
     aside {
         text-align: justify;
         color: #666;
