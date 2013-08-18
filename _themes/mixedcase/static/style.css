@@ -489,7 +489,6 @@ pre, code {
 
     aside ul li a {
         display: block;
-        text-transform: lowercase;
         padding: 0 10px;
         border: 1px solid orange;
     }
