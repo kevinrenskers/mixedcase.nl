@@ -1,6 +1,6 @@
 {% extends "archive.html" %}
 
-{% block title %}Articles {{ pagination.title }} (page {{ pagination.page }} of {{ pagination.pages }}){% endblock %}
+{% block title %}Articles{# {{ pagination.title }} (page {{ pagination.page }} of {{ pagination.pages }})#}{% endblock %}
 
 {% block aside %}
     {% if pagination.has_prev or pagination.has_next %}

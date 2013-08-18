@@ -10,19 +10,16 @@
 {% block main %}
     <article itemscope itemtype="{% if post.review %}http://schema.org/Review{% else %}http://schema.org/BlogPosting{% endif %}">
         <meta itemprop="author" content="{{ post.author.name }}" />
-        <meta itemprop="wordCount" content="{{ post.content|wordcount }}" />
 
         {% if post.review %}
             <meta itemprop="itemReviewed" content="{{ post.review }}" />
             <meta itemprop="reviewRating" content="{{ post.rating }}" />
-
-            <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-                <meta itemprop="ratingValue" content="{{ post.rating }}" />
-            </div>
+        {% else %}
+            <meta itemprop="wordCount" content="{{ post.content|wordcount }}" />        
         {% endif %}
-        
+
         <h1 itemprop="headline">{{ post.title }}</h1>
-        
+
         <time datetime="{{ post.date|xmldatetime }}"{% if post.review %} itemprop="datePublished"{% endif %} pubdate>
             <span class="month">{{ post.date.strftime('%b') }}</span>
             <span class="day">{{ post.date.strftime('%d') }}</span><span class="comma">,</span>

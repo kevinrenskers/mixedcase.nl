@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}Articles (page {{ pagination.page }} of {{ pagination.pages }}){% endblock %}
+{% block title %}Articles{# (page {{ pagination.page }} of {{ pagination.pages }})#}{% endblock %}
 
 {% block main %}
     {% for post in pagination.items %}
