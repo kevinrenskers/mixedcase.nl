@@ -47,7 +47,6 @@ writer = {
         "liquidluck.writers.core.ArchiveWriter",
         "liquidluck.writers.core.ArchiveFeedWriter",
         "liquidluck.writers.core.FileWriter",
-        "liquidluck.writers.core.StaticWriter",
         "liquidluck.writers.core.YearWriter",
         "liquidluck.writers.core.TagWriter",
         "sitemap.SitemapWriter",

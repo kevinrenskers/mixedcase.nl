@@ -1,0 +1,3 @@
+Sitemap: http://www.mixedcase.nl/sitemap.xml
+User-agent: *
+Disallow: /static/
