@@ -1,4 +1,8 @@
 # My wishes for iOS 5
+- tags: iOS
+
+---
+
 In June 2010 Apple finally added multitasking to the iPhone (the iPad had to wait 'til November to get iOS version 4) and with this resolved one of my biggest complaints about the operating system. And while I really enjoy iOS on the iPhone and the iPad, I still have wishes, especially after seeing the new HP WebOS.
 
 My wishes for the next version of iOS are listed below in no particular order. Hardware wishes are not included (but in short: LED notification lights on both devices, SD card support and front-facing camera on iPad).
@@ -33,7 +37,7 @@ The calendar application shows the current day. I think it would be cool if the 
 When I want to send a SMS message to a large group of contacts (usually on the last day of the year just before midnight), I don't want to click on the plus icon, select a person, select the mobile number and be taken back to the message screen just to repeat these steps for every person. Why can't I send to a contact-group? Or be able to quickly select multiple contacts?
 
 ### Bring iPhone's default apps to the iPad
-Why doesn't the iPad have the clock and weather apps? What's the logical reason behind this? Also missing: stocks and voice memos, but I personally don't use those apps. 
+Why doesn't the iPad have the clock and weather apps? What's the logical reason behind this? Also missing: stocks and voice memos, but I personally don't use those apps.
 
 What are your wishes for the next version of iOS? Let me know in the comments!
 

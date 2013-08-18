@@ -3,16 +3,32 @@
 
 {% block cover %}
     <div id="cover" xmlns="http://www.w3.org/1999/html">
-        <img src="/static/images/wallpaper.jpg" alt="" />
+        <img src="{{ static_url('images/wallpaper.jpg') }}" alt="" />
     </div>
 {% endblock %}
+        
+{% block extraheader %}
+    <meta name="description" content="{{ site.name }} is a blog about iOS and Python development, design and usability.">
+{% endblock %}        
 
 {% block main %}
     {% for item in resource.posts[:4] %}
         <section>
-            <h1><a href="{{item|permalink}}">{{ item.title }}</a></h1>
-            <time datetime="{{item.date|xmldatetime}}" pubdate><span class="month">{{ item.date.strftime('%b') }}</span><span class="month_long">{{ item.date.strftime('%B') }}</span> <span class="day">{{ item.date.strftime('%d') }}</span><span class="comma">,</span> <span class="year">{{ item.date.strftime('%Y') }}</span></time><span class="word_count">{{ item.content|wordcount }} words</span>
-            <p>{{ item.content|striptags|truncate }}</p>
+            <h1><a href="{{ item|permalink }}">{{ item.title }}</a></h1>
+            <time datetime="{{ item.date|xmldatetime }}" pubdate>
+                <span class="month">{{ item.date.strftime('%b') }}</span>
+                <span class="month_long">{{ item.date.strftime('%B') }}</span>
+                <span class="day">{{ item.date.strftime('%d') }}</span>
+                <span class="comma">,</span> <span class="year">{{ item.date.strftime('%Y') }}</span>
+            </time>
+            <span class="article_info">{{ item.content|wordcount }} words{%- if item.tags -%}
+                     , posted in {% for tag in item.tags -%}
+                        {%- if loop.index > 1 %}, {% endif -%}
+                        <a href="{{ tag|tag_url }}">{{ tag }}</a>
+                    {%- endfor -%}
+                {%- endif -%}
+            </span>
+            {% if item.description %} {{ item.description }} {% else %} <p>{{ item.content|striptags|truncate }}</p> {% endif %}
             <p><a href="{{ item|permalink }}" class="more">read more</a></p>
         </section>
     {% endfor %}

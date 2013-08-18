@@ -1,4 +1,8 @@
 # Review roundup: the search for the perfect Python IDE (for Django)
+- tags: review roundup, python
+
+---
+
 When I first started working with Python in September 2009, I needed a good IDE. I quickly settled for Netbeans and I've been using it ever since, even though there are some things that really irritate me. But at least it works, and fits well in my workflow.
 
 Last weekend I did a clean install of Snow Leopard, and while I was busy setting it up again I started to wonder if maybe I needed to look for a better replacement.
@@ -67,7 +71,7 @@ This does not:
 return direct_to_template(request, 'file.html', {'foo':bar})
 ```
 
-Luckily they quickly responded to the bug-report, and I am confident that it will be fixed soon. 
+Luckily they quickly responded to the bug-report, and I am confident that it will be fixed soon.
 
 Another annoying thing is that you can't have multiple projects in your workspace: they each need their own window, making it hard to work on multiple projects at the same time.
 
@@ -103,5 +107,5 @@ If PyCharm was less buggy, there would be no contest to me, even considering its
 
 Right now I just can't decide between the two. I'll keep testing and comparing them both. I have to say though: while I expect that PyCharm will get less buggy very soon, I don't think Eclipse based products like Aptana will ever get user friendly.
 
-**Update August 2012**  
+**Update August 2012**
 I've neglected to update the conclusion of this blog post, sorry for that. In the end I decided to go with PyCharm and I couldn't be happier with it. It quickly got stable and even better, and I have been enjoying it daily since May 2011.

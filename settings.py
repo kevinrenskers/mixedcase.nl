@@ -8,6 +8,7 @@ site = {
     "name": "mixedCase.nl",
     "url": "http://mixedcase.nl",
     "prefix": "articles",
+    "feed": "/articles/feed.xml",
     "date": date.today(),
 }
 
@@ -18,7 +19,7 @@ config = {
     "static_prefix": "/static/",
     "permalink": "{{date.year}}/{{date.month}}/{{date.day}}/{{slug}}/index.html",
     "relative_url": False,
-    "perpage": 300000,
+    "perpage": 5,
     "feedcount": 20,
     "timezone": "+00:00",
 }
@@ -26,9 +27,10 @@ config = {
 author = {
     "default": "kevin",
     "vars": {
-        "name": "Kevin Renskers",
-        "email": "info@mixedcase.nl",
-        "twitter": "mixedCase",
+        "kevin": {
+            "name": "Kevin Renskers",
+            "email": "info@mixedcase.nl",
+        }
     }
 }
 
@@ -47,12 +49,13 @@ writer = {
         "liquidluck.writers.core.FileWriter",
         "liquidluck.writers.core.StaticWriter",
         "liquidluck.writers.core.YearWriter",
-        #"liquidluck.writers.core.CategoryWriter",
-        #"liquidluck.writers.core.CategoryFeedWriter",
+        "liquidluck.writers.core.TagWriter",
     ],
     "vars": {
         "archive_output": "articles/index.html",
+        "archive_feed_output": "articles/feed.xml",
         "year_template": "year.html",
+        "tag_template": "tag.html",
     }
 }
 

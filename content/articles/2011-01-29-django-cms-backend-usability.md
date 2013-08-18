@@ -1,4 +1,8 @@
 # Django-CMS backend usability
+- tags: review, python
+
+---
+
 Yesterday I wrote [an article][1] comparing Django-CMS, FeinCMS and Mezzanine. One of the conclusions was that while Django-CMS is the best CMS on paper, I don't like its backend interface that much. I thought it would be a good idea to properly explain what I don't like about it, and try to come up with a better interface.
 
 ## The problem
@@ -12,7 +16,7 @@ The second problem I have is when you edit a plugin. Have a look at the second s
 ## A possible solution
 The frontend editing of Django-CMS is very nice. You see the content of the entire page, click on one of the plugins and an editor pops up. Why not replicate this in the admin interface? Show those preview blocks under each other with a link to add a new block to the page. Editing content could be done in a popup just as in the frontend.
 
-With this solution it's possible to see the layout of the entire page. It also solves the usability problem of multiple save buttons on screen at the same time: currently when you begin to edit a plugin that form gets its own save button, which needs to be clicked before you can then save the page itself.  When you present the form in a modal popup, it is immediately clear that you need to close that popup by saving or canceling. 
+With this solution it's possible to see the layout of the entire page. It also solves the usability problem of multiple save buttons on screen at the same time: currently when you begin to edit a plugin that form gets its own save button, which needs to be clicked before you can then save the page itself.  When you present the form in a modal popup, it is immediately clear that you need to close that popup by saving or canceling.
 
 [![screenshot 3][6]][7]
 [![screenshot 4][8]][9]

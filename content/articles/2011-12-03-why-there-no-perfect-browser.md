@@ -1,4 +1,8 @@
 # Why is there no perfect browser?
+- tags: review roundup
+
+---
+
 I've used Firefox for a long, long time, back when I still used Windows pc's, until the summer 2007. Chrome didn't exist yet, Internet Explorer sucked and Safari was still Mac-only. Since then, I've switched browsers many times: from Firefox to Safari, back to Firefox, to Safari, to Chrome, to Safari and back to Chrome again.
 
 Why is there no perfect browser for me? Why am I switching this often, and why am I thinking about switching back to Safari once again?
@@ -32,5 +36,5 @@ Just like Safari, it uses separate fields for entering url's and search queries.
 ## Conclusion
 Right now the best browser for me is Chrome, but that's only since pretty recently, when they added good Lion support. If Safari didn't do that stupid tab reloading though, I would immediately switch back to it, because it simply feels better, more "Mac-like" somehow.
 
-**Update December 5, 2012**  
+**Update December 5, 2012**
 Since a couple of months I'm back to Safari. The split search/url fields are now combined into one and I use the iCloud features quite a lot since I got me an iPad: syncing my bookmarks and reading lists, and the iCloud tabs from other devices. It still behaves strangely when you go back a page with sudden refreshes and blank pages, but it's not happening often enough to be very annoying. So for the time being at least, Safari is back to being my main browser.

@@ -1,9 +1,13 @@
 # A new website! What, again?
+- tags: mixedCase
+
+---
+
 It's been 13 months since the first version of [Bolhoed.net](http://www.bolhoed.net) went online, complete with a blog. Only 9 months since the [brand new design](http://www.mixedcase.nl/articles/2010/02/19/brand-new-design-comments-reenabled/). And now not only got the site yet another design, it even got a new domain name.
 
 ## The problem
 
-While I like the iPad layout of Bolhoed.net, it wasn't particularly great for reading articles on. The domain name is also not very international. 
+While I like the iPad layout of Bolhoed.net, it wasn't particularly great for reading articles on. The domain name is also not very international.
 
 ## Solution
 
@@ -23,7 +27,7 @@ And after that, I plan to write a lot more articles about stuff that I find inte
 
 Once the site is completely done, I will put the source up on [Bitbucket](http://bitbucket.org/). Who knows, maybe someone else would like to use the same system, and see how it's all integrated.
 
-_**Update**  
+_**Update**
 Searching now works, and I think all templates are now properly done. Hooray!_
 
 ## The packages behind mixedCase.nl
@@ -41,4 +45,4 @@ Searching now works, and I think all templates are now properly done. Hooray!_
 * BeautifulSoup
 * PIL
 
-Everything is installed inside virtualenv, and most packages come from PyPi. This site runs on the Nginx webserver, which proxies to Gunicorn that does the actual work of serving Django. Soon the entire website will be cached to Memcached, which can be read from Nginx thus making the hit to Gunicorn unnecessary. 
+Everything is installed inside virtualenv, and most packages come from PyPi. This site runs on the Nginx webserver, which proxies to Gunicorn that does the actual work of serving Django. Soon the entire website will be cached to Memcached, which can be read from Nginx thus making the hit to Gunicorn unnecessary.

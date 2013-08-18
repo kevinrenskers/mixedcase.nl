@@ -297,7 +297,7 @@ As you can see, most of the syntax is a blend of Ruby and Python, but with stati
 
 ...or Python?
 
-* All those annoying underscores in function names 
+* All those annoying underscores in function names
 * The `__init__.py` files. It's just ugly!
 * Not everything is an object, too many global functions (i.e. `len(list)` instead of `list.len()`)
 * Ugly syntax bits like the lambda functions and the call to a superclass function: `super(MyClass, self).__init__(*args, **kwargs))`

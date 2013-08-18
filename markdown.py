@@ -1,5 +1,4 @@
 import logging
-import os
 import datetime
 import re
 from liquidluck.utils import to_unicode
@@ -42,10 +41,15 @@ class MarkdownReader(MarkdownReader):
 
     def _parse_meta(self, header, body):
         meta = super(MarkdownReader, self)._parse_meta(header, body)
+
+        if 'description' in meta:
+            meta['description_source'] = meta['description']
+            meta['description'] = self._parse_content(meta['description'])
+
         if 'date' not in meta:
             m = re.match('.*/(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*).md', self.filepath)
             if m:
                 meta['date'] = datetime.datetime.strptime(m.group('date'), '%Y-%m-%d')
                 meta['slug'] = m.group('slug')
-        
+
         return meta

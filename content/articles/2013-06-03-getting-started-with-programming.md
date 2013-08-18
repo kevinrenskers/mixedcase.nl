@@ -1,5 +1,8 @@
 # Getting started with programming
+
 At least twice per year someone will ask me how he or she can get started with programming. With the economy down jobs are hard to find, but there's always a need for developers, at least here in Iceland - so it's no wonder that more people are wondering how to get started.
+
+---
 
 *Not in the mood to read all these words? Here's my recommendation in a nutshell: begin with HTML and CSS, move on to Python and Django, and add Javascript. All available for free on [codecademy.com](http://www.codecademy.com/learn).*
 
@@ -19,7 +22,7 @@ First things first: HTML and CSS are no programming languages. HTML is a markup 
 	<body>
 		<h1>This is the title</h1>
 		<p>
-			This is a paragraph with a 
+			This is a paragraph with a
 			<a href="http://www.google.com">link to Google</a>.
 		</p>
 	</body>

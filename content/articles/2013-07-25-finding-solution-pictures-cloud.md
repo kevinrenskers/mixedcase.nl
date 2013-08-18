@@ -1,7 +1,11 @@
 # Searching for a solution to back up all my pictures to the cloud
+- tags: review roundup
+
 I have well over 35 GB of pictures, and after almost losing my hard drive (it started to behave very strangely but I was able to salvage all the pictures) I realised that I need to back them up in the cloud. I do usually share my best ones on Facebook, but I need a solution that backs up every picture (full-resolution with all its metadata intact) without ever thinking about it.
 
-![Screenshot from Finder](/articles/images/pictures-folder.png "Currently all my photos are simply stored in subfolders like this")  
+---
+
+![Screenshot from Finder](/articles/images/pictures-folder.png "Currently all my photos are simply stored in subfolders like this")
 
 I'm looking for a solution with the following must-have features:
 
@@ -28,7 +32,7 @@ There would also be no (easy) way to re-download all the pictures in case of a b
 The only good thing about using Facebook would be to upload all pictures privately and then selectively make some of them public. It fails in all the must-haves though.
 
 ## Google+
-Their iOS app automatically uploads all your photos which you can then make public. They also offer unlimited space, so far so good. 
+Their iOS app automatically uploads all your photos which you can then make public. They also offer unlimited space, so far so good.
 
 But, no auto uploading from the desktop and all photos will be resized. I need a true, full-resolution backup, so this simply isn't an option.
 
@@ -45,7 +49,7 @@ I gave it a spin and while it did upload all my pictures to Flickr, it doesn't d
 A very good idea but not good enough just yet.
 
 ## Photostream
-Apple's photostream only holds 1000 photos, but by using shared photostreams you supposedly can get around this limit. All pictures taken with my iPhone would be automatically uploaded, other pictures can be uploaded via iPhoto or Aperture. 
+Apple's photostream only holds 1000 photos, but by using shared photostreams you supposedly can get around this limit. All pictures taken with my iPhone would be automatically uploaded, other pictures can be uploaded via iPhoto or Aperture.
 
 I've tried to use photostreams multiple times with iPhoto, but it never really works for me. When I try to import my photos from my iPhone they're always seen as duplicates for example, it just doesn't fit my mental workflow. Of course, with some practice and time I'm sure I could get used to it.
 

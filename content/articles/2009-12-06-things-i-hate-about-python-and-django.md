@@ -1,11 +1,15 @@
 # Things I hate about Python and Django
-I have been a PHP programmer for the last 9 years, and only in September of 2009 I switched to Python and the Django framework. While I really love the Python language and the Django framework (especially compared to something like the Zend PHP framework), there are a couple of things that are really bugging me. 
+- tags: python
+
+---
+
+I have been a PHP programmer for the last 9 years, and only in September of 2009 I switched to Python and the Django framework. While I really love the Python language and the Django framework (especially compared to something like the Zend PHP framework), there are a couple of things that are really bugging me.
 
 ## Python
 * The lack of public, private and protected functions. Yes, there is a convention to use an underscore for private methods, but it seems very old-fashioned to me.
 * Static functions are overly complicated to use in my opinion.
 * Why do all methods need to be given a "self" as their first parameter. I mean really..? Why can't this be automagically done?
-* `', '.join(list)`. No matter how you this explain this to me, it's still backwards. 
+* `', '.join(list)`. No matter how you this explain this to me, it's still backwards.
 * No `switch` statement. You can replicate its functionality using a dictionary, but it is harder to read, and a lot harder to write.
 * Dictionaries are unordered. Argh! Very, very annoying.
 * The official Python documentation. I guess I am spoiled having used the very impressive official PHP documentation for so long, but really Python could use more work on this.

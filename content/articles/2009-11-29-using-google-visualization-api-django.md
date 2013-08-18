@@ -1,11 +1,15 @@
 # Using the Google Visualization API in Django
+- tags: python
+
+---
+
 In a project I am working on, I need to show a lot of graphs and charts. Together with the client we chose to use the [Visualization API by Google](http://code.google.com/apis/visualization/), which provides a Python library, offers [many different kinds](http://code.google.com/apis/visualization/documentation/gallery.html) of charts and very important: the data is not sent to Google, but is loaded by the browser from your own datastore.
 
 Getting this to work took some time and here, in a nutshell, is how to do it in Django.
 
 First of all, download and install the Python library from [http://code.google.com/p/google-visualization-python/](http://code.google.com/p/google-visualization-python/) (or, just include it in your Django project if you don't want to install it).
 
-Add the following line to your html template: 
+Add the following line to your html template:
 
 ```html
 <script type="text/javascript" src="http://www.google.com/jsapi"></script>

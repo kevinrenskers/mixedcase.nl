@@ -1,4 +1,8 @@
 # Django-CMS vs. FeinCMS vs. Mezzanine
+- tags: review roundup, python
+
+---
+
 When you need a content management system for Django, there is enough choice. Maybe even too much: the very helpful site [djangopackages.com][1] lists 13. Some are mature and very feature-complete, while others are barely more then a basic model and a template. The biggest three systems (in terms of downloads, repo forks and -watchers) are [Django-CMS][3], [FeinCMS][4] and [Mezzanine][2]. I've built sites with both Django-CMS and Mezzanine, looked at FeinCMS and decided to write down a comparison.
 
 ## Django-CMS
@@ -46,7 +50,7 @@ Cons:
 - There is no content type that does both rich text and images (and I like TinyMCE and django-filebrowser so much!)
 - Harder to setup and get started with
 - Admin interface looks and feels old-fashioned
-- No reversion 
+- No reversion
 - No moderation
 
 It's the most flexible CMS by far, but that does come with a price: it's also the most complicated CMS of the three (mostly for developers but also for users). It's a real developers' CMS. As I've never actually built a site with FeinCMS I can't really say much more about it, but I can't say I am very motivated to try it out with two other excellent content management systems as its competitors.

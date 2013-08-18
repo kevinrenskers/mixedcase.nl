@@ -1,24 +1,58 @@
 {% extends "base.html" %}
 
-{% block title %}Articles{% endblock %}
+{% block title %}Articles (page {{ pagination.page }} of {{ pagination.pages }}){% endblock %}
 
 {% block main %}
     {% for item in pagination.items %}
         <section>
-            <h1><a href="{{item|permalink}}">{{ item.title }}</a></h1>
-            <time datetime="{{item.date|xmldatetime}}" pubdate><span class="month">{{ item.date.strftime('%b') }}</span><span class="month_long">{{ item.date.strftime('%B') }}</span> <span class="day">{{ item.date.strftime('%d') }}</span><span class="comma">,</span> <span class="year">{{ item.date.strftime('%Y') }}</span></time><span class="word_count">{{ item.content|wordcount }} words</span>
-            <p>{{ item.content|striptags|truncate }}</p>
+            <h1><a href="{{ item|permalink }}">{{ item.title }}</a></h1>
+            <time datetime="{{ item.date|xmldatetime }}" pubdate>
+                <span class="month">{{ item.date.strftime('%b') }}</span>
+                <span class="month_long">{{ item.date.strftime('%B') }}</span>
+                <span class="day">{{ item.date.strftime('%d') }}</span>
+                <span class="comma">,</span> <span class="year">{{ item.date.strftime('%Y') }}</span>
+            </time>
+            <span class="article_info">{{ item.content|wordcount }} words{%- if item.tags -%}
+                     , posted in {% for tag in item.tags -%}
+                        {%- if loop.index > 1 %}, {% endif -%}
+                        <a href="{{ tag|tag_url }}">{{ tag }}</a>
+                    {%- endfor -%}
+                {%- endif -%}
+            </span>
+            {% if item.description %} {{ item.description }} {% else %} <p>{{ item.content|striptags|truncate }}</p> {% endif %}
             <p><a href="{{ item|permalink }}" class="more">read more</a></p>
         </section>
     {% endfor %}
 {% endblock %}
 
 {% block aside %}
+    {% if pagination.has_prev or pagination.has_next %}
+        <ul>
+            {% if pagination.has_prev %}
+                <li><a href="{{ content_url(pagination.root, 'page', pagination.prev_num) }}">Newer</a></li>
+            {% endif %}
+            {% if pagination.has_next %}
+                <li><a href="{{ content_url(pagination.root, 'page', pagination.next_num) }}">Older</a></li>
+            {% endif %}
+        </ul>
+    {% endif %}
+
     <ul>
         {% for year, posts in resource.year.iteritems()|reverse %}
             <li>
-                <a href="/articles/{{ year }}/" >
+                <a href="{{ content_url(pagination.root, year, 'index.html') }}" >
                     {{ year }}
+                    <span>{{ posts|length }}</span>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <ul>
+        {% for tag, posts in resource.tag.iteritems()|sort %}
+            <li>
+                <a href="{{ tag|tag_url }}">
+                    {{ tag }}
                     <span>{{ posts|length }}</span>
                 </a>
             </li>

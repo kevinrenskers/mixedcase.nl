@@ -1,4 +1,10 @@
 # Book review: Head First iPhone Development
+- tags: review, iOS
+- review: Head First iPhone Development
+- rating: 3.5
+
+---
+
 **Head First iPhone Development**  
 _Dan Pilone & Tracey Pilone_  
 _O'Reilly_

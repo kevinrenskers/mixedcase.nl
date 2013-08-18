@@ -1,6 +1,9 @@
 # Review roundup: iOS debug tools and inspectors
-All of a sudden it seems there's a big effort to create debugging tools for iOS developers. Some are free, they all have different features… Time for a comparison.
+- tags: review roundup, iOS
 
+All of a sudden it seems there's a big effort to create debugging tools for iOS developers. Some are free, they all have different features... Time for a comparison.
+
+---
 
 ## PonyDebugger
 "Remote network and data debugging for your native iOS app using Chrome Developer Tools." Free on the [PonyDebugger repository](https://github.com/square/PonyDebugger).
@@ -53,7 +56,7 @@ Since PonyDebugger is free, I would recommend it, especially for the network tra
 Once again the iOS framework can be installed via Cocoapods, scoring points already. Just add `pod 'SparkInspector'`. You will also need to download their client app. Once you've started their client, you can start your app on your device or in the simulator and it works. No need to add any code at all.
 
 ### Verdict
-If you need to debug your view hierarchy there's no question that Spark's 3d interface is a million times more useful and user friendly then the PonyDebugger solution. The ability to change view properties and see the results in real time is the real winner, it's very very easy to quickly try out different sizes, content modes, background colors, etc. 
+If you need to debug your view hierarchy there's no question that Spark's 3d interface is a million times more useful and user friendly then the PonyDebugger solution. The ability to change view properties and see the results in real time is the real winner, it's very very easy to quickly try out different sizes, content modes, background colors, etc.
 
 Being able to monitor all notifications (and even resend them) is very handy as well, but not something I would use all that often.
 

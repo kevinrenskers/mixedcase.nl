@@ -281,7 +281,7 @@ pre, code {
 
     #content h3 {
         font-size: 1em;
-        font-weight: bold;   
+        font-weight: bold;
     }
 
     header h1 a {
@@ -405,7 +405,7 @@ pre, code {
         margin-top: 1.5em;
     }
 
-    .word_count {
+    .article_info {
         color: #CCC;
         font-size: 0.875em;
     }
@@ -535,6 +535,11 @@ pre, code {
         font-style: italic;
         font-size: 0.875em;
     }
+
+    .article_description {
+        font-weight: bold;
+        color: #666;
+    }
 }
 
 /* Very wide screen */
@@ -611,7 +616,7 @@ pre, code {
         text-align: left;
     }
 
-    .word_count {
+    .article_info {
         margin-left: 0.5em;
         padding-left: 0.5em;
         border-left: 1px solid #f0f0f0;
@@ -682,7 +687,7 @@ pre, code {
         -webkit-text-size-adjust: none !important;
     }
 
-    #cover, #discussion, .word_count {
+    #cover, #discussion, .article_info {
         display: none;
     }
 }

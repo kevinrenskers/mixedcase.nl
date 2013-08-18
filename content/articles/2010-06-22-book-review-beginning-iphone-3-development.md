@@ -1,4 +1,10 @@
 # Book review: Beginning iPhone 3 Development
+- tags: review, iOS
+- review: Beginning iPhone 3 Development
+- rating: 4
+
+---
+
 **Beginning iPhone 3 Development - Exploring the iPhone SDK**  
 _Dave Mark and Jeff LaMarche_  
 _Apress_

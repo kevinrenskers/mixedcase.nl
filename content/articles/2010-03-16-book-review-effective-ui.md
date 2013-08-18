@@ -1,4 +1,10 @@
 # Book review: Effective UI
+- tags: review, ux
+- review: Effective UI
+- rating: 3.5
+
+---
+
 **Effective UI: The art of building a great user experience in software**  
 _Jonathan Anderson, John McRee, Robb Wilson & the EffectiveUI team_  
 _O'Reilly_

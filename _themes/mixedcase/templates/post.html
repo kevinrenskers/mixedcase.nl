@@ -1,21 +1,42 @@
 {% extends "base.html" %}
 
 {% block title %}{{ post.title }}{% endblock %}
+        
+{% block extraheader %}
+    <link rel="canonical" href="{{ post|permalink }}" />
+    <meta name="description" content="{% if post.description_source %} {{ post.description_source|striptags }} {% else %} {{ post.content|striptags|truncate }} {% endif %}" />
+{% endblock %}
 
 {% block main %}
-    <article>
+    <article{% if post.review %} itemscope itemtype="http://data-vocabulary.org/Review"{% endif %}>
+        {% if post.review %}
+            <meta itemprop="itemreviewed" content="{{ post.review }}" />
+            <meta itemprop="reviewer" content="{{ post.author.name }}" />
+            <meta itemprop="rating" content="{{ post.rating }}" />
+        {% endif %}
+        
         <h1>{{ post.title }}</h1>
-        <time datetime="{{post.date|xmldatetime}}" pubdate>
+        
+        <time datetime="{{ post.date|xmldatetime }}"{% if post.review %} itemprop="dtreviewed"{% endif %} pubdate>
             <span class="month">{{ post.date.strftime('%b') }}</span>
             <span class="month_long">{{ post.date.strftime('%B') }}</span>
             <span class="day">{{ post.date.strftime('%d') }}</span><span class="comma">,</span>
             <span class="year">{{ post.date.strftime('%Y') }}</span>
         </time>
-        {{ post.content }}
+        
+        <span class="article_info">By {{ post.author.name }}</span>
+
+        <div class="article_content"{% if post.review %} itemprop="description"{% endif %}>
+            {% if post.description %}
+                <div class="article_description">{{ post.description }}</div>
+            {% endif %}
+    
+            {{ post.content }}
+        </div>
     </article>
 
     <div id="article_footer">
-        <p>Have feedback? Let me know on <a href="http://twitter.com/mixedcase">Twitter</a>.</p>
+        <p>Have feedback? Let me know on <a href="http://twitter.com/mixedCase">Twitter</a>.</p>
     </div>
 {% endblock %}
 
@@ -23,11 +44,22 @@
     <ul>
         {% for year, posts in resource.year.iteritems()|reverse %}
         <li>
-            <a href="/articles/{{ year }}/"{% if year == post.date.year %} class="active"{% endif %}>
+            <a href="{{ content_url(site.prefix, year, 'index.html') }}"{% if year == post.date.year %} class="active"{% endif %}>
                 {{ year }}
                 <span>{{ posts|length }}</span>
             </a>
         </li>
+        {% endfor %}
+    </ul>
+
+    <ul>
+        {% for tag, posts in resource.tag.iteritems()|sort %}
+            <li>
+                <a href="{{ tag|tag_url }}"{% if tag in post.tags %} class="active"{% endif %}>
+                    {{ tag }}
+                    <span>{{ posts|length }}</span>
+                </a>
+            </li>
         {% endfor %}
     </ul>
 {% endblock %}

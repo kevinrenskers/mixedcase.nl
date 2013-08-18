@@ -1,4 +1,8 @@
 # My thoughts after having completed my first Appcelerator project
+- tags: iOS
+
+---
+
 A while ago I set out to build my third mobile application. Only this time the client wanted not only an iPhone app, but one for Android too. So that's why I [turned to Appcelerator](http://www.mixedcase.nl/articles/2010/11/09/once-again-i-turn-appcelerator/) once again, after my [failed first attempt](http://www.mixedcase.nl/articles/2010/04/21/getting-started-iphone-app-development/).
 
 In case you don't know what Appcelerator is and don't want to read the previous articles, I'l explain it in a few words. Appcelerator is a cross-compiler: you write your app in Javascript using a strict API, and this app is then compiled to both iPhone and Android versions. These apps are truly native apps and use native widgets, tableviews, etc. Sounds pretty good, right?
