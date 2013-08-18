@@ -19,7 +19,7 @@ config = {
     "static_prefix": "/static/",
     "permalink": "{{date.year}}/{{date.month}}/{{date.day}}/{{slug}}/index.html",
     "relative_url": False,
-    "perpage": 5,
+    "perpage": 500,
     "feedcount": 20,
     "timezone": "+00:00",
 }
