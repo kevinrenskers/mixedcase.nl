@@ -50,6 +50,7 @@ writer = {
         "liquidluck.writers.core.StaticWriter",
         "liquidluck.writers.core.YearWriter",
         "liquidluck.writers.core.TagWriter",
+        "sitemap.SitemapWriter",
     ],
     "vars": {
         "archive_output": "articles/index.html",
@@ -60,7 +61,6 @@ writer = {
 }
 
 theme = {
-    "name": "mixedcase",
     "vars": {
         "analytics": "UA-11162625-2",
         'navigation': [
