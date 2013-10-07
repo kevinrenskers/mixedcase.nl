@@ -72,7 +72,15 @@ It also seems impossible to download your complete backup and the sync app is on
 ## Loom
 [Loom][] looks very similar to Everpix but at the moment has a waiting list. At $40 for 50 GB it seems like a good option to explore once the wait is over. I'll update this post once I know more.
 
-**Update**: after about a week I got an email telling me my account was ready. I downloaded their OS X app and was pleasantly surprised how much it behaves like Dropbox. The app creates a new folder on your hard drive, and anything you put in it is automatically uploaded to the cloud. From there your pictures can be viewed on the iOS app or synced to other Macs.
+[Loom]: http://www.loom.com
+
+## Closing thoughts
+I'm not too sure how long companies like Picturelife, Everpix and Loom will be around for, and for that reason using Dropbox or Flickr seems like a safer choice. Out of those two options I still think that Flickr would be the best one once I figure out how to automatically sync from the desktop.
+
+Any suggestions for a pain free photo workflow with online backup are more then welcome!
+
+### Update August 4, 2013
+After about a week of waiting I got an email from Loom telling me my account was ready. I downloaded their OS X app and was pleasantly surprised how much it behaves like Dropbox. The app creates a new folder on your hard drive, and anything you put in it is automatically uploaded to the cloud. From there your pictures can be viewed on the iOS app or synced to other Macs.
 
 Two minor problems so far: copying nested folders to the Loom folder doesn't seem to work without problems and the iOS apps sucks at quickly viewing full screen photos. Once you open a picture in the app, you can't scroll left or right to view the previous or next picture. It seems to me that this is high on their to-do list.
 
@@ -80,9 +88,11 @@ RAW files do get synced but look bad and pixelated in their iOS app. Not really 
 
 I would like Loom to add a map view in the app and maybe public album sharing. Other then that, a very solid service for backing up your photos and videos.
 
-[Loom]: http://www.loom.com
+I've got myself a one year 50GB subscription and can't wait to see how this service will grow.
 
-## Closing thoughts
-I'm not too sure how long companies like Picturelife, Everpix and Loom will be around for, and for that reason using Dropbox or Flickr seems like a safer choice. Out of those two options I still think that Flickr would be the best one once I figure out how to automatically sync from the desktop.
+### Update October 7, 2013
+Loom has updated its OS X app and completed removed the Dropbox-like syncing experience. Up until this update you had a "Loom" folder on your Mac, and anything you dropped in there got uploaded. If you installed Loom on another computer then you could download your pictures into this Loom folder. Like I said, very much like Dropbox.
 
-Any suggestions for a pain free photo workflow with online backup are more then welcome!
+So now that they've removed this Loom folder, that automatic uploading is gone. You can select "source" folders which will get uploaded so it's not too bad. Except when you want to download your photo library from the cloud to your Mac: this is now impossible. There is no Loom folder to sync, stored albums can't be downloaded, your pictures are locked in the cloud.
+
+I'm hoping they will rethink their update and at least give me the option of downloading entire albums. If not, I'll have to think about maybe moving to Dropbox (or Flickr) after all.
