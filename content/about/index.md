@@ -10,7 +10,8 @@ I also like working on the back end: I use Python and the Django framework to cr
 
 Usability and design are always on my mind, even when writing code: this should be usable, readable and beautiful too. I always strive to create reusable code that can be shared with the world. Currently I'm maintaining about 10 open source projects on GitHub.
 
-I'm online since 1994, creating websites since 2000 and iOS apps since 2010. My CV can be downloaded [here][cv] and you can find my open source projects on [/projects][projects].
+I'm online since 1994, creating websites since 2000 and iOS apps since 2010. My CV can be downloaded [here][cv] and you can find my open source projects on [/projects][projects]. A portfolio of mobile apps I've created can be found on [/apps][apps].
 
 [cv]: http://dl.dropbox.com/u/2310965/KevinRenskers.pdf
 [projects]: /projects
+[apps]: /apps
