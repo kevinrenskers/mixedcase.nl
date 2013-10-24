@@ -78,11 +78,12 @@ Arguably one of the best frameworks for Python is Django. Definitely my recommen
 
 ### Resources
 - [codecademy.com: Python](http://www.codecademy.com/tracks/python)
+- [Python Monk, interactive tutorials](http://pythonmonk.com)
 - [Django documentation, including tutorials](https://docs.djangoproject.com)
 - [Learn Python The Hard Way](http://learnpythonthehardway.org/book/)
 - [LearnStreet interactive Python course](http://www.learnstreet.com/lessons/study/python)
 - [Two Scoops of Django](https://django.2scoops.org)
-- [The Hitchhiker’s Guide to Python](hhttp://docs.python-guide.org/en/latest/)
+- [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/)
 - [Official Python documentation](http://www.python.org/doc/)
 - [Programming Basics from khanacademy.org](http://www.khanacademy.org/cs/tutorials/programming-basics)
 
