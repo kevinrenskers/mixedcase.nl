@@ -6,22 +6,6 @@ These are some of the more interesting open source projects I've created. Check 
 
 ## Objective-C
 
-### SDWebImage-ProgressView
-Category on UIImageView, adding a progress view while images are downloaded using SDWebImage.  
-[kevinrenskers/SDWebImage-ProgressView](https://github.com/kevinrenskers/SDWebImage-ProgressView)
-
-### GVPhotoBrowser
-A reusable photo browser for iOS using the datasource and delegate patterns.  
-[gangverk/GVPhotoBrowser](https://github.com/gangverk/GVPhotoBrowser)
-
-### GVUserDefaults
-NSUserDefaults access via properties.  
-[gangverk/GVUserDefaults](https://github.com/gangverk/GVUserDefaults)
-
-### GVMusicPlayerController
-The power of AVPlayer with the simplicity of MPMusicPlayerController.  
-[gangverk/GVMusicPlayerController](https://github.com/gangverk/GVMusicPlayerController)
-
 ### LastFm
 Block based Last.fm SDK for iOS and Mac OS X.  
 [gangverk/LastFm](https://github.com/gangverk/LastFm)
@@ -29,6 +13,26 @@ Block based Last.fm SDK for iOS and Mac OS X.
 ### RemoteConfig
 Objective-c library for loading a remote JSON / XML config file with locally defined default values.  
 [gangverk/RemoteConfig](https://github.com/gangverk/RemoteConfig)
+
+### SDWebImage-ProgressView
+Category on UIImageView, adding a progress view while images are downloaded using SDWebImage.  
+[kevinrenskers/SDWebImage-ProgressView](https://github.com/kevinrenskers/SDWebImage-ProgressView)
+
+### GVUserDefaults
+NSUserDefaults access via properties.  
+[gangverk/GVUserDefaults](https://github.com/gangverk/GVUserDefaults)
+
+### GVPhotoBrowser
+A reusable photo browser for iOS using the datasource and delegate patterns.  
+[gangverk/GVPhotoBrowser](https://github.com/gangverk/GVPhotoBrowser)
+
+### GVMusicPlayerController
+The power of AVPlayer with the simplicity of MPMusicPlayerController.  
+[gangverk/GVMusicPlayerController](https://github.com/gangverk/GVMusicPlayerController)
+
+### GVGoogleBannerView
+Google-AdMob-Ads-SDK banners in interface builder with handy delegate callbacks.  
+[gangverk/GVGoogleBannerView](https://github.com/gangverk/GVGoogleBannerView)
 
 ### AdMarvelContainer
 More developer friendly way of working with AdMarvel banners and interstitials.  
