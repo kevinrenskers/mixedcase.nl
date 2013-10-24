@@ -5,9 +5,16 @@ The source of (the new) mixedCase.nl, static files generated with [Felix Felicis
 
 1. `git clone git@github.com:kevinrenskers/mixedcase.nl.git`
 2. `cd mixedcase.nl`
-3. `virtualenv env`
-4. `. env/bin/activate`
-5. `pip install -r requirements.txt`
+
+### virtuelenvwrapper
+
+1. `mkvirtualenv -r requirements.txt mixedcase.nl`
+
+### virtualenv
+
+1. `virtualenv env`
+2. `. env/bin/activate`
+3. `pip install -r requirements.txt`
 
 ## Viewing locally
 With tornado installed (included in requirements.txt) the preview server auto-reloads on content changes, saving you from running `make html` and restarting the server.
