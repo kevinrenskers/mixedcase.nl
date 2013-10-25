@@ -17,7 +17,7 @@
     <ul>
         {% for year, posts in resource.year.iteritems()|reverse %}
             <li>
-                <a href="{{ content_url(pagination.root, year, 'index.html') }}">
+                <a href="{{ content_url(site.prefix, year, 'index.html') }}">
                     {{ year }}
                     <span>{{ posts|length }}</span>
                 </a>
