@@ -4,7 +4,7 @@
 
 At least twice per year someone will ask me how he or she can get started with programming. With the economy down jobs are hard to find, but there's always a need for developers, at least here in Iceland - so it's no wonder that more people are wondering how to get started.
 
-*Not in the mood to read all these words? Here's my recommendation in a nutshell: begin with HTML and CSS, move on to Python and Django, and add Javascript. All available for free on [codecademy.com](http://www.codecademy.com/learn).*
+*Not in the mood to read all these words? Here's my recommendation in a nutshell: begin with HTML and CSS, move on to Python and Django, and add Javascript. All available for free on [codecademy.com](http://www.codecademy.com/learn). Also check out [teachyourselftocode.com](http://teachyourselftocode.com) which has a lot of useful links.*
 
 Here then is in story form a bunch of links to useful resources. Please keep in mind that this is my personal recommendation, other people will tell you to learn Ruby or Java, and these are also fine choices - just not mine :)
 

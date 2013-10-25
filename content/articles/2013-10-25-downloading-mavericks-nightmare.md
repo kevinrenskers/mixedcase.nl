@@ -7,6 +7,8 @@ Since I didn't really want to download the entire 5.3 gigabytes again at work, I
 
 Well, crap. So I had to download the installer at work after all. Problem number two: the download simply didn't want to start, no matter how many times I tried, restarted the App Store or even OS X. In the mean time one of my colleagues downloaded the installer again for me and created an USB disk using [DiskMaker X](http://diskmakerx.com). Problem number three: the Mavericks installer always gave an "unknown error" as soon as it wanted to start the install process. Probably a problem with DiskMaker X, so I focused again on trying to download the installer from the App Store myself.
 
+![Screenshot of the Mavericks installer window](/articles/images/mavericks-problem.png)
+
 Eventually I came across [the fix](http://www.idownloadblog.com/2013/10/22/what-to-do-if-youre-running-mavericks-gm-and-you-cant-download-the-final-version/) and the download started. Problem number four: when it got to 99%, it told me there was an error with the download and simply stopped. You would think that perhaps I could resume the download, finish the last 1% but nope.. had to start all over again.
 
 After cursing a bit, I started the download and once it got to 90% I plugged in my USB drive (which contains the non-working Mavericks installer). And behold problems number five: the App Store decided it no longer needed to download the Mavericks installer and stopped it.
