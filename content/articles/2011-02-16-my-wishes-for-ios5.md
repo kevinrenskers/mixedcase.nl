@@ -1,5 +1,5 @@
 # My wishes for iOS 5
-- tags: iOS
+- tags: ios
 
 ---
 

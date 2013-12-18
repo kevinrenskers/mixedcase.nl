@@ -1,5 +1,5 @@
 # iOS development: three years later
-- tags: iOS
+- tags: ios
 
 ---
 

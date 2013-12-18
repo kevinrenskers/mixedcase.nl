@@ -1,5 +1,5 @@
 # My thoughts after having completed my first Appcelerator project
-- tags: iOS
+- tags: ios
 
 ---
 

@@ -1,5 +1,5 @@
 # Looking for a Django CMS which suits my needs
-- tags: review roundup, python
+- tags: review, python
 
 ---
 

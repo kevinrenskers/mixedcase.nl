@@ -1,5 +1,5 @@
 # Apple's worst iOS framework: MediaPlayer
-- tags: iOS
+- tags: ios
 
 ---
 

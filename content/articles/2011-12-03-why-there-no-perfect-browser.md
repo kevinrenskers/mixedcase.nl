@@ -1,5 +1,5 @@
 # Why is there no perfect browser?
-- tags: review roundup
+- tags: review
 
 ---
 

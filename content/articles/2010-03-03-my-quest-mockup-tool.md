@@ -1,5 +1,5 @@
 # My quest for a mockup tool
-- tags: review roundup
+- tags: review
 
 ---
 

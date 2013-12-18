@@ -1,4 +1,8 @@
 # "How not to license your app"; an open letter to JetBrains
+- tags: random
+
+---
+
 I love JetBrains's [PyCharm][1], a great IDE for Python, and for Django in particular. I would even say it's the best tool for Django programmers. It's got great features, good syntax highlighting, excellent support for debugging, and very very good code completetion, even within HTML templates. I think it's priced fair (although on the expensive side) at 87 euros for individual developers, but sadly their license sucks so much, that it prevents me from buying it.
 
 While you buy a "permanent" license, it's only valid for the current major version, with free upgrades to major versions released within the next year. A great new version in 13 months? Sorry, not for you. Well, that's nothing new, most licenses work like this - but most offer other ways to get the updates at a reasonable price. Not so with JetBrains.

@@ -1,5 +1,5 @@
 # Review roundup: the search for the perfect Python IDE (for Django)
-- tags: review roundup, python
+- tags: review, python
 
 ---
 

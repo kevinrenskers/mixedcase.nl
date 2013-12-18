@@ -1,5 +1,5 @@
 # A new website! What, again?
-- tags: mixedCase
+- tags: news
 
 ---
 

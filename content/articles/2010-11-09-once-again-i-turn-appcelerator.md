@@ -1,5 +1,5 @@
 # Once again I turn to Appcelerator
-- tags: iOS
+- tags: ios
 
 ---
 

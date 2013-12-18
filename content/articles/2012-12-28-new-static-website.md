@@ -1,5 +1,5 @@
 # A new (static) website
-- tags: mixedCase
+- tags: news
 
 ---
 

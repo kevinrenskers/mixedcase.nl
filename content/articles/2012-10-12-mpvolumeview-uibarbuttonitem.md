@@ -1,5 +1,5 @@
 # MPVolumeView (Airplay button) on an UIBarButtonItem
-- tags: iOS
+- tags: ios
 
 ---
 

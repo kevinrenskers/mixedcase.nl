@@ -1,5 +1,5 @@
 # New site, new Django / Plone blog!
-- tags: mixedCase
+- tags: news
 
 ---
 

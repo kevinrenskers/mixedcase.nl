@@ -1,5 +1,5 @@
 # Source code of mixedcase.nl now available
-- tags: mixedCase
+- tags: news
 
 ---
 

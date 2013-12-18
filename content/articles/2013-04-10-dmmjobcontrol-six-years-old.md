@@ -1,5 +1,5 @@
 # JobControl is six years old
-- tags: projects
+- tags: random
 
 ---
 

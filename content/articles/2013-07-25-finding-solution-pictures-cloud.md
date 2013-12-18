@@ -1,5 +1,5 @@
 # Searching for a solution to back up all my pictures to the cloud
-- tags: review roundup
+- tags: review
 
 ---
 
