@@ -4,7 +4,12 @@
 
 These are some of the more interesting open source projects I've created. Check my [GitHub profile](https://github.com/kevinrenskers) for a complete list of repositories and contributions.
 
+
 ## Objective-C
+
+### GVUserDefaults
+NSUserDefaults access via properties.  
+[gangverk/GVUserDefaults](https://github.com/gangverk/GVUserDefaults)
 
 ### LastFm
 Block based Last.fm SDK for iOS and Mac OS X.  
@@ -18,10 +23,6 @@ Objective-c library for loading a remote JSON / XML config file with locally def
 Category on UIImageView, adding a progress view while images are downloaded using SDWebImage.  
 [kevinrenskers/SDWebImage-ProgressView](https://github.com/kevinrenskers/SDWebImage-ProgressView)
 
-### GVUserDefaults
-NSUserDefaults access via properties.  
-[gangverk/GVUserDefaults](https://github.com/gangverk/GVUserDefaults)
-
 ### GVPhotoBrowser
 A reusable photo browser for iOS using the datasource and delegate patterns.  
 [gangverk/GVPhotoBrowser](https://github.com/gangverk/GVPhotoBrowser)
@@ -31,7 +32,7 @@ The power of AVPlayer with the simplicity of MPMusicPlayerController.
 [gangverk/GVMusicPlayerController](https://github.com/gangverk/GVMusicPlayerController)
 
 ### GVGoogleBannerView
-Google-AdMob-Ads-SDK banners in interface builder with handy delegate callbacks.  
+Google-Mobile-Ads-SDK banners in interface builder with handy delegate callbacks.  
 [gangverk/GVGoogleBannerView](https://github.com/gangverk/GVGoogleBannerView)
 
 ### AdMarvelContainer
@@ -41,6 +42,11 @@ More developer friendly way of working with AdMarvel banners and interstitials.
 ### raven-objc
 Objective-c client for Sentry.  
 [getsentry/raven-objc](https://github.com/getsentry/raven-objc)
+
+### AppTemplate
+Gangverk's universal iOS app template with build script and default pods.  
+[gangverk/AppTemplate](https://github.com/gangverk/AppTemplate)
+
 
 ## Python
 
@@ -59,6 +65,7 @@ A collection of Django templatetags, context processors, middleware, monkey patc
 ### django-project-template
 Django project template with a sensible set of default settings, pip requirements and other nice to haves. A great starting point for new Django projects.  
 [kevinrenskers/django-project-template](https://github.com/kevinrenskers/django-project-template)
+
 
 ## Other
 
