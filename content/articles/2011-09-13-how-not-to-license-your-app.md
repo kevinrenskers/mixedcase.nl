@@ -3,9 +3,9 @@
 
 ---
 
-I love JetBrains's [PyCharm][1], a great IDE for Python, and for Django in particular. I would even say it's the best tool for Django programmers. It's got great features, good syntax highlighting, excellent support for debugging, and very very good code completetion, even within HTML templates. I think it's priced fair (although on the expensive side) at 87 euros for individual developers, but sadly their license sucks so much, that it prevents me from buying it.
+I love JetBrains's [PyCharm][1], a great IDE for Python, and for Django in particular. I would even say it's the best tool for Django programmers. It's got great features, good syntax highlighting, excellent support for debugging, and very very good code completion, even within HTML templates. I think it's priced fair (although on the expensive side) at 87 euros for individual developers, but sadly their license sucks so much, that it prevents me from buying it.
 
-While you buy a "permanent" license, it's only valid for the current major version, with free upgrades to major versions released within the next year. A great new version in 13 months? Sorry, not for you. Well, that's nothing new, most licenses work like this - but most offer other ways to get the updates at a reasonable price. Not so with JetBrains.
+While you buy a "permanent" license, it's only valid for the current major version, with free upgrades to major versions released within the next year. A great new version in 13 months? Sorry, not for you. Well, that's nothing new, most licenses work like this — but most offer other ways to get the updates at a reasonable price. Not so with JetBrains.
 
 What they propose you do is this: you can buy a "subscription renewal" every year, for 34 euros per year. In their words: 
 
@@ -33,5 +33,5 @@ JetBrains, I love PyCharm, but I refuse to play (and pay) your stupid license ga
 
 Please, make your licenses as user friendly as your software. I will not pay 34 euros each and every year, only to have to pay 87 euros once again, if I forget to "renew" within a year. PyCharm is cool, very cool even, but not that cool.
 
-[1]: http://http://www.jetbrains.com/pycharm/
+[1]: http://www.jetbrains.com/pycharm/
 [2]: http://www.ultraedit.com/products/ultraedit.html
