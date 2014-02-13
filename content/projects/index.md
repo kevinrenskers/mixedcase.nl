@@ -44,7 +44,7 @@ Objective-c client for Sentry.
 [getsentry/raven-objc](https://github.com/getsentry/raven-objc)
 
 ### AppTemplate
-Gangverk's universal iOS app template with build script and default pods.  
+Gangverk's universal iOS app template with build script and default pods. It also documents the in-house Objective-C style guide and recommended libraries and frameworks.  
 [gangverk/AppTemplate](https://github.com/gangverk/AppTemplate)
 
 
