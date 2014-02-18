@@ -9,6 +9,8 @@ I'm a creative developer with a passion for good design and intuitive, user frie
 
 I've been online since 1994, creating websites since 2000 and iOS apps since 2010. You can find my open source projects on [/projects][projects] and a portfolio of mobile apps I've created on [/apps][apps].
 
+You can download my CV [here](https://dl.dropboxusercontent.com/u/2310965/KevinRenskers.pdf).
+
 ## Experience
 
 ### Lead iOS developer, Gangverk, Reykjavik
