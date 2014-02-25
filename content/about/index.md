@@ -12,8 +12,16 @@ I've been online since 1994, creating websites since 2000 and iOS apps since 201
 You can download my CV [here](https://dl.dropboxusercontent.com/u/2310965/KevinRenskers.pdf).
 
 
-## Specialties* Objective-C: UIKit, Xcode, Instruments, CocoaPods, Core Data, SpriteKit* Python: Django, Django-CMS, Mezzanine, Scrapy* Javascript: AngularJS, jQuery, Backbone, Bower, Gulp, Grunt* HTML, CSS, Less, Bootstrap
-* PHP, TYPO3* SQL* Photoshop* Git, Mercurial, CVS, Subversion
+## Specialties
+
+* Objective-C: UIKit, Xcode, Instruments, CocoaPods, Core Data, SpriteKit
+* Python: Django, Django-CMS, Mezzanine, Scrapy
+* Javascript: AngularJS, jQuery, Backbone, Bower, Gulp, Grunt
+* HTML, CSS, Less, Bootstrap
+* PHP, TYPO3
+* SQL
+* Photoshop
+* Git, Mercurial, CVS, Subversion
 
 
 ## Experience
