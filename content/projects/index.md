@@ -74,8 +74,12 @@ The source code of this website, including the articles written in Markdown.
 [kevinrenskers/mixedcase.nl](https://github.com/kevinrenskers/mixedcase.nl)
 
 ### dotfiles
-My dotfiles and detailed instructions on how to setup Mac OS X for development (Python, MySQL, Postgresql, Ruby, node, git, etc).  
+My dotfiles and detailed instructions on how to setup Mac OS X for development (Python, MySQL, Postgresql, Ruby, Node.js, Git, Nginx, etc).  
 [kevinrenskers/dotfiles](https://github.com/kevinrenskers/dotfiles)
+
+### raml2html
+A simple RAML to HTML parser written for Node.js.  
+[kevinrenskers/raml2html](https://github.com/kevinrenskers/raml2html)
 
 ### dmmjobcontrol
 TYPO3 job database extension. My oldest open source project, started in 2007 and written in PHP.  
