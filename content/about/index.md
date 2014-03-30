@@ -27,11 +27,13 @@ You can download my CV [here](https://dl.dropboxusercontent.com/u/2310965/KevinR
 
 ## Experience
 
-### Lead iOS developer, Gangverk, Reykjavik
+### Senior iOS / JavaScript / Python developer, Gangverk, Reykjavik
 #### january 2012 - current
-Building iOS apps for CBS Interactive, CBS Local and their brands like Radio.com, Last.FM, MetroLyrics, Tailgate Fan and Live on Letterman as well as Icelandic clients like Síminn. You can see a portfolio of my work at [/apps][apps].
+Building iOS apps and Python backends for CBS Interactive, CBS Local and their brands like Radio.com, Last.FM, MetroLyrics, Tailgate Fan and Live on Letterman as well as Icelandic clients like Síminn. You can see a portfolio of my work at [/apps][apps].
 
 I was the lead developer on multiple big projects, with 2 or 3 members on the team and I've also started and maintained multiple open source projects on https://github.com/gangverk.
+
+For Gangverk's current project I'm writing a ambitious single page web application with AngularJS, Node.js and Gulp.
 
 ### Senior Python developer, Getlogic, Groningen
 #### june 2011 - december 2011 (7 months)
@@ -39,7 +41,7 @@ Senior Python developer at a company specialised in building web applications in
 
 I was lead developer on multiple projects, where I had one or more junior developers in my team. Responsibilities included code reviews, deployments, testing and code refactoring.
 
-### Python / iOS developer, usability expert, Goldmund, Wyldebeast & Wunderliebe, Groningen
+### Python / iOS developer, Goldmund, Wyldebeast & Wunderliebe, Groningen
 #### september 2009 - may 2011 (1 year 9 months)
 After working with PHP for almost nine years, I made the switch to the programming language Python. At GW&W I started as Python webdeveloper and specialised myself in the Django webframework. Soon I also added usability testing to GW&W's list of services.
 
