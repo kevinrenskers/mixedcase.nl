@@ -33,7 +33,7 @@ Building iOS apps and Python backends for CBS Interactive, CBS Local and their b
 
 I was the lead developer on multiple big projects, with 2 or 3 members on the team and I've also started and maintained multiple open source projects on https://github.com/gangverk.
 
-For Gangverk's current project I'm writing a ambitious single page web application with AngularJS, Node.js and Gulp.
+For Gangverk's current project I'm writing an ambitious single page web application with AngularJS, Node.js and Gulp.
 
 ### Senior Python developer, Getlogic, Groningen
 #### june 2011 - december 2011 (7 months)
