@@ -50,6 +50,17 @@ Objective-C style guide and recommended libraries and frameworks.
 [gangverk/AppTemplate](https://github.com/gangverk/AppTemplate)
 
 
+## JavaScript
+
+### raml2html
+A simple RAML to HTML documentation generator, written for Node.js.  
+[kevinrenskers/raml2html](https://github.com/kevinrenskers/raml2html)
+
+### raml2md
+A simple RAML to Markdown documentation generator, written for Node.js.   
+[kevinrenskers/raml2md](https://github.com/kevinrenskers/raml2md)
+
+
 ## Python
 
 ### django-generic-notifications
@@ -65,11 +76,6 @@ A collection of Django templatetags, context processors, middleware, monkey patc
 Stuff I use on many Django projects, now bundled.  
 [kevinrenskers/django-vrot](https://github.com/kevinrenskers/django-vrot)
 
-### django-project-template
-Django project template with a sensible set of default settings, pip requirements and other nice to haves. 
-A great starting point for new Django projects.  
-[kevinrenskers/django-project-template](https://github.com/kevinrenskers/django-project-template)
-
 
 ## Other
 
@@ -80,14 +86,6 @@ The source code of this website, including the articles written in Markdown.
 ### dotfiles
 My dotfiles and detailed instructions on how to setup Mac OS X for development (Python, MySQL, Postgresql, Ruby, Node.js, Git, Nginx, etc).  
 [kevinrenskers/dotfiles](https://github.com/kevinrenskers/dotfiles)
-
-### raml2html
-A simple RAML to HTML documentation generator, written for Node.js.  
-[kevinrenskers/raml2html](https://github.com/kevinrenskers/raml2html)
-
-### raml2md
-A simple RAML to Markdown documentation generator, written for Node.js.   
-[kevinrenskers/raml2md](https://github.com/kevinrenskers/raml2md)
 
 ### dmmjobcontrol
 TYPO3 job database extension. My oldest open source project, started in 2007 and written in PHP.  

@@ -14,15 +14,15 @@ You can download my CV [here](https://www.dropbox.com/s/cilqb4uzki52zx3/KevinRen
 
 ## Specialties
 
-* Objective-C, UIKit, Xcode, Instruments, CocoaPods, Core Data, SpriteKit
+* Objective-C, UIKit, Xcode, Instruments, CocoaPods, Core Data
 * Python, Django, Django-CMS, Mezzanine, Scrapy
-* JavaScript, AngularJS, jQuery, Backbone, Bower, Gulp, Grunt
+* JavaScript, AngularJS, jQuery, Backbone, Bower, Gulp
 * Node.js, Express, Socket.io
 * HTML, CSS, Less, Bootstrap
 * PHP, TYPO3, PEAR
 * MySQL, Postgresql, sqlite
-* Git, Mercurial, CVS, Subversion
-* Photoshop
+* Git, Mercurial
+* Photoshop, Lightroom
 
 
 [projects]: /projects
