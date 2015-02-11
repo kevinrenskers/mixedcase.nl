@@ -29,7 +29,7 @@ author = {
     "vars": {
         "kevin": {
             "name": "Kevin Renskers",
-            "email": "info@mixedcase.nl",
+            "email": "kevin@mixedcase.nl",
         }
     }
 }

@@ -7,7 +7,7 @@
 JobControl is no longer maintained. If you'd like to take over, please contact me directly.
 
 ## Contact me
-Email me at <info@mixedcase.nl>.
+Email me at <kevin@mixedcase.nl>.
 
 You can also find me at the following sites:
 
