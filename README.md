@@ -3,8 +3,9 @@ The source of (the new) mixedCase.nl, static files generated with [Felix Felicis
 
 ## Getting started
 
-1. `git clone git@github.com:kevinrenskers/mixedcase.nl.git`
-2. `cd mixedcase.nl`
+1. `npm -g install surge`
+2. `git clone git@github.com:kevinrenskers/mixedcase.nl.git`
+3. `cd mixedcase.nl`
 
 ### virtuelenvwrapper
 
@@ -19,7 +20,7 @@ The source of (the new) mixedCase.nl, static files generated with [Felix Felicis
 ## Viewing locally
 With tornado installed (included in requirements.txt) the preview server auto-reloads on content changes, saving you from running `make html` and restarting the server.
 
-1. `liquidluck server`
+1. `make serve`
 2. `open 127.0.0.1:8000`
 
 ## Publish to GitHub pages
