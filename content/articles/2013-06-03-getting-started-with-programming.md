@@ -83,7 +83,6 @@ Arguably one of the best frameworks for Python is Django. Definitely my recommen
 - [Django documentation, including tutorials](https://docs.djangoproject.com)
 - [Tango With Django, online book](http://www.tangowithdjango.com)
 - [Learn Python The Hard Way, online book](http://learnpythonthehardway.org/book/)
-- [LearnStreet, interactive Python course](http://www.learnstreet.com/lessons/study/python)
 - [Two Scoops of Django, book](https://django.2scoops.org)
 - [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/)
 - [Official Python documentation](http://www.python.org/doc/)
@@ -97,7 +96,6 @@ If you want to have some sort of logic or interactivity within the client you'll
 
 ### Resources
 - [codecademy.com: Javascript](http://www.codecademy.com/tracks/javascript)
-- [LearnStreet interactive Javascript course](http://www.learnstreet.com/lessons/study/javascript)
 - [w3schools.com Javascript tutorials](http://www.w3schools.com/js/default.asp)
 - [jQuery Learning Center](http://learn.jquery.com)
 - [webplatform.org Javascript tutorials](http://docs.webplatform.org/wiki/javascript/tutorials)
