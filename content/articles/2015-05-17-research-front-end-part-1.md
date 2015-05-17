@@ -9,6 +9,8 @@ In other words: if I had to start a brand new native webapp now, what would I us
 
 My main wishes: highly modular, everything installed via NPM. ES6/ES7. Good performance and small payload. Easy to understand tools with good documentation. As few build tool dependancies as possible. And last but not least: JS for everything.
 
+The build system should auto-reload the browser on code changes (in dev mode) and create a minified production build with a single command that can then be uploaded to something like [surge](https://surge.sh).
+
 I want to adopt a well documented code style, and look into tools to enforce this style. And finally, I really should look into testing. Even if I wouldn't adopt test driven development, it would be very nice to have small components that could easily be tested. I only have a tiny bit of experience with front-end testing tools, none of it very good. For me to really start to adopt this, the tools should be simple and consistent.
 
 In a series of blog posts I'm going to describe my adventure to find my ideal set of frameworks, libraries and tools for front-end development. All code will be pushed to [kevinrenskers/js-skeleton](https://github.com/kevinrenskers/js-skeleton), with a different branch for each experiment.
