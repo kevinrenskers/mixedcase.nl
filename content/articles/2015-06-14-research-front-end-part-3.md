@@ -1,4 +1,4 @@
-# Researching front end tools, part 3: Angular, Webpack vs Browserify
+# Researching front end tools, part 3: Angular & Webpack vs Browserify
 - tags: javascript
 
 ---
