@@ -19,8 +19,10 @@ Just as I concluded in my [first experiment](http://www.mixedcase.nl/articles/20
 
 The big question is if I would switch Sling to use Webpack. The config is done, it works, so why not? On the other hand it would be great to have a build system that the entire team would understand. With that in mind I immediately dived into my fourth experiment: replacing Webpack with Browserify.
 
+The code for this version can be found in my [angularjs-webpack branch](https://github.com/kevinrenskers/js-skeleton/tree/angularjs-webpack).
+
 ### Browserify
-Because of the complexity of the Webpack config I really wanted to replace it with Browserify and see what that would be like. I can only describe this process as yak shaving or falling down the rabbit hole.
+Because of the complexity of the Webpack config I really wanted to replace it with Browserify and see what that would be like. You view find the result in the [angularjs-browserify branch](https://github.com/kevinrenskers/js-skeleton/tree/angularjs-browserify). I can only describe this process as yak shaving or falling down the rabbit hole.
 
 1. I started with using NPM scripts simply executing Browserify: take an input file, write it somewhere else.
 2. Rebuilds were very slow though, so then I looked into Watchify. This works a lot better, so now I had 2 run scripts, one for building a bundle for production and one that kept watching for changes.
