@@ -54,11 +54,11 @@ Objective-C style guide and recommended libraries and frameworks.
 
 ### raml2html
 A simple RAML to HTML documentation generator, written for Node.js.  
-[kevinrenskers/raml2html](https://github.com/kevinrenskers/raml2html)
+[kevinrenskers/raml2html](https://github.com/raml2html/raml2html)
 
 ### raml2md
 A simple RAML to Markdown documentation generator, written for Node.js.   
-[kevinrenskers/raml2md](https://github.com/kevinrenskers/raml2md)
+[kevinrenskers/raml2md](https://github.com/raml2html/raml2md)
 
 
 ## Python
