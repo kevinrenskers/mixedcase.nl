@@ -11,7 +11,7 @@ By day I make mobile apps for iOS, web apps with JavaScript and API’s with Pyt
 
 I've been online since 1994, creating websites since 2000 and iOS apps since 2010. You can find my open source projects on [/projects][projects] and a portfolio of mobile apps I've created on [/apps][apps].
 
-You can download my CV [here](https://www.dropbox.com/s/cilqb4uzki52zx3/KevinRenskers.pdf).
+You can download my CV [here](/about/KevinRenskers.pdf).
 
 
 ## Specialties
