@@ -5,7 +5,7 @@
 ## Profile
 Hello! My name is **Kevin Renskers**.
 
-I'm a creative [freelance developer](http://loopwerk.io) with a passion for good design and intuitive, user friendly interfaces. Usability and design are always on my mind, even when writing code: this should be usable, readable and beautiful too. I enjoy writing good API designs, README's and documentation.
+I'm a creative [freelance developer](http://loopwerk.io) (**I’m available!**) with 15 years of experience and a passion for good design and intuitive, user friendly interfaces. Usability and design are always on my mind, even when writing code: this should be usable, readable and beautiful too. I enjoy writing good API designs, README's and documentation.
 
 By day I make mobile apps for iOS, web apps with JavaScript and API’s with Python. At night I’m looking for the best burger in the world.
 
@@ -16,8 +16,9 @@ You can download my CV [here](/about/KevinRenskers.pdf).
 
 ## Specialties
 
-* Objective-C, UIKit, Xcode, Instruments, CocoaPods
-* JavaScript, AngularJS, React, jQuery, Backbone, Bower, Gulp, NPM, Webpack
+* Objective-C, UIKit, Xcode, Instruments, CocoaPods, React Native
+* JavaScript, NPM, Webpack, Babel, AngularJS, React, jQuery, Backbone, Bower, Gulp
+* Elm
 * Python, Django, Django-CMS, Mezzanine, Scrapy
 * Node.js, Express, Socket.io
 * HTML, CSS, Less, Bootstrap

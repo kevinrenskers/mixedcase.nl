@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block title %}{{ post.title }}{% endblock %}
-        
+
 {% block extraheader %}
     <link rel="canonical" href="{{ post|permalink }}" />
     <meta name="description" content="{% if post.description_source %} {{ post.description_source|striptags }} {% else %} {{ post.content|striptags|truncate }} {% endif %}" />
@@ -17,7 +17,7 @@
             <meta itemprop="itemReviewed" content="{{ post.review }}" />
             <meta itemprop="reviewRating" content="{{ post.rating }}" />
         {% else %}
-            <meta itemprop="wordCount" content="{{ wordcount }}" />        
+            <meta itemprop="wordCount" content="{{ wordcount }}" />
         {% endif %}
 
         <h1 itemprop="headline">{{ post.title }}</h1>
@@ -28,7 +28,7 @@
             <span class="day">{{ post.date.strftime('%d') }}</span><span class="comma">,</span>
             <span class="year">{{ post.date.strftime('%Y') }}</span>
         </time>
-        
+
         <span class="article_info">{{ wordcount }} words, by {{ post.author.name }}</span>
 
         <div class="article_content" itemprop="{% if post.review %}reviewBody{% else %}articleBody{% endif %}">
@@ -43,7 +43,7 @@
 
 {% block aside %}
     <ul>
-        {% for year, posts in resource.year.iteritems()|reverse %}
+        {% for year, posts in resource.year.iteritems()|sort|reverse %}
         <li>
             <a href="{{ content_url(site.prefix, year, 'index.html') }}"{% if year == post.date.year %} class="active"{% endif %}>
                 {{ year }}

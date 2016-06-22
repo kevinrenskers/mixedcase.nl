@@ -9,7 +9,7 @@
             <time datetime="{{ post.date|xmldatetime }}" pubdate>
                 <span class="month">{{ post.date.strftime('%b') }}</span>
                 <span class="month_long">{{ post.date.strftime('%B') }}</span>
-                <span class="day">{{ post.date.strftime('%d') }}</span><span class="comma">,</span> 
+                <span class="day">{{ post.date.strftime('%d') }}</span><span class="comma">,</span>
                 <span class="year">{{ post.date.strftime('%Y') }}</span>
             </time>
             <span class="article_info">{{ post.content|striptags|wordcount }} words{%- if post.tags -%}
@@ -38,7 +38,7 @@
     {% endif %}
 
     <ul>
-        {% for year, posts in resource.year.iteritems()|reverse %}
+        {% for year, posts in resource.year.iteritems()|sort|reverse %}
             <li>
                 <a href="{{ content_url(site.prefix, year, 'index.html') }}" >
                     {{ year }}
