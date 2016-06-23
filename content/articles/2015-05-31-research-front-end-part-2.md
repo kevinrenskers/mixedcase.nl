@@ -14,7 +14,7 @@ Deku is pretty similar to React: it's only the UI layer, it uses JSX (optional),
 
 There are some pretty big downsides to Deku though. First and most importantly, it's not very well documented, there aren't a lot of examples, and the examples that are there are mostly out of date. Then again the API is pretty small so there's not a whole lot to learn, but it definitely needs more then this. I really do hope that they'll improve this soon.
 
-Secondly is the size of the community, with which also comes the  number of available tools. Stuff like the React hotloader for webpack-dev-server for example. Or easy it'll be to get answers on StackOverflow. There is a huge community forming around React, people are sharing components and tools, it's very exciting. This is definitely missing from a small young library like Deku.
+Second is the size of the community, with which also comes the  number of available tools. Stuff like the React hotloader for webpack-dev-server for example. Or how easy it'll be to get answers on StackOverflow. There is a huge community forming around React, people are sharing components and tools, it's very exciting. This is definitely missing from a small young library like Deku.
 
 So which framework would I choose? The small Deku with the much more functional programming style? Or the big React with the huge community and everything that brings? Probably Deku, but I'm not totally sure to be honest. Luckily I don't have to make that decision yet, as I still have plenty more frameworks to look into.
 
@@ -26,7 +26,7 @@ I was pretty happy with postcss. I used a couple of plugins and it all worked fi
 
 The [cssnext](http://cssnext.io) project is really nothing more then a bunch of postcss plugins combined into one easy package. It focuses on the latest (future) CSS syntax, which will become part of the standard some day. I like this idea, to follow a stricter standard compared to Less, Sass or even postcss with all those plugins - like nested rules. Yes, I've been using nested rules a lot until now, but I have noticed that this CSS tends to become big and hard to manage, and I'd really like to try to follow a more [object oriented approach](http://www.smashingmagazine.com/2011/12/12/an-introduction-to-object-oriented-css-oocss/), where descendent selectors are avoided. Switching to cssnext is good first step.
 
-Another very nice effect is that my list of dependancies has shrunk quite a bit and setting it up for webpack has also became a lot simpler.
+Another very nice effect is that my list of dependencies has shrunk quite a bit and setting it up for webpack has also became a lot simpler.
 
 ## Conclusions
 * Still very happy with the AirBnB code style and ESLint!
@@ -37,4 +37,4 @@ Another very nice effect is that my list of dependancies has shrunk quite a bit 
 ## Up next
 I'm not totally sure what I'm going to look into next: either another framework (probably Riot) while keeping the rest of the stack the same, or switch from webpack to browserify while sticking with Deku for now. I only want to change one big thing at the time, so it's easier to see its effect.
 
-Currently I'm leaning towards looking into browserify, also with testing in mind. Using webpack and webpack only features like CSS imports means that you're locking yourself in and that testing now also has to go through webpack. If all code would just be standard ES6 all code could very simply be tested in Node.js without using webpack or browserify or anything, especially when using CommonJS modules. I really like the idea of not locking myself in.
+Currently I'm leaning towards looking into browserify, also with testing in mind. Using webpack and webpack-only features like CSS imports means that you're locking yourself in and that testing now also has to go through webpack. If all code would just be standard ES6, it could very simply be tested in Node.js without using webpack or browserify or anything, especially when using CommonJS modules. I really like the idea of not locking myself in.

@@ -7,7 +7,7 @@ Since early 2014 I've been building a fairly large and complex JavaScript app in
 
 In other words: if I had to start a brand new native webapp now, what would I use? Switch to Angular 2? Or move to something smaller, more modular, and not in developer preview? What would the build system look like?
 
-My main wishes: highly modular, everything installed via NPM. ES6/ES7. Good performance and small payload. Easy to understand tools with good documentation. As few build tool dependancies as possible. And last but not least: JS for everything.
+My main wishes: highly modular, everything installed via NPM. ES6/ES7. Good performance and small payload. Easy to understand tools with good documentation. As few build tool dependencies as possible. And last but not least: JS for everything.
 
 The build system should auto-reload the browser on code changes (in dev mode) and create a minified production build with a single command that can then be uploaded to something like [surge](https://surge.sh).
 
@@ -25,7 +25,7 @@ A while ago I was looking into picking a JavaScript code style for my AngularJS 
 
 We adopted the AirBnB style at work and to do the automatic checking we used two linters: [JSCS](http://jscs.info) (which only checks the code style) and [JSHint](http://jshint.com) (which checks for code quality issues like unused variables). This is less then ideal, to have two packages to configure and depend on. So my first experiment started with searching for an easier way to lint code.
 
-I started by looking into the [JavaScript Standard Style](https://github.com/feross/standard) project which is a linter with zero configuration: you take it all or nothing. You go from two dependancies and two configuration files to just one dependancy and zero config, nice. Sadly I don't like the style and found the checker to be too monolithic as well: it has hardcoded support for React for example. What if I end up using something completely different? This doesn't feel right to me.
+I started by looking into the [JavaScript Standard Style](https://github.com/feross/standard) project which is a linter with zero configuration: you take it all or nothing. You go from two dependencies and two configuration files to just one dependency and zero config, nice. Sadly I don't like the style and found the checker to be too monolithic as well: it has hardcoded support for React for example. What if I end up using something completely different? This doesn't feel right to me.
 
 With the JavaScript Standard Style decided against, I tried [ESLint](http://eslint.org) since the AirBnB code style repository came with a ready-made configuration for it. That configuration file did need a little bit of tweaking but it works pretty good in the end. I'm also using eslint-plugin-react for more React specific rules. This means that I still have two dependancies but one is a plugin for the other which is better then two completely separate packages that check different things.
 
