@@ -8,7 +8,7 @@ iOS apps I've worked on. I was either the only developer on the project, or the 
 ## Sling
 ![screenshots](sling.jpg)
 
-"Your business in your pocket." Sling is a complete tool for managing your business, with a newsfeeds, chat and shifts planning.  
+"Your business in your pocket." Sling is a complete tool for managing your business, with a newsfeed, chat function, shift scheduling and to-do tasks. It’s specifically built for hourly workers (think bars, restaurants, hotels, hospitals) and their managers. Managers can create complete shift schedules in advance, and employees can request time off, swap shifts amongst each other and apply for available shifts.  
 [App Store (universal, free)](https://itunes.apple.com/us/app/sling-stay-in-sync-your-team/id922995624?mt=8)
 
 
