@@ -15,7 +15,7 @@
     {% endif %}
 
     <ul>
-        {% for year, posts in resource.year.iteritems()|reverse %}
+        {% for year, posts in resource.year.iteritems()|sort|reverse %}
             <li>
                 <a href="{{ content_url(site.prefix, year, 'index.html') }}"{% if year == pagination.title %} class="active"{% endif %}>
                     {{ year }}
