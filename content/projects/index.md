@@ -10,83 +10,85 @@ Check my [GitHub profile](https://github.com/kevinrenskers) for a complete list 
 
 ### GVUserDefaults
 NSUserDefaults access via properties.  
-[gangverk/GVUserDefaults](https://github.com/gangverk/GVUserDefaults)
+[gangverk/GVUserDefaults](https://github.com/gangverk/GVUserDefaults) ![GitHub stars](https://img.shields.io/github/stars/gangverk/GVUserDefaults.svg?style=social&label=Star)
 
 ### LastFm
 Block based Last.fm SDK for iOS and Mac OS X.  
-[gangverk/LastFm](https://github.com/gangverk/LastFm)
-
-### RemoteConfig
-Objective-c library for loading a remote JSON / XML config file with locally defined default values.  
-[gangverk/RemoteConfig](https://github.com/gangverk/RemoteConfig)
+[gangverk/LastFm](https://github.com/gangverk/LastFm) ![GitHub stars](https://img.shields.io/github/stars/gangverk/LastFm.svg?style=social&label=Star)
 
 ### SDWebImage-ProgressView
 Category on UIImageView, adding a progress view while images are downloaded using SDWebImage.  
-[kevinrenskers/SDWebImage-ProgressView](https://github.com/kevinrenskers/SDWebImage-ProgressView)
-
-### GVPhotoBrowser
-A reusable photo browser for iOS using the datasource and delegate patterns.  
-[gangverk/GVPhotoBrowser](https://github.com/gangverk/GVPhotoBrowser)
+[kevinrenskers/SDWebImage-ProgressView](https://github.com/kevinrenskers/SDWebImage-ProgressView) ![GitHub stars](https://img.shields.io/github/stars/kevinrenskers/SDWebImage-ProgressView.svg?style=social&label=Star)
 
 ### GVMusicPlayerController
 The power of AVPlayer with the simplicity of MPMusicPlayerController.  
-[gangverk/GVMusicPlayerController](https://github.com/gangverk/GVMusicPlayerController)
+[gangverk/GVMusicPlayerController](https://github.com/gangverk/GVMusicPlayerController) ![GitHub stars](https://img.shields.io/github/stars/gangverk/GVMusicPlayerController.svg?style=social&label=Star)
 
-### GVGoogleBannerView
-Google-Mobile-Ads-SDK banners in interface builder with handy delegate callbacks.  
-[gangverk/GVGoogleBannerView](https://github.com/gangverk/GVGoogleBannerView)
+### RemoteConfig
+Objective-c library for loading a remote JSON / XML config file with locally defined default values.  
+[gangverk/RemoteConfig](https://github.com/gangverk/RemoteConfig) ![GitHub stars](https://img.shields.io/github/stars/gangverk/RemoteConfig.svg?style=social&label=Star)
 
-### AdMarvelContainer
-More developer friendly way of working with AdMarvel banners and interstitials.  
-[gangverk/AdMarvelContainer](https://github.com/gangverk/AdMarvelContainer)
+### GVPhotoBrowser
+A reusable photo browser for iOS using the datasource and delegate patterns.  
+[gangverk/GVPhotoBrowser](https://github.com/gangverk/GVPhotoBrowser) ![GitHub stars](https://img.shields.io/github/stars/gangverk/GVPhotoBrowser.svg?style=social&label=Star)
 
 ### raven-objc
 Objective-c client for Sentry.  
-[getsentry/raven-objc](https://github.com/getsentry/raven-objc)
+[getsentry/raven-objc](https://github.com/getsentry/raven-objc) ![GitHub stars](https://img.shields.io/github/stars/getsentry/raven-objc.svg?style=social&label=Star)
 
-### AppTemplate
-Gangverk's universal iOS app template with build script and default pods. It also documents the in-house 
-Objective-C style guide and recommended libraries and frameworks.  
-[gangverk/AppTemplate](https://github.com/gangverk/AppTemplate)
+### DebugBar
+Handy UI for firing off (debug) methods.  
+[kevinrenskers/NSString-URLEncode](https://github.com/kevinrenskers/NSString-URLEncode) ![GitHub stars](https://img.shields.io/github/stars/kevinrenskers/NSString-URLEncode.svg?style=social&label=Star)
 
+### NSString-URLEncode
+Category that adds URLEncode and URLDecode to NSString.  
+[kevinrenskers/ios-debugbar](https://github.com/kevinrenskers/ios-debugbar) ![GitHub stars](https://img.shields.io/github/stars/kevinrenskers/ios-debugbar.svg?style=social&label=Star)
+
+### NLCoreData-ObjectiveRecord
+Adding ObjectiveRecord syntax on top of NLCoreData.  
+[kevinrenskers/NLCoreData-ObjectiveRecord](https://github.com/kevinrenskers/NLCoreData-ObjectiveRecord) ![GitHub stars](https://img.shields.io/github/stars/kevinrenskers/NLCoreData-ObjectiveRecord.svg?style=social&label=Star)
+
+### GVGoogleBannerView
+Google-Mobile-Ads-SDK banners in interface builder with handy delegate callbacks.  
+[gangverk/GVGoogleBannerView](https://github.com/gangverk/GVGoogleBannerView) ![GitHub stars](https://img.shields.io/github/stars/gangverk/GVGoogleBannerView.svg?style=social&label=Star)
+
+### AdMarvelContainer
+More developer friendly way of working with AdMarvel banners and interstitials.  
+[gangverk/AdMarvelContainer](https://github.com/gangverk/AdMarvelContainer) ![GitHub stars](https://img.shields.io/github/stars/gangverk/AdMarvelContainer.svg?style=social&label=Star)
 
 ## JavaScript
 
 ### raml2html
 A simple RAML to HTML documentation generator, written for Node.js.  
-[raml2html/raml2html](https://github.com/raml2html/raml2html)
+[raml2html/raml2html](https://github.com/raml2html/raml2html) ![GitHub stars](https://img.shields.io/github/stars/raml2html/raml2html.svg?style=social&label=Star)
 
 ### raml2md
 A simple RAML to Markdown documentation generator, written for Node.js.   
-[raml2html/raml2md](https://github.com/raml2html/raml2md)
+[raml2html/raml2md](https://github.com/raml2html/raml2md) ![GitHub stars](https://img.shields.io/github/stars/raml2html/raml2md.svg?style=social&label=Star)
 
 
 ## Python
 
 ### django-generic-notifications
 Generic notification system for Django, with multiple input types and output backends.  
-[kevinrenskers/django-generic-notifications](https://github.com/kevinrenskers/django-generic-notifications)
+[kevinrenskers/django-generic-notifications](https://github.com/kevinrenskers/django-generic-notifications) ![GitHub stars](https://img.shields.io/github/stars/kevinrenskers/django-generic-notifications.svg?style=social&label=Star)
 
 ### django-generic-mail
 Easy to use, class based email for Django.  
-[kevinrenskers/django-generic-mail](https://github.com/kevinrenskers/django-generic-mail)
+[kevinrenskers/django-generic-mail](https://github.com/kevinrenskers/django-generic-mail) ![GitHub stars](https://img.shields.io/github/stars/kevinrenskers/django-generic-mail.svg?style=social&label=Star)
 
 ### django-vrot
 A collection of Django templatetags, context processors, middleware, monkey patches and other reusable hacks. 
 Stuff I use on many Django projects, now bundled.  
-[kevinrenskers/django-vrot](https://github.com/kevinrenskers/django-vrot)
+[kevinrenskers/django-vrot](https://github.com/kevinrenskers/django-vrot) ![GitHub stars](https://img.shields.io/github/stars/kevinrenskers/django-vrot.svg?style=social&label=Star)
 
 
 ## Other
 
 ### mixedCase
 The source code of this website, including the articles written in Markdown.  
-[kevinrenskers/mixedcase.nl](https://github.com/kevinrenskers/mixedcase.nl)
+[kevinrenskers/mixedcase.nl](https://github.com/kevinrenskers/mixedcase.nl) ![GitHub stars](https://img.shields.io/github/stars/kevinrenskers/mixedcase.nl.svg?style=social&label=Star)
 
 ### dotfiles
 My dotfiles and detailed instructions on how to setup Mac OS X for development (Python, MySQL, Postgresql, Ruby, Node.js, Git, Nginx, etc).  
-[kevinrenskers/dotfiles](https://github.com/kevinrenskers/dotfiles)
-
-### dmmjobcontrol
-TYPO3 job database extension. My oldest open source project, started in 2007 and written in PHP.  
-[kevinrenskers/dmmjobcontrol](https://github.com/kevinrenskers/dmmjobcontrol) / [documentation](/projects/dmmjobcontrol/)
+[kevinrenskers/dotfiles](https://github.com/kevinrenskers/dotfiles) ![GitHub stars](https://img.shields.io/github/stars/kevinrenskers/dotfiles.svg?style=social&label=Star)
