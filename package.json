@@ -1,0 +1,22 @@
+{
+  "name": "mixedcase.nl",
+  "version": "1.0.0",
+  "description": "The source of (the new) mixedCase.nl, static files generated with [Felix Felicis](https://github.com/lepture/liquidluck).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinrenskers/mixedcase.nl.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevinrenskers/mixedcase.nl/issues"
+  },
+  "homepage": "https://github.com/kevinrenskers/mixedcase.nl#readme",
+  "devDependencies": {
+    "surge": "0.18.0"
+  }
+}
