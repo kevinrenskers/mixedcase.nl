@@ -25,6 +25,6 @@ With tornado installed (included in requirements.txt) the preview server auto-re
 
 ## Publish to GitHub pages
 
-Install surge locally and then:
+Install surge locally, and then:
 
 1. `make publish`
