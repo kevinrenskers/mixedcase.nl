@@ -8,4 +8,4 @@ html: clean
 	liquidluck build
 
 publish: html
-	surge deploy
+	npm run deploy
