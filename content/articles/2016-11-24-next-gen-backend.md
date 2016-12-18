@@ -159,3 +159,16 @@ At the moment I am most interested in Scaphold and Firebase for hosted solutions
 Meatier and react-rethinkdb are the two self-hosted solutions that I most interested in. I just have to dive in and try both of them.
 
 I'll keep updating this article with new findings and thoughts!
+
+## Update December 19, 2016
+I've looked into RethinkDB because it seemed like a very good option. 
+
+My conclusion is that RethinkDB by itself doesn't seem very suitable to use directly from apps, since there is no permission system for example. You'd need to put your own server in between RethinkDB and the client.
+
+One such server is Horizon, which does add the permission system quite nicely, but it has [issues](http://horizon.io/docs/limitations/) with reconnection handling and React Native. There are also no iOS libraries yet, and it has problems with mobile Safari. And since RethinkDB the company is shut down, who knows what progress will be like going forward.
+
+With Horizon the real time changefeeds from RethinkDB would still need to be handled manually, updating local state. Actually, react-rethinkdb handles that better but it has problems of its own like the [mixin syntax](https://github.com/mikemintz/react-rethinkdb/issues/8) that I don't want to use.
+
+One other problem with RethinkDB is that it doesn't have any schemas, it's a free-for-all JSON storage. Not sure how big of a problem this is, but I actually like the idea of a schema ala GraphQL.
+
+So in the end RethinkDB is not what I am looking for, at least not yet. It does have a really interesting foundation though, so I hope really hope it continues to grow and get better.
