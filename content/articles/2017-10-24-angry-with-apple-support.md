@@ -19,4 +19,4 @@ They also finally asked, after 5 weeks, to get support access to my Apple ID. Ye
 
 I am so disappointed with Apple at this point. They can't merge two accounts, deleting the account was a huge hassle, it broke my other account, and they can't fix it even after 5 weeks. I've been told 3 times that "yes, the problem has been fixed!" only to immediately test it and... nope, still the same old broken shit.
 
-I told them they can have all the access they want but if they still can't fix it then I will just create a brand new Apple ID and I want all the money back that I spent on apps.
+Let's see if their newly gained access to my account will help them to fix this problem once and for all. And if not, I told them that I will just create a brand new Apple ID and I want all the money back that I spent on apps, so I can buy them again. We'll see!
