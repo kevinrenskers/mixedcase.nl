@@ -7,13 +7,9 @@ The source of (the new) mixedCase.nl, static files generated with [Felix Felicis
 2. `git clone git@github.com:kevinrenskers/mixedcase.nl.git`
 3. `cd mixedcase.nl`
 
-### virtuelenvwrapper
-
-1. `mkvirtualenv -r requirements.txt mixedcase.nl`
-
 ### virtualenv
 
-1. `virtualenv env`
+1. `virtualenv -p python2.7 env`
 2. `. env/bin/activate`
 3. `pip install -r requirements.txt`
 
