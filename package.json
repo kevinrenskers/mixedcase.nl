@@ -1,7 +1,7 @@
 {
   "name": "mixedcase.nl",
   "version": "1.0.0",
-  "description": "The source of (the new) mixedCase.nl, static files generated with [Felix Felicis](https://github.com/lepture/liquidluck).",
+  "description": "The source of mixedCase.nl, static files generated with [Felix Felicis](https://github.com/avelino/liquidluck).",
   "main": "index.js",
   "scripts": {
     "deploy": "surge deploy"
