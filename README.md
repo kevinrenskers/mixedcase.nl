@@ -1,5 +1,5 @@
 # mixedCase.nl
-The source of (the new) mixedCase.nl, static files generated with [Felix Felicis](https://github.com/lepture/liquidluck).
+The source of (the new) mixedCase.nl, static files generated with [Felix Felicis](https://github.com/avelino/liquidluck).
 
 ## Getting started
 
