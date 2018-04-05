@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/kevinrenskers/mixedcase.nl#readme",
   "devDependencies": {
-    "surge": "0.18.0"
+    "surge": "^0.20.1"
   }
 }
