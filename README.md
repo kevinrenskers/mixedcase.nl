@@ -1,3 +1,5 @@
+[![Build Status](https://semaphoreci.com/api/v1/kevinrenskers/mixedcase-nl/branches/master/badge.svg)](https://semaphoreci.com/kevinrenskers/mixedcase-nl)
+
 # mixedCase.nl
 The source of (the new) mixedCase.nl, static files generated with [Felix Felicis](https://github.com/avelino/liquidluck).
 
