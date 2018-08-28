@@ -21,8 +21,8 @@ With tornado installed (included in requirements.txt) the preview server auto-re
 1. `make serve`
 2. `open 127.0.0.1:8000`
 
-## Publish to GitHub pages
+## Publish
 
-Install surge locally, and then:
+I'm using [Semaphore](https://semaphoreci.com) to automatically deploy this website on any commit. You can also manually deploy:
 
 1. `make publish`

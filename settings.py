@@ -61,22 +61,12 @@ writer = {
 
 theme = {
     "vars": {
-        "analytics": "UA-11162625-2",
-        'navigation': [
+        "navigation": [
             {'title': 'Home', 'link': '/'},
             {'title': 'Articles', 'link': '/articles/'},
             {'title': 'Projects', 'link': '/projects/'},
             {'title': 'Apps', 'link': '/apps/'},
             {'title': 'About', 'link': '/about/'},
-        ],
-        'dmmjobcontrol_pages': [
-            {'title': 'Introduction', 'link': 'index'},
-            {'title': 'Users manual', 'link': 'users'},
-            {'title': 'Administration', 'link': 'admins'},
-            {'title': 'Configuration', 'link': 'config'},
-            {'title': 'Extending JobControl', 'link': 'extending'},
-            {'title': 'FAQ', 'link': 'faq'},
-            {'title': 'Support / contact', 'link': 'support'},
         ]
     }
 }
