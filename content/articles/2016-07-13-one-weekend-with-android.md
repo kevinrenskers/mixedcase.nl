@@ -16,7 +16,7 @@ Then I got security update after security update, and each time the phone had to
 I used the phone full time from that Friday afternoon to the next Monday afternoon and sadly there were a lot more problems. Some big, some small, but in the end I decided to send the phone back.
 
 ## App quality
-One of the things I noticed first is how the Android counterparts of my most used iOS apps were of substantial lower quality. They didn’t looks as good, were slower, buggier, had less features, sometimes all the above. Even first party apps like the Google Authenticator look so much better on iOS. There is also a lot more crap on the Google Play store. Maybe the quality will improve over time but right now the quality apps are on iOS, simple as that.
+One of the things I noticed first is how the Android counterparts of my most used iOS apps were of substantial lower quality. They didn’t look as good, were slower, buggier, had less features, sometimes all of the above. Even first party apps like the Google Authenticator look so much better on iOS. There is also a lot more crap on the Google Play store. Maybe the quality will improve over time but right now the quality apps are on iOS, simple as that.
 
 ## Browsers and bookmarks
 I use Safari as my main browser on macOS and its bookmarks are synced via iCloud to my iPhone and my iPad. Even if I would switch to the Android phone, I’d still keep my iPhone for app development, I still have my Macbook and iPad and so I need to make sure that my bookmarks get synced between all four devices.
