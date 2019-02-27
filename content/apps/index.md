@@ -5,7 +5,7 @@
 iOS apps I've worked on. I was either the only developer on the project, or the lead developer with more people on the team. Newest apps are shown first.
 
 ## Tessa
-![screenshots](Tessa.png)
+![screenshots](tessa.png)
 
 A loyalty program app where consumers can upload their grocery shopping receipts to get points and access to special deals (like cash-back or lotteries to win prices). With the points they can buy items in the in-app store.
 [App Store (universal, free)](https://itunes.apple.com/nl/app/tessa-sparen-voor-korting/id1159009842?l=en&mt=8)
