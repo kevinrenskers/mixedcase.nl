@@ -6,6 +6,3 @@ clean:
 
 html: clean
 	liquidluck build
-
-publish: html
-	npm run deploy

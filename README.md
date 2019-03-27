@@ -23,6 +23,4 @@ With tornado installed (included in requirements.txt) the preview server auto-re
 
 ## Publish
 
-I'm using [Semaphore](https://semaphoreci.com) to automatically deploy this website on any commit. You can also manually deploy:
-
-1. `make publish`
+I'm using [Netlify](https://netflify.com) to automatically deploy this website on any commit.
