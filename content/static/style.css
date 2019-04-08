@@ -178,16 +178,16 @@ pre, code {
     }
 
     header {
-      background: #333 url("/static/images/splash.jpg");
+      background: orange url("/static/images/splash.jpg");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-      height: 15em;
-      max-width: none;
+      color: #333;
+      padding: 3em 0 3em 0; 
     }
 
     #content h1, #content h2, strong {
-        color: #333;
+        color: #333; 
     }
 
     p {
@@ -257,9 +257,13 @@ pre, code {
         border: 0;
     }
 
-    nav ul, #content, footer {
+    nav ul, #content, footer, header div {
         max-width: 50em;
         margin: 0 auto;
+    }
+
+    header h1 {
+      font-size: 2.3em;
     }
 
     #content, footer {
@@ -320,8 +324,6 @@ pre, code {
     nav ul li {
         width: 6.625em;
         float: left;
-        line-height: 1;
-        height: 100%;
         text-align: center;
     }
 
@@ -331,7 +333,6 @@ pre, code {
         text-decoration: none;
         color: #CCC;
         padding: 0.4em 0 0 0.4em;
-        position: relative;
         border: 0;
     }
 
