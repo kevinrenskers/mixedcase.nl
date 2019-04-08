@@ -174,10 +174,16 @@ pre, code {
         font-family: "Roboto", "Helvetica", "Arial", sans-serif;
         line-height: 1.5;
         text-rendering: optimizeLegibility;
-        max-width: 50em;
-        margin: 0 auto;
         color: #566b78;
-        padding: 0 1em 1em 1em;
+    }
+
+    header {
+      background: #333 url("/static/images/splash.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 15em;
+      max-width: none;
     }
 
     #content h1, #content h2, strong {
@@ -251,6 +257,20 @@ pre, code {
         border: 0;
     }
 
+    nav ul, #content, footer {
+        max-width: 50em;
+        margin: 0 auto;
+    }
+
+    #content, footer {
+      padding: 0 0.5em;
+    }
+
+    #content {
+        margin-top: 1.5em;
+        clear: both;
+    }
+
     #content h1 {
         font-size: 1.3em;
     }
@@ -288,18 +308,20 @@ pre, code {
         list-style: decimal;
     }
 
-    nav ul {
+    nav {
         background: #333;
+    }
+
+    nav ul {
         height: 2em;
         padding-left: 0;
-    }
+      }
 
     nav ul li {
         width: 6.625em;
         float: left;
         line-height: 1;
         height: 100%;
-        background: #333;
         text-align: center;
     }
 
@@ -333,11 +355,6 @@ pre, code {
         border: 0;
     }
 
-    #content {
-        margin-top: 1.5em;
-        clear: both;
-    }
-
     .article_info {
         color: #CCC;
         font-size: 0.875em;
@@ -365,15 +382,15 @@ pre, code {
     footer {
         color: #CCC;
         clear: both;
-        font-size: 0.875em;
-        padding: 0.5em 0;
+        padding-top: 0.5em;
     }
 
     footer ul li {
         display: inline;
         margin-right: 1.5em;
         white-space: nowrap;
-    }
+        font-size: 0.875em;
+      }
 
     footer ul li a, .article_info a {
         color: #CCC;
