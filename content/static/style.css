@@ -1,93 +1,81 @@
 /* Reset */
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
 ul, ol {
-    list-style: none;
+  list-style: none;
 }
 
 body {
-    line-height: 1;
+  line-height: 1;
 }
 
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
-	display:block;
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
 }
 
 blockquote, q {
-    quotes:none;
+  quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content:'';
-    content:none;
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
 }
 
 a {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
 ins {
-    background-color:#ff9;
-    color:#000;
-    text-decoration:none;
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
 }
 
 mark {
-    background-color:#ff9;
-    color:#000;
-    font-style:italic;
-    font-weight:bold;
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
 }
 
 del {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 abbr[title], dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
+  border-bottom: 1px dotted;
+  cursor: help;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 hr {
-    display: none;
+  display: none;
 }
 
 input, select {
-    vertical-align:middle;
+  vertical-align: middle;
 }
 
 pre, code {
-    font-family: monospace, sans-serif;
+  font-family: monospace, sans-serif;
 }
 
 /* Pygments syntax highlighter */
@@ -162,299 +150,251 @@ pre, code {
 .highlight .il { color: #0000DD; font-weight: bold } /* Literal.Number.Integer.Long */
 
 /* Common styles, all screen widths */
+
 @media screen {
-    * {
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        -ms-box-sizing: border-box;
-        box-sizing: border-box;
-    }
-
-    body {
-        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-        line-height: 1.5;
-        text-rendering: optimizeLegibility;
-        color: #566b78;
-    }
-
-    header {
-      background: orange url("/static/images/splash.jpg");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      color: #333;
-      padding: 3em 0 3em 0; 
-    }
-
-    #content h1, #content h2, strong {
-        color: #333; 
-    }
-
-    p {
-        margin: 0 0 1.5em;
-    }
-
-    blockquote {
-        font-style: italic;
-        color: #666;
-        border-left: 2px solid orange;
-        padding-left: 0.5em;
-        text-align: justify;
-    }
-
-    pre {
-        font-size: 0.875em;
-        margin-bottom: 1.715em;
-        border-left: 2px solid orange;
-        width: 100%;
-        background: #f5f7f9;
-        padding: 1em;
-        overflow: auto;
-        overflow-y: hidden;
-    }
-    
-    code {
-        background: #f5f7f9;
-        padding: 2px 4px;
-        color: #a7adba;
-    }
-
-    .article_content {
-      margin-top: 1em;
-    }
-
-    a {
-        color: orange;
-        text-decoration: none;
-        border-bottom: 1px dotted orange;
-    }
-
-    a[href^="https://github.com"] {
-        background: transparent url('images/github.png') no-repeat;
-        padding-left: 20px;
-    }
-
-    a[href^="https://itunes.apple.com"] {
-        background: transparent url('images/appstore.png') no-repeat;
-        padding-left: 20px;
-    }
-
-    a:hover {
-        border-bottom: 1px solid orange;
-    }
-
-    a.skiplink {
-        position: absolute;
-        left: -10000px;
-    }
-
-    a.more:before {
-        content: '› ';
-    }
-
-    h1 a, h2 a {
-        color: #333;
-        border: 0;
-    }
-
-    nav ul, #content, footer, header div {
-        max-width: 50em;
-        margin: 0 auto;
-    }
-
-    header h1 {
-      font-size: 2.3em;
-    }
-
-    #content, footer {
-      padding: 0 0.5em;
-    }
-
-    #content {
-        margin-top: 1.5em;
-        clear: both;
-    }
-
-    #content h1 {
-        font-size: 1.3em;
-    }
-
-    #content h2, #content legend {
-        font-size: 1.1em;
-        font-weight: bold;
-    }
-
-    #content h2 {
-        margin-top: 1em;
-        margin-bottom: 0.5em;
-    }
-
-    #content h3 {
-        font-size: 1em;
-        font-weight: bold;
-    }
-
-    #content h4 {
-        font-size: 1em;
-        font-weight: normal;
-		    color: #CCC;
-    }
-
-    section ul, article ul, ul.errorlist {
-        padding-left: 1em;
-        margin-bottom: 1.5em;
-        list-style: square;
-    }
-
-    section ol, article ol {
-        padding-left: 1em;
-        margin-bottom: 1.5em;
-        list-style: decimal;
-    }
-
-    nav {
-        background: #333;
-    }
-
-    nav ul {
-        height: 2em;
-        padding-left: 0;
-      }
-
-    nav ul li {
-        width: 6.625em;
-        float: left;
-        text-align: center;
-    }
-
-    nav ul a {
-        display: block;
-        height: 2em;
-        text-decoration: none;
-        color: #CCC;
-        padding: 0.4em 0 0 0.4em;
-        border: 0;
-    }
-
-    nav ul a:hover, nav ul a.active {
-        background: orange;
-        color: white;
-    }
-
-    nav ul a.active {
-        -moz-border-radius-bottomleft: 7px;
-        border-bottom-left-radius: 7px;
-        -moz-border-radius-bottomright: 7px;
-        border-bottom-right-radius: 7px;
-        height: 2.5em;
-    }
-
-    nav ul a:hover {
-        -webkit-transition-duration: 300ms;
-        -webkit-transition-property: background-color, color;
-        -webkit-transition-timing-function: ease-out;
-        border: 0;
-    }
-
-    .article_info {
-        color: #CCC;
-        font-size: 0.875em;
-    }
-
-    .article_info .time {
-      padding-right: 0.5em;
-      margin-right: 0.5em;
-      border-right: 1px solid #CCC;
-    }
-
-    section p {
-        margin: 0;
-    }
-
-    section, article {
-        position: relative;
-        margin: 0 0 1.5em;
-    }
-
-    article img {
-        max-width: 100%;
-    }
-
-    footer {
-        color: #CCC;
-        clear: both;
-        padding-top: 0.5em;
-    }
-
-    footer ul li {
-        display: inline;
-        margin-right: 1.5em;
-        white-space: nowrap;
-        font-size: 0.875em;
-      }
-
-    footer ul li a, .article_info a {
-        color: #CCC;
-        border-color: #CCC !important;
-    }
-
-    #article_footer {
-        color: #CCC;
-        font-style: italic;
-        font-size: 0.875em;
-    }
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    color: #566b78;
+  }
+  header {
+    background: orange url("/static/images/splash.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+    padding: 3em 0 3em 0;
+  }
+  header h1 {
+    font-size: 2.3em;
+  }
+  p {
+    margin: 0 0 1.5em;
+  }
+  blockquote {
+    font-style: italic;
+    color: #666;
+    border-left: 2px solid orange;
+    padding-left: 0.5em;
+    text-align: justify;
+  }
+  pre {
+    font-size: 0.875em;
+    margin-bottom: 1.715em;
+    border-left: 2px solid orange;
+    width: 100%;
+    background: #f5f7f9;
+    padding: 1em;
+    overflow: auto;
+    overflow-y: hidden;
+  }
+  code {
+    background: #f5f7f9;
+    padding: 2px 4px;
+    color: #a7adba;
+  }
+  .article_content {
+    margin-top: 1em;
+  }
+  a {
+    color: orange;
+    text-decoration: none;
+    border-bottom: 1px dotted orange;
+  }
+  a[href^="https://github.com"] {
+    background: transparent url('images/github.png') no-repeat;
+    padding-left: 20px;
+  }
+  a[href^="https://itunes.apple.com"] {
+    background: transparent url('images/appstore.png') no-repeat;
+    padding-left: 20px;
+  }
+  a:hover {
+    border-bottom: 1px solid orange;
+  }
+  a.skiplink {
+    position: absolute;
+    left: -10000px;
+  }
+  a.more:before {
+    content: '› ';
+  }
+  #content h1, #content h2, strong {
+    color: #333;
+  }
+  h1 a, h2 a {
+    color: #333;
+    border: 0;
+  }
+  nav ul, #content, footer, header div {
+    max-width: 50em;
+    margin: 0 auto;
+  }
+  #content, footer, header div {
+    padding: 0 0.5em;
+  }
+  #content {
+    margin-top: 1.5em;
+    clear: both;
+  }
+  #content h1 {
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+  #content h2 {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  #content h3 {
+    font-size: 1em;
+    font-weight: bold;
+  }
+  #content h4 {
+    font-size: 1em;
+    font-weight: normal;
+    color: #CCC;
+  }
+  section ul, article ul, ul.errorlist {
+    padding-left: 1em;
+    margin-bottom: 1.5em;
+    list-style: square;
+  }
+  section ol, article ol {
+    padding-left: 1em;
+    margin-bottom: 1.5em;
+    list-style: decimal;
+  }
+  nav {
+    background: #333;
+  }
+  nav ul {
+    height: 2em;
+  }
+  nav ul li {
+    width: 6.625em;
+    float: left;
+    text-align: center;
+    margin-right: 1px;
+  }
+  nav ul a {
+    display: block;
+    height: 2em;
+    text-decoration: none;
+    color: #CCC;
+    padding: 0.4em 0 0 0.4em;
+    border: 0;
+    background: #333;
+  }
+  nav ul a:hover, nav ul a.active {
+    background: orange;
+    color: white;
+  }
+  nav ul a.active {
+    -moz-border-radius-bottomleft: 7px;
+    border-bottom-left-radius: 7px;
+    -moz-border-radius-bottomright: 7px;
+    border-bottom-right-radius: 7px;
+    height: 2.3em;
+  }
+  nav ul a:hover {
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-property: background-color, color;
+    -webkit-transition-timing-function: ease-out;
+    border: 0;
+  }
+  .article_info {
+    color: #CCC;
+    font-size: 0.875em;
+  }
+  .article_info .time {
+    padding-right: 0.5em;
+    margin-right: 0.5em;
+    border-right: 1px solid #CCC;
+  }
+  section p {
+    margin: 0;
+  }
+  section, article {
+    position: relative;
+    margin: 0 0 1.5em;
+  }
+  article img {
+    max-width: 100%;
+  }
+  footer {
+    color: #CCC;
+    clear: both;
+    padding-top: 0.5em;
+  }
+  footer ul li {
+    display: inline;
+    margin-right: 1.5em;
+    white-space: nowrap;
+    font-size: 0.875em;
+  }
+  footer ul li a, .article_info a {
+    color: #CCC;
+    border-color: #CCC !important;
+  }
+  #article_footer {
+    color: #CCC;
+    font-style: italic;
+    font-size: 0.875em;
+  }
 }
 
 /* Very wide screen */
 @media screen and (min-width:1440px) {
-    body {
-        font-size: 112.5%;
-    }
+  body {
+    font-size: 112.5%;
+  }
 }
 
 /* iPhone: landscape */
 @media screen and (max-width:595px) {
-    nav ul li {
-        width: auto;
-    }
-
-    nav ul a {
-      padding-left: 10px;
-      padding-right: 10px;
-    }
+  nav ul li {
+    width: auto;
+  }
+  nav ul a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 @media print {
-    body {
-        font-family: arial, helvetica, sans-serif;
-        line-height: 1.5em;
-        text-rendering: optimizeLegibility;
-    }
-
-    h1, h2 {
-        font-size: 1.2em;
-        font-weight: bold;
-    }
-
-    a {
-        color: black;
-    }
-
-    nav, footer, #cover, a.skiplink {
-        display: none;
-    }
-
-    section, article {
-        margin: 0 0 1.5em;
-    }
-
-    article p {
-        margin: 0 0 1.5em;
-    }
-
-    pre code {
-        font-size: 0.875em;
-        margin-bottom: 1.715em;
-        display: block;
-    }
+  body {
+    font-family: arial, helvetica, sans-serif;
+    line-height: 1.5em;
+    text-rendering: optimizeLegibility;
+  }
+  h1, h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  a {
+    color: black;
+  }
+  nav, footer, #cover, a.skiplink {
+    display: none;
+  }
+  section, article {
+    margin: 0 0 1.5em;
+  }
+  article p {
+    margin: 0 0 1.5em;
+  }
+  pre code {
+    font-size: 0.875em;
+    margin-bottom: 1.715em;
+    display: block;
+  }
 }
