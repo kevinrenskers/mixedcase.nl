@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>{{ site.name }}: {% block title %}a blog about iOS and Python development, design and usability{% endblock %}</title>
+        <title>{{ site.name }} {% block title %}{% endblock %}</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no" />
         <link rel="stylesheet" href="/static/style.css" />
@@ -15,10 +15,6 @@
         <meta name="keywords" content="django, python, iPhone, iPad, iOS, development, blog, usability, design, css, html5">
         <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.feed }}" />
         {% block extraheader %}{% endblock %}
-
-        <!--[if lt IE 9]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
     </head>
 
     <body>

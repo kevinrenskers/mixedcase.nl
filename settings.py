@@ -5,7 +5,7 @@ from datetime import date
 
 
 site = {
-    "name": "mixedCase.nl",
+    "name": "&lt;mixedCase&gt;",
     "url": "http://mixedcase.nl",
     "prefix": "articles",
     "feed": "/articles/feed.xml",
