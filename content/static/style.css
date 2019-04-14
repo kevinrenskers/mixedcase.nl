@@ -1,5 +1,4 @@
 /* Reset */
-
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -74,10 +73,6 @@ input, select {
   vertical-align: middle;
 }
 
-pre, code {
-  font-family: monospace, sans-serif;
-}
-
 /* Pygments syntax highlighter */
 .highlight .hll { background-color: #ffffcc }
 .highlight  { background: #ffffff; }
@@ -150,7 +145,6 @@ pre, code {
 .highlight .il { color: #0000DD; font-weight: bold } /* Literal.Number.Integer.Long */
 
 /* Common styles, all screen widths */
-
 @media screen {
   * {
     -webkit-box-sizing: border-box;
@@ -190,15 +184,16 @@ pre, code {
     margin-bottom: 1.715em;
     border-left: 2px solid orange;
     width: 100%;
-    background: #f5f7f9;
     padding: 1em;
     overflow: auto;
     overflow-y: hidden;
   }
   code {
-    background: #f5f7f9;
     padding: 2px 4px;
-    color: #a7adba;
+  }
+  pre, code {
+    font-family: monospace, sans-serif;
+    background: #f5f7f9;
   }
   .article_content {
     margin-top: 1em;

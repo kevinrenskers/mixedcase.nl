@@ -103,7 +103,7 @@ class LocationSerializer(serializers.ModelSerializer):
         fields = '__all__'
 ```
 
-That one little LocationViewSet class does it all: GET, POST, PUT, DELETE and the rest. With nested routes, so `locations` fall under a `city`. It's quite magical! But sadly, that's also a little bit of the problem. When something doesn't quite behave the way you want it to, you end up fighting the magic.
+That one little LocationViewSet class does it all: GET, POST, PUT, DELETE and the rest. With nested routes, so `location` falls under a `city`. It's quite magical! But sadly, that's also a little bit of the problem. When something doesn't quite behave the way you want it to, you end up fighting the magic.
 
 The Vapor version is a lot more code (and it doesn't even do PATCH and OPTIONS), but I fully control everything:
 
