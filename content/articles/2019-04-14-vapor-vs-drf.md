@@ -74,9 +74,9 @@ Django comes with a very usable admin interface. This is honestly quite a big de
 Then there is DRF which comes with automatic API docs, an interactive API browser where you can execute requests and see the response right there in the browser without needing a tool like Postman. Combined with Django Debug Toolbar's SQL debugger, this gives you an extremely good insight into the queries each endpoint does, have many it does, how long they take, etc. This is a huge difference from Vapor where it can print out the queries to the console, but that's about it.
 
 ## Storage, S3
-It's very easy to support file uploads in Django / DRF, where static files and user uploaded media can automatically be stored on Amazon's S3 for example. Django has ImageField model types that do all the file storing work and then store the image URL in the database. And when you then get that image field from the database again, you get a full URL to the stored file. All of this is abstracted away and it's great.
+It's very easy to support file uploads in Django and DRF, where static files and user uploaded media can automatically be stored on Amazon's S3 when running in production, or just locally when running the local dev server. Django has an ImageField model type that does all the file storing work and then stores the image URL in the database. And when you then get that image field from the database again, you'll get a full URL to the stored file. All of this is abstracted away and it's great.
 
-All of this is manual work in Vapor. And to be honest, right now this is by far the biggest pain point I have with Vapor, and a big reason to possibly go forward with the Django version of my backend.
+Sadly, all of this is manual work in Vapor. And to be honest, right now this is by far the biggest pain point I have with Vapor, and a big reason to possibly go forward with the Django version of my backend.
 
 ## Magic vs everything manual
 With DRF you can register one route for a type, with one ViewSet as its handler, and it will automatically handle the GET requests to the list of models and a single entity, POST to create a new entity, PUT to make changes, DELETE and even OPTIONS and PATCH. All of this is done automatically.
@@ -170,4 +170,4 @@ For me the biggest wins for each framework are:
 
 **Vapor** wins when it comes to the compiler, being a strongly typed language with strongly typed Codable objects for everything. Having easier control over the output without feeling like I have to fight the framework. Better performance and fewer queries, although for my side project that's definitely less important. Most importantly though, I simply enjoy writing Swift code a lot more than I do writing Python code.
 
-Which one will I use going forward? Honestly, it's probably going to be the file handling that's pushing me towards **Django**. Everything else is kind of a toss-up with good and bad things about both frameworks. But the file handling is so clearly so much better on the Django side, that I feel like this is the deciding factor.
+Which one will I use going forward? Honestly, it's probably going to be the size of the ecosystem and community (plus the file handling situation) that's pushing me towards **Django**. Everything else is kind of a toss-up with good and bad things about both frameworks. But no matter how much I love Swift and like working with Vapor; Django and DRF are simply much more mature.
