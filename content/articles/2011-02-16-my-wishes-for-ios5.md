@@ -16,8 +16,6 @@ Both the iPhone and the iPad have bluetooth. Please let me link the two together
 ### Software keyboard
 I never liked how much I have to switch between keyboard layouts, even when I just want to enter some numbers. I have to say, I like what HP's WebOS is doing. Maybe there is no room for this on the iPhone, but at least steal this idea for the iPad.
 
-![HP TouchPad keyboard][1]
-
 ### No quick settings
 Currently there is no way to quickly and easily disable 3G, WiFi or to change the screen brightness. I have to enter the settings app, where I have to enter a multi-level menu to do this, which is quite annoying.
 
@@ -38,7 +36,3 @@ When I want to send a SMS message to a large group of contacts (usually on the l
 
 ### Bring iPhone's default apps to the iPad
 Why doesn't the iPad have the clock and weather apps? What's the logical reason behind this? Also missing: stocks and voice memos, but I personally don't use those apps.
-
-What are your wishes for the next version of iOS? Let me know in the comments!
-
-  [1]: http://www.palm.com/us/assets/images/products/pads/touchpad/touchpad-overview-virtual-kbd-lrg.jpg
