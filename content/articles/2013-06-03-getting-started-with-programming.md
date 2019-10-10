@@ -71,14 +71,14 @@ That's where the programming starts, and for me it started with learning PHP in 
 
 
 ## Python and Django
-After I worked as a PHP developer for nine year I decided enough was enough; I needed something new. And this something new was to be Python, a popular language for creating dynamic websites. It's also used to create apps, desktop software, games and much more. A perfect choice then with lots of room to grow and many available jobs (and usually better paying then PHP jobs too!).
+After I worked as a PHP developer for nine year I decided enough was enough; I needed something new. And this something new was to be Python, a popular language for creating dynamic websites. It's also used to create apps, desktop software, games and much more. A perfect choice then with lots of room to grow and many available jobs (and usually better paying than PHP jobs too!).
 
 When you want to build a website you normally choose a "framework": a set of tools and functions that will make your life a lot easier. A bunch of smart people have done most of the heavy lifting: all the standard repetitive stuff like talking to a database, letting users log in, saving comments to a news article and much more is all taken care off.
 
 Arguably one of the best frameworks for Python is Django. Definitely my recommendation to pick up, also because of the many jobs that are available for Django programmers.
 
 ### Resources
-- [codecademy.com: Python](http://www.codecademy.com/tracks/python)
+- [codecademy.com: Python](https://www.codecademy.com/catalog/language/python)
 - [Python Monk, interactive tutorials](http://pythonmonk.com)
 - [Django documentation, including tutorials](https://docs.djangoproject.com)
 - [Tango With Django, online book](http://www.tangowithdjango.com)
@@ -95,7 +95,7 @@ Python (and PHP) are so-called server-side languages, which means that all the l
 If you want to have some sort of logic or interactivity within the client you'll need Javascript. With this you will be able to do stuff like animations, video players, interactive games and much more.
 
 ### Resources
-- [codecademy.com: Javascript](http://www.codecademy.com/tracks/javascript)
+- [codecademy.com: Javascript](https://www.codecademy.com/learn/introduction-to-javascript)
 - [w3schools.com Javascript tutorials](http://www.w3schools.com/js/default.asp)
 - [jQuery Learning Center](http://learn.jquery.com)
 - [webplatform.org Javascript tutorials](http://docs.webplatform.org/wiki/javascript/tutorials)
@@ -103,7 +103,7 @@ If you want to have some sort of logic or interactivity within the client you'll
 
 
 ## Objective-C
-In 2010 I started to create iPhone and iPad apps, and for this I needed to learn another programming language: Objective-C. More then that though, creating apps is completely different from creating websites, there are so many new concepts to learn (memory management and background threads being the big two). Thankfully there are a lot of very good resources so getting started with iOS development isn't too hard once you have some programming experience.
+In 2010 I started to create iPhone and iPad apps, and for this I needed to learn another programming language: Objective-C. More than that though, creating apps is completely different from creating websites, there are so many new concepts to learn (memory management and background threads being the big two). Thankfully there are a lot of very good resources so getting started with iOS development isn't too hard once you have some programming experience.
 
 ### Resources
 - [Apple's Getting Started guide](http://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOS/index.html)
