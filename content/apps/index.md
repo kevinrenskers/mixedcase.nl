@@ -7,7 +7,7 @@ iOS apps I've worked on. I was either the only developer on the project, or the 
 ## Skippit
 ![screenshots](/apps/skippit.jpg)
 
-Skippit a new type of first date that uses video calling to replace the expensive Ubers, awkward first drinks, and cat-fishing that’s common in most dating apps.  
+"Skippit is a new type of first date that uses video calling to replace the expensive Ubers, awkward first drinks, and cat-fishing that’s common in most dating apps."  
 [App Store (iPhone, free)](https://apps.apple.com/us/app/skippit/id1475092571?ls=1)
 
 
@@ -21,7 +21,7 @@ A loyalty program app where consumers can upload their grocery shopping receipts
 ## Last.fm Scrobbler
 ![screenshots](/apps/lastfm.jpg)
 
-Get the official Last.fm Scrobbler App to keep track of what you're listening to on Apple Music. Check out your top artist, album and song charts from all-time to last week, and watch videos of your favourite tracks.  
+"Get the official Last.fm Scrobbler App to keep track of what you're listening to on Apple Music. Check out your top artist, album and song charts from all-time to last week, and watch videos of your favourite tracks."  
 [App Store (iPhone, free)](https://itunes.apple.com/us/app/last-fm-scrobbler/id1188681944?ls=1&mt=8)
 
 
