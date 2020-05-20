@@ -3,13 +3,13 @@
 
 ---
 
-In 2009 I made the switch to Python, after having worked exclusively with PHP and Javascript for almost a decade. I really like the language, much more then I ever liked PHP. Of course it's not perfect (see one of my first posts called [Things I hate about Python and Django](http://mixedcase.nl/articles/2009/12/06/things-i-hate-about-python-and-django/)), but I never really thought much about the lesser parts of the language.
+In 2009 I made the switch to Python, after having worked exclusively with PHP and Javascript for almost a decade. I really like the language, much more than I ever liked PHP. Of course it's not perfect (see one of my first posts called [Things I hate about Python and Django](http://mixedcase.nl/articles/2009/12/06/things-i-hate-about-python-and-django/)), but I never really thought much about the lesser parts of the language.
 
 Until I started to learn other languages as well, that is.
 
 In May of 2010 I learned Objective-C, to create iPhone- and iPad apps. I like the fact that everything is very strict: you always know precisely what types of arguments a methods expects, and what the return value will be. I spend a lot less time looking at source code or documentation; Xcode's autocompletion will tell me in detail how I should call a function and what I'll get back. Then again, writing separate header- and implementation files is not on my list of things I like to day all day long.
 
-A few week ago I bought a book on Ruby. Mainly because it looked like a very nice language, but also in great part because of MacRuby and its Cocoa bindings. My suspicion was correct: Ruby is a very nice language. In fact, in many ways it looks much friendlier and more logical then Python. Of course also this language has its quirks, things that would bother me.
+A few week ago I bought a book on Ruby. Mainly because it looked like a very nice language, but also in great part because of MacRuby and its Cocoa bindings. My suspicion was correct: Ruby is a very nice language. In fact, in many ways it looks much friendlier and more logical than Python. Of course also this language has its quirks, things that would bother me.
 
 I then began to wonder what my ideal language would look like, if I could design my own. One part Ruby, one part Python, sprinkle with the best parts of Objective-C, and finish with the outstanding documentation of PHP. It would probably have the following characteristics:
 
@@ -227,7 +227,7 @@ Hash my_better_hash = {`food`:'apple', `color`:'green', `price`:12}
 print my_better_hash[`food`]
 ```
 
-Note to self: not really sure about this syntax. Especially in the hash example the mixed use of backticks and single quotes is ugly and confusing. Still better then Ruby's :symbol syntax though, again especially when combined with hashes.
+Note to self: not really sure about this syntax. Especially in the hash example the mixed use of backticks and single quotes is ugly and confusing. Still better than Ruby's :symbol syntax though, again especially when combined with hashes.
 
 ## Blocks
 ```text

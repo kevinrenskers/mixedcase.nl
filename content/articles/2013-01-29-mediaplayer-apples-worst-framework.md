@@ -46,6 +46,6 @@ Not convinced yet that MediaPlayer is Apple's worst framework?
 - The shuffle and repeat modes have completely useless "default" values, where you don't actually know what they're set to, so using these values to show the status in your app is not possible
 - When you set MediaPlayer's shuffle or repeat modes and go to the native music app, its shuffle and repeat icons have not been updated to reflect the new states
 
-All of these problems made sure that this "it's just a music player" app took way longer to create then anticipated, while giving a lot more headaches then ever thought possible.
+All of these problems made sure that this "it's just a music player" app took way longer to create than anticipated, while giving a lot more headaches than ever thought possible.
 
 In the end we've solved almost all of the problems and Scrobbler for iOS came out really good. I'm immensely proud of it, I just wish that we didn't have this much problems on the way. Most of the iOS frameworks are very good and good to work with. I have no clue why Apple created such a horrible mess with MediaPlayer. It's buggy as hell, under powered and over simplified.

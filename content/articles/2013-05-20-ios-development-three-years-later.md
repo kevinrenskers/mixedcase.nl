@@ -47,4 +47,4 @@ It used to be so damn hard to customize standard UI controls, and of course some
 Grids (mostly used on the iPad) used to be a pain in the ass to create. Yes, there were some third party libraries that helped, but none were super good and of course you didn't have Interface Builder integration. iOS 6 changed all this, finally adding collection views. A huge shout out should go to the incredible [PSTCollectionView library](https://github.com/steipete/PSTCollectionView) which backports all this goodness to iOS 5. Seriously, check it out.
 
 ## Auto Layout
-Never used it in any app yet, since our clients still need iOS 5 support. Of course I've played around with it, and while it seems quite cool and powerful, it's also a lot more complicated then the simple struts and springs system. I don't see myself adopting Auto Layout any time soon.
+Never used it in any app yet, since our clients still need iOS 5 support. Of course I've played around with it, and while it seems quite cool and powerful, it's also a lot more complicated than the simple struts and springs system. I don't see myself adopting Auto Layout any time soon.

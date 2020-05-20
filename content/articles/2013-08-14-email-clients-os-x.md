@@ -10,7 +10,7 @@ I've always been quite happy with Apple's Mail app but their latest version kept
 ## Apple Mail
 ![Apple Mail](/articles/images/apple_mail.jpg)
 
-In my opinion this is one of the best looking email clients out there. The threaded conversion is very clear, the message list shows a short preview and optionally a picture of the contact you're emailing with (a feature I like a lot). It offers a unified inbox which I prefer much more then always having to switch accounts. It also has excellent integration with all the other Apple apps like Contacts, Calendar and Messages.
+In my opinion this is one of the best looking email clients out there. The threaded conversion is very clear, the message list shows a short preview and optionally a picture of the contact you're emailing with (a feature I like a lot). It offers a unified inbox which I prefer much more than always having to switch accounts. It also has excellent integration with all the other Apple apps like Contacts, Calendar and Messages.
 
 Sadly though its Google Mail support is pretty bad and seems to be getting worse with every new release. Archived or trashed messages are often showing up in my inbox. Pressing the backspace key doesn't archive the message, it trashes it. But worst of all, when you move a message from the inbox to another folder that message is simply deleted.
 
@@ -23,9 +23,9 @@ The first alternative I tried was [Airmail][1]. It's available on the App Store 
 
 It has other nice features as well, like a send delay so if you change your mind about sending that drunken email to your ex-girlfriend you can un-send it. And Airmail works perfectly well with Google Mail too, using all the right folders straight out of the box.
 
-Of course it's not all perfect. Airmail can be extremely slow to load your inbox on a cold start, it doesn't automatically reload the active conversion when new emails arrive, the quick reply box isn't visible by default and conversations don't hide the quoted text in emails, which results in a lot of scrolling. Composing in pure plain-text only is also a lot harder then you would think possible, with copy/paste actions doing unpredictable stuff.
+Of course it's not all perfect. Airmail can be extremely slow to load your inbox on a cold start, it doesn't automatically reload the active conversion when new emails arrive, the quick reply box isn't visible by default and conversations don't hide the quoted text in emails, which results in a lot of scrolling. Composing in pure plain-text only is also a lot harder than you would think possible, with copy/paste actions doing unpredictable stuff.
 
-Lastly, they seem to focus on adding more and more features rather then perfecting the stuff that's already there. I wish they would focus on some of the problem areas first but still, a very good email client. In fact, I am using it right now, at least until Apple will finally fix their email client.
+Lastly, they seem to focus on adding more and more features rather than perfecting the stuff that's already there. I wish they would focus on some of the problem areas first but still, a very good email client. In fact, I am using it right now, at least until Apple will finally fix their email client.
 
 ## Inky
 ![Inky](/articles/images/inky.jpg)

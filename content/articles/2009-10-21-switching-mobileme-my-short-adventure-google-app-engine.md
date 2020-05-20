@@ -3,7 +3,7 @@
 
 ---
 
-I can't remember how long ago it's been that I've used a free email address like hotmail, yahoo or gmail. For more then 8 years I've used my own domain names to host my email. In the very beginning on my own little server at home, later on a "real" colocated server when I still had my own company, on the servers of my employer and the last year on Apple's [MobileMe](http://www.apple.com/mobileme/) service.
+I can't remember how long ago it's been that I've used a free email address like hotmail, yahoo or gmail. For more than 8 years I've used my own domain names to host my email. In the very beginning on my own little server at home, later on a "real" colocated server when I still had my own company, on the servers of my employer and the last year on Apple's [MobileMe](http://www.apple.com/mobileme/) service.
 
 Last september, my MobileMe subscription needed to be renewed, and it got me thinking if that was something I really wanted to do. It's $99 a year for 20 GB of email/calendar/contacts hosting and iDisk for online storage. It also offers easy web galleries with a click of a button within iPhoto and great syncing between my home- and work Mac's and my iPhone. Not too pricy for what you get really, but still... it got me thinking.
 
@@ -11,7 +11,7 @@ Last september, I also got a new job, where I no longer work on an Apple compute
 
 After searching for good alternatives to MobileMe I found the following solution: Google Apps and Flickr. [Google Apps](http://www.google.com/apps/intl/en/business/index.html) takes care of my email (on my own domain name), calendar and contacts, can sync it between my Mac (Mail.app, iCal and Address Book) and my Linux PC (Thunderbird and Sunbird) and with their Exchange support, all changes get pushed to my iPhone  immediately.
 
-That left the question of photo hosting, something that is very important to me. I went with [Flickr](http://www.flickr.com/), and got myself a Pro account for $25 a year. It offers unlimited photo hosting with great iPhoto support. The free [Dropbox](https://www.getdropbox.com/referrals/NTIzMTA5NjU5) software is my iDisk replacement that comes with 2 GB of online storage, and is easier and faster to use. The only thing I can't replicate is the "Find My iPhone" service which MobileMe provided, but for the $74/year that I now save, I can live without that just fine. Drawback so far? Well, the Flickr UI is ten times worse then the beautiful MobileMe web galleries, but that's where the Flickr API comes in - you can make your own UI as I did on this site.
+That left the question of photo hosting, something that is very important to me. I went with [Flickr](http://www.flickr.com/), and got myself a Pro account for $25 a year. It offers unlimited photo hosting with great iPhoto support. The free [Dropbox](https://www.getdropbox.com/referrals/NTIzMTA5NjU5) software is my iDisk replacement that comes with 2 GB of online storage, and is easier and faster to use. The only thing I can't replicate is the "Find My iPhone" service which MobileMe provided, but for the $74/year that I now save, I can live without that just fine. Drawback so far? Well, the Flickr UI is ten times worse than the beautiful MobileMe web galleries, but that's where the Flickr API comes in - you can make your own UI as I did on this site.
 
 Other free software I use to sync everything are [Xmarks](http://www.xmarks.com/) to sync my bookmarks between my home Mac and work PC, and [LastPass](https://lastpass.com/), to sync my site passwords between all browsers at home and at work.
 

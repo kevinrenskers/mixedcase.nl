@@ -15,6 +15,6 @@ The frontend editing of Django-CMS is very nice. You see the content of the enti
 
 With this solution it's possible to see the layout of the entire page. It also solves the usability problem of multiple save buttons on screen at the same time: currently when you begin to edit a plugin that form gets its own save button, which needs to be clicked before you can then save the page itself.  When you present the form in a modal popup, it is immediately clear that you need to close that popup by saving or canceling.
 
-This is a very basic mockup, of course you'd need to be able to see and edit multiple placeholders. I don't know what would work best: tabs for each placeholder, placeholders underneath each other (kinda like the current interface does), or maybe even next to each other. I think that last option could work very well, at least as long as you don't have more then two placeholders.
+This is a very basic mockup, of course you'd need to be able to see and edit multiple placeholders. I don't know what would work best: tabs for each placeholder, placeholders underneath each other (kinda like the current interface does), or maybe even next to each other. I think that last option could work very well, at least as long as you don't have more than two placeholders.
 
 I am very interested in your opinions about the current Django-CMS backend, its usability problems and your solution.

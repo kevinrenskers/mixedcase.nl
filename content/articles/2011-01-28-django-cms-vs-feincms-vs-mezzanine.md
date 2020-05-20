@@ -3,7 +3,7 @@
 
 ---
 
-When you need a content management system for Django, there is enough choice. Maybe even too much: the very helpful site [djangopackages.com][1] lists 13. Some are mature and very feature-complete, while others are barely more then a basic model and a template. The biggest three systems (in terms of downloads, repo forks and -watchers) are [Django-CMS][3], [FeinCMS][4] and [Mezzanine][2]. I've built sites with both Django-CMS and Mezzanine, looked at FeinCMS and decided to write down a comparison.
+When you need a content management system for Django, there is enough choice. Maybe even too much: the very helpful site [djangopackages.com][1] lists 13. Some are mature and very feature-complete, while others are barely more than a basic model and a template. The biggest three systems (in terms of downloads, repo forks and -watchers) are [Django-CMS][3], [FeinCMS][4] and [Mezzanine][2]. I've built sites with both Django-CMS and Mezzanine, looked at FeinCMS and decided to write down a comparison.
 
 ## Django-CMS
 With a very nice and professional looking website, you immediately get the feeling that this is a very mature CMS. The latest version, 2.1, has been in the making for a long time and adds very cool features such as frontend editing and easy integration of third party apps. Version 2.1 final has been released yesterday, so if you never looked at Django-CMS before, now is the perfect time.

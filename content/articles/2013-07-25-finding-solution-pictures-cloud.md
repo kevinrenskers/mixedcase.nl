@@ -56,7 +56,7 @@ I've tried to use photostreams multiple times with iPhoto, but it never really w
 But shared photostreams can't contains videos, so that kills this solution.
 
 ## Picturelife
-[Picturelife][] is a desktop app that automatically syncs your photos plus an iOS app to view them. At $70 per year for 100 GB it's cheaper then Dropbox. They support RAW and video files, so it all sounds pretty good.
+[Picturelife][] is a desktop app that automatically syncs your photos plus an iOS app to view them. At $70 per year for 100 GB it's cheaper than Dropbox. They support RAW and video files, so it all sounds pretty good.
 
 I signed up for a free 5 GB account to try them out and was very quickly very disappointed. All my pictures are organised in subsolders (one for each event) and while they were all picked up and uploaded to Picturelife, it didn't translate those folders into albums on their server. So I ended up with one huge stream of pictures, not what I'm looking for at all.
 
@@ -77,7 +77,7 @@ It also seems impossible to download your complete backup and the sync app is on
 ## Closing thoughts
 I'm not too sure how long companies like Picturelife, Everpix and Loom will be around for, and for that reason using Dropbox or Flickr seems like a safer choice. Out of those two options I still think that Flickr would be the best one once I figure out how to automatically sync from the desktop.
 
-Any suggestions for a pain free photo workflow with online backup are more then welcome!
+Any suggestions for a pain free photo workflow with online backup are more than welcome!
 
 ### Update August 4, 2013
 After about a week of waiting I got an email from Loom telling me my account was ready. I downloaded their OS X app and was pleasantly surprised how much it behaves like Dropbox. The app creates a new folder on your hard drive, and anything you put in it is automatically uploaded to the cloud. From there your pictures can be viewed on the iOS app or synced to other Macs.
@@ -86,7 +86,7 @@ Two minor problems so far: copying nested folders to the Loom folder doesn't see
 
 RAW files do get synced but look bad and pixelated in their iOS app. Not really a problem for me, as I work with them on the desktop exclusively anyway. Video files also get synced but don't play at all in the app - something they're working on.
 
-I would like Loom to add a map view in the app and maybe public album sharing. Other then that, a very solid service for backing up your photos and videos.
+I would like Loom to add a map view in the app and maybe public album sharing. Other than that, a very solid service for backing up your photos and videos.
 
 I've got myself a one year 50GB subscription and can't wait to see how this service will grow.
 

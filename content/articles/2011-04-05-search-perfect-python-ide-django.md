@@ -21,7 +21,7 @@ And some nice-to-haves:
 - Subversion and Mercurial need to be supported
 - Syntax highlighting for Django templates
 - Build-in sqlite browser
-- Open source and/or free, although I'd go for a commercial product if it's better then the rest
+- Open source and/or free, although I'd go for a commercial product if it's better than the rest
 
 ## Netbeans with Python plugin
 As I said, I've been using [Netbeans](http://netbeans.org/) until now. And even though I'd like to find a replacement, there's a lot to like. It's free, runs on Mac, has superb version control support and helps me while developing by showing me syntax errors even before I run the script. It helps me keep my code clean by notifying me about unused imports, variables and functions. It mostly stays out of my way, and once started, is pretty snappy.
@@ -40,13 +40,13 @@ It can't deal with Django templates. To be honest, I don't really care that much
 And last but not least, I've never been able to get any form of Django debugging or breakpoints to work. Python scripts, yes, but not a Django project.
 
 ## Komodo
-The first replacement I tried was [Komodo IDE 6](http://www.activestate.com/komodo-ide), a commercial product from ActiveState. At $295 it's quite expensive, so it has to be a *lot* better then Netbeans.
+The first replacement I tried was [Komodo IDE 6](http://www.activestate.com/komodo-ide), a commercial product from ActiveState. At $295 it's quite expensive, so it has to be a *lot* better than Netbeans.
 
 Their feature list made me very hopeful: support for debugging, HTML5, Django and all major version control systems was all listed. Add to that a database browser and my whishlist is almost completely fulfilled.
 
 Sadly though, autocompletion doesn't work properly. I've tried the same example as with Netbeans, and it could not figure out what methods were available. My guess is this is because of another big problem: no support for virtualenv, so how could it know what `django.db.models` is?
 
-Lastly, their advertised Django support seems limited to syntax highlighting of the template language. Based on the lack of virtualenv support alone, I've not bothered to test Komodo for more then an hour or so.
+Lastly, their advertised Django support seems limited to syntax highlighting of the template language. Based on the lack of virtualenv support alone, I've not bothered to test Komodo for more than an hour or so.
 
 ## PyCharm
 [PyCharm](http://www.jetbrains.com/pycharm/) is a relatively new IDE made by JetBrains. It's also a commercial product, but at 88 euros (about $125) a lot more affordable. Well, at least the personal license is, as the commercial one for companies is 176 euros, or about $250. However, they also have a free license for open-source projects.
@@ -55,7 +55,7 @@ JetBrains markets their IDE as a "Powerful Python and Django IDE": the specific 
 
 I've been testing PyCharm for about a week now, and I have to say I really like it, even though it's kind of buggy right now. Their Django support is very cool: syntax highlighting works, code completion finally works (even for Django's default template tags and filters), and it also helps you to write better code, faster. For example, it can recognize old function-based generic views and offer to replace them with Django 1.3's new class-based generic views. Or, when you mention a template that doesn't exist yet, will offer to create it: very helpful indeed! It also knows what context variables are available in your template, and can auto-complete them too: {{ person. }} will show the possible values.
 
-Their Django support goes further then the features already mentioned: you can run all management command right from the IDE. You can run Django's runserver command for example. While this is nice and all (after all, doing it in a terminal is just as easy), the ability to set breakpoints and debug the running server is what really sets PyCharm apart for me.
+Their Django support goes further than the features already mentioned: you can run all management command right from the IDE. You can run Django's runserver command for example. While this is nice and all (after all, doing it in a terminal is just as easy), the ability to set breakpoints and debug the running server is what really sets PyCharm apart for me.
 
 All these features make the life of a Django developer a lot easier. It also works well with virtualenv, where each project has its own Python interpreter and Python path.
 
@@ -100,7 +100,7 @@ Debugging a Django project works very well: set a breakpoint, choose to debug yo
 
 I also like the Problems pane, which shows the output of the code analysis for all Python files inside your project. Most other IDE's only show the result of the analysis for the currently opened file. Aptana makes it really easy to spot all problems.
 
-In the end, while Aptana feels less buggy then PyCharm, it's also much less user friendly. Everything is just a bit more complex to set up. Creating a project with existing sources was a bit more complex. And while most IDE's recognized the .svn folders in my project and let me work with Subversion without having to configure anything, this was not the case with Aptana. I first had to install a plugin to be able to work with Subversion, and sadly trying to search for plugins mostly gave me the dreaded OS X beach-ball. And even when it was finally set up, I didn't find it easy to work with. I guess command-line based version control is the way to go with Aptana.
+In the end, while Aptana feels less buggy than PyCharm, it's also much less user friendly. Everything is just a bit more complex to set up. Creating a project with existing sources was a bit more complex. And while most IDE's recognized the .svn folders in my project and let me work with Subversion without having to configure anything, this was not the case with Aptana. I first had to install a plugin to be able to work with Subversion, and sadly trying to search for plugins mostly gave me the dreaded OS X beach-ball. And even when it was finally set up, I didn't find it easy to work with. I guess command-line based version control is the way to go with Aptana.
 
 ## Conclusion
 If PyCharm was less buggy, there would be no contest to me, even considering its price tag. It's user friendly, has the best Django support, does a good job debugging projects and makes my life a lot easier. On the other hand there's Aptana. It's free, powerful and does a good job with Django project too. It's complex, but once everything is set up (which needs to be done only once) it's pretty nice to work with.

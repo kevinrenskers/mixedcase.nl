@@ -32,7 +32,7 @@ Because of the complexity of the Webpack config I really wanted to replace it wi
 
 So, now I've introduced Gulp to the mix. Watching JS and Less, using Browserify and Watchify, starting a web server that reloads the browser on changes, building production bundles with unique hashed names.. I got it all working! But instead of a 144 line Webpack config file and 22 packages (including Angular, ESLint, Bootstrap etc) I now have a [141 line gulpfile](https://github.com/kevinrenskers/js-skeleton/blob/angularjs-browserify/gulpfile.js) and 36 packages. And I'm still not requiring CSS from my JavaScript code.
 
-And is this gulpfile easier to understand for my team then the Webpack config? I seriously doubt it. We're depending on more packages, so that means more chance of things to go wrong in the future as well.
+And is this gulpfile easier to understand for my team than the Webpack config? I seriously doubt it. We're depending on more packages, so that means more chance of things to go wrong in the future as well.
 
 ## Conclusions
 As far as Angular 1.x is concerned I already knew that it wasn't a contender in my "find my next library or framework" search. I still like it a lot, but I think switching to Angular 2 or something completely different simply makes a lot more sense.

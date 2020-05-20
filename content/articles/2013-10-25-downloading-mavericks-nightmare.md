@@ -17,6 +17,6 @@ After cursing a bit, I started the download and once it got to 90% I plugged in 
 
 So after downloading Mavericks for the fourth time the installer popped up. I still wanted to create an USB install disk, so I closed to installer. And guess what? Problem number six: the installer was nowhere to be found on my drive. It's supposed to be in the /Application folder, but nope, nothing.
 
-So here I am, deciding if I should download from scratch, again. If it simply never deleted the installer from my home computer in the first place I would never have been in this position. Instead I've now downloaded the installer four times and wasted more then 20 GB. Apple might have unlimited bandwidth, but it's a very different story here in Iceland where everything has monthly download caps.
+So here I am, deciding if I should download from scratch, again. If it simply never deleted the installer from my home computer in the first place I would never have been in this position. Instead I've now downloaded the installer four times and wasted more than 20 GB. Apple might have unlimited bandwidth, but it's a very different story here in Iceland where everything has monthly download caps.
 
 Crap.

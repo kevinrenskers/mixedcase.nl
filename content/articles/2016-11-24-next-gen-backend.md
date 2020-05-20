@@ -131,7 +131,7 @@ It was at this point that I started to look in alternative non-GraphQL solutions
 
 ## Firebase
 I think many webdevelopers have heard about Firebase: a [hosted real time database](https://firebase.google.com/docs/database/) (plus other features like authentication, remote config, storage). In many ways it solves the same problems: no endpoints to maintain: check. Proper real time updates: check.
-iOS and JS: check. All hosted for you, hassle free. Even the real time support is better then what you get with Apollo, since you don't need to manually deal with incoming object mutations. It's easy to integrate with React and Redux as well. Surely a winner, right? Well.. as with most hosted solutions, there is no way to add server side logic other then webhooks to a remote service.
+iOS and JS: check. All hosted for you, hassle free. Even the real time support is better than what you get with Apollo, since you don't need to manually deal with incoming object mutations. It's easy to integrate with React and Redux as well. Surely a winner, right? Well.. as with most hosted solutions, there is no way to add server side logic other than webhooks to a remote service.
 
 ## Parse
 Parse actually seemed to offer basically everything that I want: live queries and cloud based server side JavaScript logic. Sadly they are shutting down though. They do offer an open source self-hosted server, so maybe that's something to try out? On the other hand, the ParseReact client library does not support the latest Parse features like live queries, which is why I was interested in Parse in the first place. So I think Parse is out.
@@ -152,7 +152,7 @@ If Meteor is too monolithic then [Meatier](https://github.com/mattkrick/meatier)
 Since RethinkDB has real time support itself and (from what I've heard) an awesome query language - why no simply use RethinkDB directly without worrying about GraphQL? This is what [react-rethinkdb](https://github.com/mikemintz/react-rethinkdb) gives you: render real time RethinkDB results in React. Definitely super interesting.
 
 ## Conclusions
-After looking into all these options for more then a week now, I am a bit disappointed that it's so hard to get the future that I want, now.
+After looking into all these options for more than a week now, I am a bit disappointed that it's so hard to get the future that I want, now.
 
 At the moment I am most interested in Scaphold and Firebase for hosted solutions. Scaphold gives you a GraphQL server with subscription support, but dealing with those subscriptions on the client isn't exactly great. I have high hopes that this will get better as Facebook adds new stuff to the GraphQL spec though. Firebase would pretty much solve all my problems except for server side logic.
 
