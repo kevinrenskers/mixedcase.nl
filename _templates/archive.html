@@ -18,4 +18,15 @@
             <p><a href="{{ post|permalink }}" class="more">read more</a></p>
         </section>
     {% endfor %}
+
+    {% if pagination.has_prev or pagination.has_next %}
+        <ul>
+            {% if pagination.has_prev %}
+                <li><a href="{{ content_url(pagination.root, 'page', pagination.prev_num) }}">Newer</a></li>
+            {% endif %}
+            {% if pagination.has_next %}
+                <li><a href="{{ content_url(pagination.root, 'page', pagination.next_num) }}">Older</a></li>
+            {% endif %}
+        </ul>
+    {% endif %}
 {% endblock %}
