@@ -1,5 +1,5 @@
 # Connecting Storekit to Firestore via Cloud Functions and webhooks
-- tags:firebase,swift,javascript
+- tags:ios,firebase,swift,javascript
 
 ---
 
