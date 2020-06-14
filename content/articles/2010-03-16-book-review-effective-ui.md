@@ -1,5 +1,5 @@
 # Book review: Effective UI
-- tags: review, ux
+- tags: review
 - review: Effective UI
 - rating: 3.5
 

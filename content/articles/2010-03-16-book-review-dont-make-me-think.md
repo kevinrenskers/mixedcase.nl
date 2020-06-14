@@ -1,5 +1,5 @@
 # Book review: Don't Make Me Think
-- tags: review, ux
+- tags: review
 - review: Don't Make Me Think
 - rating: 5
 

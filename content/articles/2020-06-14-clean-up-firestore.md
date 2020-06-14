@@ -1,5 +1,5 @@
 # Clean up Firestore and Storage when deleting a document
-- tags: javascript,firebase
+- tags: javascript, firebase, backend
 
 ---
 
