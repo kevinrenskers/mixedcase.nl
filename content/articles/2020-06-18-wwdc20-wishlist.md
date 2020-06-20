@@ -14,6 +14,13 @@ Of all my wishes for this year's WWDC, a new version of SwiftUI is by far the bi
 
 Likelihood: 100%. Of course this is coming.
 
+## Combine 2.0
+Combine is pretty awesome. I never really liked RxSwift a lot, but have been in love with ReactiveKit for about a year now. But in my iOS 13+ apps I am now exclusively using Combine (even with UIKit app where I am not using SwiftUI). Yes the need to type-erase everything is kind of annoying, but overall it's a really really good v1.
+
+What I am missing are nicer bindings to the UI. Something like ReactiveKit's [Bond](https://github.com/DeclarativeHub/Bond), RxSwift's [RxCocoa](https://github.com/ReactiveX/RxSwift) or ReactiveSwift's [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa). There are the open source libraries [CombineCocoa](https://github.com/CombineCommunity/CombineCocoa) and [CombineDataSources](https://github.com/CombineCommunity/CombineDataSources) which helps, but I would prefer first-party support from Apple. I wouldn't mind Apple including most of the stuff from [CombineExt](https://github.com/CombineCommunity/CombineExt) either.
+
+Likelihood: 50%. I think this will come at some point, but maybe not this year.
+
 ## Custom Watch faces
 Apple Watch was introduced five years ago, and we still don't have custom watch faces. It wasn't until iPhoneOS 4.0 that we had background images on the iPhone, but WatchOS 7 is coming up now and it's about time we have a store for new watch faces.
 
