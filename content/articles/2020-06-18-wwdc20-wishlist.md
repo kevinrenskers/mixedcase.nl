@@ -47,7 +47,7 @@ We need it. Enough said.
 Likelihood: 0%. 😢
 
 ## Lower Apple cut for In App Purchases
-The 30% Apple tax is insanely high. They just don't provide enough to justify this amount, especially considering that you also have to pay $99 a year to be in developer program to begin with.
+The 30% Apple tax is insanely high. They just don't provide enough to justify this amount, especially considering that you also have to pay $99 a year to be in the developer program to begin with.
 
 Likelihood: 1%. Not quite 0% due to all the investigations around the world into Apple's anti-competitive behavior, but yeah, I don't see this happening.
 
