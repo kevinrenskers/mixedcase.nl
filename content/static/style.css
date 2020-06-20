@@ -284,9 +284,6 @@ input, select {
     background: var(--code-background);
     color: var(--code-color);
   }
-  .article_content {
-    margin-top: 1em;
-  }
   a {
     color: var(--accent);
     text-decoration: none;
@@ -306,6 +303,9 @@ input, select {
   a.skiplink {
     position: absolute;
     left: -10000px;
+  }
+  p.more {
+    margin-top: 1em;
   }
   a.more:before {
     content: '› ';
@@ -329,14 +329,13 @@ input, select {
     clear: both;
   }
   #content h1 {
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: bold;
   }
   #content h2 {
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: bold;
     margin-top: 1.5em;
-    margin-bottom: 0.5em;
   }
   #content h3 {
     font-size: 1em;
@@ -398,6 +397,7 @@ input, select {
   .article_info {
     color: var(--secondary-text-color);
     font-size: 0.875em;
+    margin-bottom: 1em;
   }
   .article_info .time {
     padding-right: 0.5em;

@@ -22,14 +22,14 @@
 
         <h1 itemprop="headline">{{ post.title }}</h1>
 
-        <span class="article_info"><span class="time">{{ post.date.strftime('%B') }} {{ post.date.strftime('%d') }},
+        <div class="article_info"><span class="time">{{ post.date.strftime('%B') }} {{ post.date.strftime('%d') }},
             <a href="{{ content_url(site.prefix, post.date.strftime('%Y'), 'index.html') }}">{{ post.date.strftime('%Y') }}</a></span>{{ post.content|striptags|wordcount }} words{%- if post.tags -%}
           , posted in {% for tag in post.tags -%}
           {%- if loop.index > 1 %}, {% endif -%}
           <a href="{{ tag|tag_url }}">{{ tag }}</a>
           {%- endfor -%}
           {%- endif -%}
-        </span>
+        </div>
 
         <div class="article_content" itemprop="{% if post.review %}reviewBody{% else %}articleBody{% endif %}">
             {{ post.content }}
