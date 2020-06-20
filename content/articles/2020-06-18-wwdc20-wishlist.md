@@ -50,3 +50,14 @@ Likelihood: 0%. 😢
 The 30% Apple tax is insanely high. They just don't provide enough to justify this amount, especially considering that you also have to pay $99 a year to be in developer program to begin with.
 
 Likelihood: 1%. Not quite 0% due to all the investigations around the world into Apple's anti-competitive behavior, but yeah, I don't see this happening.
+
+## Xcode on iPad
+Okay, not the whole thing, but I want to at least work on SwiftUI apps on the iPad, with live previews.
+
+Likelihood: 5%. Hopefully in the future.
+
+## Other bits and pieces
+* Change default apps
+* Fix iPad multitasking
+* Bring back the old "magnifying glass" cursor control to iOS
+* Apple Watch sleep tracking
