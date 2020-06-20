@@ -1,5 +1,5 @@
 # The nightmare of downloading OS X Mavericks
-- tags: os x
+- tags: macOS
 
 ---
 

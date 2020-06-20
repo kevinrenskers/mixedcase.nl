@@ -1,5 +1,5 @@
 # Book review: Head First iPhone Development
-- tags: review, ios
+- tags: review, iOS
 - review: Head First iPhone Development
 - rating: 3.5
 

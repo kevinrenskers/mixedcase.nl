@@ -1,5 +1,5 @@
 # Connecting Storekit to Firestore via Cloud Functions and webhooks
-- tags: ios, swift, firebase
+- tags: iOS, swift, firebase
 
 I've recently added subscriptions to my Critical Notes iOS app, using Apple's StoreKit. Here is how I hooked it all up to Firestore including server-side receipt validation.
 

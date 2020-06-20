@@ -1,5 +1,5 @@
 # Book review: Beginning iPhone 3 Development
-- tags: review, ios
+- tags: review, iOS
 - review: Beginning iPhone 3 Development
 - rating: 4
 

@@ -75,4 +75,4 @@ The biggest problem of all though is their JavaScript SDK: it's really really bi
 
 Overall, I am really super happy with Firestore and would highly recommend anyone to check it out, especially for mobile apps (a bit less for web apps due to the SDK size).
 
-As for my side project: I've recently announced it to the world: https://www.critical-notes.com. It's a note-taking tool for roleplaying games like D&D. It has a web client (written in Svelte), an iOS app (SwiftUI) and a native macOS app (using Catalyst), and I hope to release the web client in a public beta this summer. I'll write about the iOS app and my experience with SwiftUI soon!
+As for my side project: I've recently announced it to the world: https://www.critical-notes.com. It's a note-taking tool for roleplaying games like D&D. It has a web client (written in Svelte), an iOS app (SwiftUI) and a native macOS app (using Catalyst), and I hope to release the web client in a public beta this summer. I'll write about the iOS app and [my experience with SwiftUI](/articles/2020/06/21/swiftui-review/) ~~soon~~!

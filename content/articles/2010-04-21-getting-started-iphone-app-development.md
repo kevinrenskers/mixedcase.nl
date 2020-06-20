@@ -1,5 +1,5 @@
 # Getting started with iPhone app development
-- tags: ios
+- tags: iOS
 
 ---
 

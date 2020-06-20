@@ -1,5 +1,5 @@
 # Review roundup: iOS debug tools and inspectors
-- tags: review, ios
+- tags: review, iOS
 
 ---
 
