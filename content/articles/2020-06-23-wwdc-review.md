@@ -28,7 +28,7 @@ Nothing new. No new APIs, no talks, nothing. I'm quite disappointed. I only gave
 ## iOS / iPadOS
 ![iOS 14 screenshots](/articles/images/ios14.png)
 
-We can change the default browser and mail app! It's been a long time coming, but it's good it's finally here. 
+We can change the default browser and mail app! It's been a long time coming, but it's good it's finally here. That said though, I actually like Safari and Mail and have no interests in changing these. I'd love to be able to change the default camera, which is still not possible.
 
 I really wish they would've reverted the excruciating cursor control, but sadly that's here to stay - at least for another year. iPad multitasking hasn't changed one bit either, still as bad as ever. There is a new design language using sidebars which is nice, but it's not *too* exciting.
 
@@ -38,7 +38,7 @@ Some great improvements: widgets! A smaller non-blocking Siri UI and incoming-ca
 
 [App Clips](https://developer.apple.com/app-clips/) are a much bigger new feature, and something I am quite interested in. I think it's a really good addition to iOS.
 
-I really like the addition of the addition of privacy "nutrition labels" on the App Store, giving an overview of exactly what personal data is stored and tracked by each app. Apple's stance of user privacy is definitely a huge reason why I am still an Apple fan, even with all the negative things going on.
+I really like the addition of privacy "nutrition labels" on the App Store, giving an overview of exactly what personal data is stored and tracked by each app. Apple's stance of user privacy is definitely a huge reason why I am still an Apple fan, even with all the negative things going on.
 
 And oh my god, finally there is a search field on the Emoji keyboard! A lot of good changes, a really good WWDC for iOS and iPadOS.
 
