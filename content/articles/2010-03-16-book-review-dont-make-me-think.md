@@ -3,6 +3,8 @@
 - review: Don't Make Me Think
 - rating: 5
 
+Buy this book.
+
 ---
 
 **Don't make me think! A common sense approach to web usability (2nd edition)**  
