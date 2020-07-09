@@ -9,7 +9,7 @@ I'm a creative [freelance developer](https://loopwerk.io)  with a passion for go
 
 Usability and design are always on my mind, even when writing code: this should be usable, readable and beautiful too. I always strive to create reusable code that can be shared with the world. Currently I'm maintaining about 10 open source projects on GitHub.
 
-I'm been online since 1994, creating websites since 2000 and iOS apps since 2010. You can find my open source projects on [/projects][projects] and a portfolio of mobile apps I've created on [/apps][apps].
+I've been online since 1994, creating websites since 2000 and iOS apps since 2010. You can find my open source projects on [/projects][projects] and a portfolio of mobile apps I've created on [/apps][apps].
 
 If you need a second opinion on your app idea, a pair of eyes to look at your new website, someone to do a code review or architecture assessment, you can also [hire me](https://loopwerk.io).
 
