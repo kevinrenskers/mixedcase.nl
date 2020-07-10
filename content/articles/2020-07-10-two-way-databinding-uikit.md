@@ -216,10 +216,7 @@ class MyViewController {
   init() {
     let subject = PassthroughSubject<String, Never>()
     subject.send(user.firstName)
-    cancellable = subject.sink {
-      self.user.firstName = $0
-    }
-
+    cancellable = subject.assign(to: \.user.firstName, on: self)
     nameTextField = TextFieldCell(subject: subject)
   }
 }
